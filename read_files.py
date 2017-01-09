@@ -3,6 +3,7 @@
 from Bio.PDB import *
 from Bio.PDB import MMCIF2Dict
 import time
+import pdb2cif_header_reference as p2c
 
 def read_pdb_file(file_name):
   parser = PDBParser(QUIET=True)
@@ -32,6 +33,26 @@ def get_header(structure, report_file):
   for name, value in structure.header.items():
     report_file.write('  - ' + name + '\n    ' + str(value) + '\n\n')
   
+def get_ref_val_from_cif(structure_dict_cif):
+  for pdb_key, key in p2c.PDB2CIF_HEADER.items():
+    if type(key) == type(str()):
+      get_value_from_cif(structure_dict_cif, key)
+    elif type(key) == type(dict()):
+      for pdb_k, k in key.items():
+        if type(k) == type(dict()):
+          for pdb_kk, kk in k.items():
+            get_value_from_cif(structure_dict_cif, kk)
+        else:
+          get_value_from_cif(structure_dict_cif, k)
+        
+    elif type(key) == type(list()):
+      for i in key:
+        get_value_from_cif(structure_dict_cif, i)
+  
+def get_value_from_cif(structure_dict_cif, key):
+  if key:
+    print structure_dict_cif[key]
+  
   
 def main ():
 
@@ -46,9 +67,8 @@ def main ():
   report_file.write('CIF HEADER:\n')
   for name, value in structure_dict_cif.items():
     report_file.write('  - ' + name + '\n    ' + str(value) + '\n\n')
-  
 
-  
+  get_ref_val_from_cif(structure_dict_cif)
 
 if __name__ == '__main__':
     main()    
