@@ -1,0 +1,87 @@
+PDB Parser time: 0.165999889374
+MMCIF Parser time: 2.86299991608
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   J.P.COLLETIER,D.FOURNIER,H.M.GREE | [['Colletier, J.P.', 'Fournier, D.',     |
+| [CIF:                          | NBLATT,J.STOJAN,AUTH 2                   | 'Greenblatt, H.M.', 'Stojan, J.',        |
+| ['_citation_author.name',      | J.L.SUSSMAN,G.ZACCAI,I.SILMAN,M.WEIKTITL | 'Sussman, J.L.', 'Zaccai, G.', 'Silman,  |
+| '_citation.title',             | STRUCTURAL INSIGHTS INTO SUBSTRATE       | I.', 'Weik, M.'], 'Structural Insights   |
+| '_citation.journal_abbrev',    | TRAFFIC ANDTITL 2 INHIBITION IN          | Into Substrate Traffic and Inhibition in |
+| '_citation.journal_volume',    | ACETYLCHOLINESTERASE.REF    EMBO J.      | Acetylcholinesterase.', 'Embo J.', '25', |
+| '_citation.year',              | V.  25  2746 2006REFN                    | '2006', '2746', '0261-4189', '16763558', |
+| '_citation.page_first',        | ISSN 0261-4189PMID   16763558DOI         | '10.1038/SJ.EMBOJ.7601175']              |
+| '_citation.journal_id_ISSN', ' | 10.1038/SJ.EMBOJ.7601175                 |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | j.p.colletier,d.fournier,h.m.greenblatt, | [['Colletier, J.P.', 'Fournier, D.',     |
+| [CIF:                          | j.stojan,                                | 'Greenblatt, H.M.', 'Stojan, J.',        |
+| ['_citation_author.name',      | j.l.sussman,g.zaccai,i.silman,m.weik     | 'Sussman, J.L.', 'Zaccai, G.', 'Silman,  |
+| '_citation.title',             | structural insights into substrate       | I.', 'Weik, M.'], 'Structural Insights   |
+| '_citation.journal_abbrev',    | traffic and inhibition in                | Into Substrate Traffic and Inhibition in |
+| '_citation.journal_volume',    | acetylcholinesterase. embo j. v. 25 2746 | Acetylcholinesterase.', 'Embo J.', '25', |
+| '_citation.year',              | 2006 issn 0261-4189 16763558             | '2006', '2746', '0261-4189', '16763558', |
+| '_citation.page_first',        | 10.1038/sj.emboj.7601175                 | '10.1038/SJ.EMBOJ.7601175']              |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase, serine esterase, synapse,     | HYDROLASE, SERINE ESTERASE, SYNAPSE,     |
+| [CIF: _struct_keywords.text]   | membrane, neurotransmitter cleavage,     | MEMBRANE, NEUROTRANSMITTER CLEAVAGE,     |
+|                                | alpha/beta hydrolase, substrate          | ALPHA/BETA HYDROLASE, SUBSTRATE          |
+|                                | hydrolysis, michaelis-menten complex,    | HYDROLYSIS, MICHAELIS-MENTEN COMPLEX,    |
+|                                | substrate inhibition, alternative        | SUBSTRATE INHIBITION, GLYCOPROTEIN, GPI- |
+|                                | splicing, glycoprotein, gpi-anchor,      | ANCHOR, LIPOPROTEIN                      |
+|                                | lipoprotein                              |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  torpedo californica                     | TORPEDO CALIFORNICA ACETYLCHOLINESTERASE |
+| [CIF: _struct.title]           | acetylcholinesterase in complex with a   | IN COMPLEX WITH A NON HYDROLYSABLE       |
+|                                | non hydrolysable substrate analogue,     | SUBSTRATE ANALOGUE,                      |
+|                                | 4-oxo-n,n,n- trimethylpentanaminium      | 4-OXO-N,N,N-TRIMETHYLPENTANAMINIUM       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.P.Colletier,D.Fournier,H.M.Greenblatt, | ['Colletier, J.P.', 'Fournier, D.',      |
+| [CIF: _audit_author.name]      | J.L.Sussman,G.Zaccai,I.Silman,M.Weik     | 'Greenblatt, H.M.', 'Sussman, J.L.',     |
+|                                |                                          | 'Zaccai, G.', 'Silman, I.', 'Weik, M.']  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2005-10-27                               | ['2005-10-27', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2006-06-14                               | ['2006-06-14', '2006-12-20',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | torpedo californica                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 7787                                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | pacific electric ray                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.1.1.7
+PDB key: compound:1:molecule, PDB value: acetylcholinesterase
+PDB key: compound:1:ec, PDB value: 3.1.1.7
+PDB key: compound:1:synonym, PDB value: ache

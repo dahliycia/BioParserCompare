@@ -1,0 +1,104 @@
+PDB Parser time: 0.069000005722
+MMCIF Parser time: 1.46399998665
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Z.ZHOU,X.SONG,W.GONGTITL   NOVEL  | [['Zhou, Z.', 'Song, X.', 'Gong, W.'],   |
+| [CIF:                          | CONFORMATIONAL STATES OF PEPTIDE         | 'Novel conformational states of peptide  |
+| ['_citation_author.name',      | DEFORMYLASETITL 2 FROM PATHOGENIC        | deformylase from pathogenic bacterium    |
+| '_citation.title',             | BACTERIUM LEPTOSPIRA INTERROGANS:TITL 3  | Leptospira interrogans: implications for |
+| '_citation.journal_abbrev',    | IMPLICATIONS FOR POPULATION SHIFTREF     | population shift', 'J.Biol.Chem.',       |
+| '_citation.journal_volume',    | J.BIOL.CHEM.                  V. 280     | '280', '2005', '42391', '0021-9258',     |
+| '_citation.year',              | 42391 2005REFN                   ISSN    | '16239225', '10.1074/jbc.M506370200']    |
+| '_citation.page_first',        | 0021-9258PMID   16239225DOI              |                                          |
+| '_citation.journal_id_ISSN', ' | 10.1074/JBC.M506370200                   |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | z.zhou,x.song,w.gong novel               | [['Zhou, Z.', 'Song, X.', 'Gong, W.'],   |
+| [CIF:                          | conformational states of peptide         | 'Novel conformational states of peptide  |
+| ['_citation_author.name',      | deformylase from pathogenic bacterium    | deformylase from pathogenic bacterium    |
+| '_citation.title',             | leptospira interrogans: implications for | Leptospira interrogans: implications for |
+| '_citation.journal_abbrev',    | population shift j.biol.chem. v. 280     | population shift', 'J.Biol.Chem.',       |
+| '_citation.journal_volume',    | 42391 2005 issn 0021-9258 16239225       | '280', '2005', '42391', '0021-9258',     |
+| '_citation.year',              | 10.1074/jbc.m506370200                   | '16239225', '10.1074/jbc.M506370200']    |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | closed conformation, dimer, hydrolase    | Closed Conformation, Dimer, HYDROLASE    |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of peptide            | Crystal Structure of Peptide Deformylase |
+| [CIF: _struct.title]           | deformylase from leptospira interrogans  | from Leptospira Interrogans (LiPDF) at   |
+|                                | (lipdf) at ph7.5                         | pH7.5                                    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Z.Zhou,X.Song,Y.Li,W.Gong                | ['Zhou, Z.', 'Song, X.', 'Li, Y.',       |
+| [CIF: _audit_author.name]      |                                          | 'Gong, W.']                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2004-03-27                               | ['2004-03-27', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2005-08-09                               | ['2005-08-09', '2007-01-23',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli bl21                    | Escherichia coli BL21                    |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 511693                                   | 511693                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | leptospira interrogans                   | Leptospira interrogans                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet22b                                   | pET22b                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21                                     | BL21                                     |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 173                                      | 173                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.5.1.88
+PDB key: compound:1:molecule, PDB value: peptide deformylase
+PDB key: compound:1:ec, PDB value: 3.5.1.88
+PDB key: compound:1:synonym, PDB value: lipdf, pdf, polypeptide deformylase

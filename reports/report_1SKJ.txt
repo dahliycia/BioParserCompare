@@ -1,0 +1,114 @@
+PDB Parser time: 0.0320000648499
+MMCIF Parser time: 0.651999950409
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | tyrosine-protein kinase                  | TYROSINE-PROTEIN KINASE                  |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   M.S.PLUMMER,D.R.HOLLAND,A.SHAHRIP | [['Plummer, M.S.', 'Holland, D.R.',      |
+| [CIF:                          | OUR,E.A.LUNNEY,AUTH 2 J.H.FERGUS,J.S.MAR | 'Shahripour, A.', 'Lunney, E.A.',        |
+| ['_citation_author.name',      | KS,P.MCCONNELL,W.T.MUELLER,AUTH 3        | 'Fergus, J.H.', 'Marks, J.S.',           |
+| '_citation.title',             | T.K.SAWYERTITL   DESIGN, SYNTHESIS, AND  | 'McConnell, P.', 'Mueller, W.T.',        |
+| '_citation.journal_abbrev',    | COCRYSTAL STRUCTURE OF ATITL 2           | 'Sawyer, T.K.', 'Waksman, G.',           |
+| '_citation.journal_volume',    | NONPEPTIDE SRC SH2 DOMAIN LIGAND.REF     | 'Shoelson, S.E.', 'Pant, N.', 'Cowburn,  |
+| '_citation.year',              | J.MED.CHEM.                   V.  40     | D.', 'Kuriyan, J.'], ['Design,           |
+| '_citation.page_first',        | 3719 1997REFN                   ISSN     | synthesis, and cocrystal structure of a  |
+| '_citation.journal_id_ISSN', ' | 0022-2623PMID   9371236DOI               | nonpeptide Src SH2 domain ligand.',      |
+| _citation.pdbx_database_id_Pub | 10.1021/JM970402Q                        | 'Binding of a High Affinity              |
+| Med', '_citation.pdbx_database |                                          | Phosphotyrosyl Peptide to the Src Sh2    |
+| _id_DOI']]                     |                                          | Domain: Crystal Structures of the        |
+|                                |                                          | Complexed and Peptide-Free Forms'],      |
+|                                |                                          | ['J.Med.Chem.',                          |
+|                                |                                          | 'Cell(Cambridge,Mass.)'], ['40', '72'],  |
+|                                |                                          | ['1997', '1993'], ['3719', '779'],       |
+|                                |                                          | ['0022-2623', '0092-8674'], ['9371236',  |
+|                                |                                          | '?'], ['10.1021/jm970402q', '?']]        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.s.plummer,d.r.holland,a.shahripour,e.a | [['Plummer, M.S.', 'Holland, D.R.',      |
+| [CIF:                          | .lunney, j.h.fergus,j.s.marks,p.mcconnel | 'Shahripour, A.', 'Lunney, E.A.',        |
+| ['_citation_author.name',      | l,w.t.mueller, t.k.sawyer design,        | 'Fergus, J.H.', 'Marks, J.S.',           |
+| '_citation.title',             | synthesis, and cocrystal structure of a  | 'McConnell, P.', 'Mueller, W.T.',        |
+| '_citation.journal_abbrev',    | nonpeptide src sh2 domain ligand.        | 'Sawyer, T.K.', 'Waksman, G.',           |
+| '_citation.journal_volume',    | j.med.chem. v. 40 3719 1997 issn         | 'Shoelson, S.E.', 'Pant, N.', 'Cowburn,  |
+| '_citation.year',              | 0022-2623 9371236 10.1021/jm970402q      | D.', 'Kuriyan, J.'], ['Design,           |
+| '_citation.page_first',        |                                          | synthesis, and cocrystal structure of a  |
+| '_citation.journal_id_ISSN', ' |                                          | nonpeptide Src SH2 domain ligand.',      |
+| _citation.pdbx_database_id_Pub |                                          | 'Binding of a High Affinity              |
+| Med', '_citation.pdbx_database |                                          | Phosphotyrosyl Peptide to the Src Sh2    |
+| _id_DOI']]                     |                                          | Domain: Crystal Structures of the        |
+|                                |                                          | Complexed and Peptide-Free Forms'],      |
+|                                |                                          | ['J.Med.Chem.',                          |
+|                                |                                          | 'Cell(Cambridge,Mass.)'], ['40', '72'],  |
+|                                |                                          | ['1997', '1993'], ['3719', '779'],       |
+|                                |                                          | ['0022-2623', '0092-8674'], ['9371236',  |
+|                                |                                          | '?'], ['10.1021/jm970402q', '?']]        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | tyrosine-protein kinase, v-src sh2       | TYROSINE-PROTEIN KINASE, V-SRC SH2       |
+| [CIF: _struct_keywords.text]   | domain, phosphotyrosine recognition      | DOMAIN, PHOSPHOTYROSINE RECOGNITION      |
+|                                | domain, pp60 src sh2 domain,             | DOMAIN, PP60 SRC SH2 DOMAIN,             |
+|                                | peptidomimetic, ureido                   | PEPTIDOMIMETIC, UREIDO                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  cocrystal structure of urea-substituted | COCRYSTAL STRUCTURE OF UREA-SUBSTITUTED  |
+| [CIF: _struct.title]           | phosphopeptide complex                   | PHOSPHOPEPTIDE COMPLEX                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | D.R.Holland,J.R.Rubin                    | ['Holland, D.R.', 'Rubin, J.R.']         |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 1997-09-18                               | ['1997-09-18', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 1998-02-25                               | ['1998-02-25', '2003-04-01',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | bacterium                                | BACTERIUM                                |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | rous sarcoma virus                       | Rous sarcoma virus                       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 11886                                    | 11886                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['g.waksman,s.e.shoelson,n.pant,d.cowbur | NOT FOUND                                |
+| [CIF: NOT FOUND]               | n,j.kuriyan binding of a high affinity   |                                          |
+|                                | phosphotyrosyl peptide to the src sh2    |                                          |
+|                                | domain: crystal structures of the        |                                          |
+|                                | complexed and peptide-free forms         |                                          |
+|                                | cell(cambridge,mass.) v. 72 779 1993     |                                          |
+|                                | issn 0092-8674 ']                        |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:ec, PDB value: 2.7.1.112
+PDB key: compound:1:fragment, PDB value: sh2 domain
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.7.1.112
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: pp60 v-src tyrosine kinase transforming protein
+PDB key: compound:1:synonym, PDB value: src sh2
+PDB key: compound:1:chain, PDB value: a

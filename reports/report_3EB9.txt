@@ -1,0 +1,111 @@
+PDB Parser time: 0.111999988556
+MMCIF Parser time: 2.1850001812
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   N.DUCLERT-                        | [['Duclert-Savatier, N.', 'Poggi, L.',   |
+| [CIF:                          | SAVATIER,L.POGGI,E.MICLET,P.LOPES,AUTH 2 | 'Miclet, E.', 'Lopes, P.', 'Ouazzani,    |
+| ['_citation_author.name',      | J.OUAZZANI,N.CHEVALIER,M.NILGES,M.DELARU | J.', 'Chevalier, N.', 'Nilges, M.',      |
+| '_citation.title',             | E,V.STOVENTITL   INSIGHTS INTO THE       | 'Delarue, M.', 'Stoven, V.'], 'Insights  |
+| '_citation.journal_abbrev',    | ENZYMATIC MECHANISM OFTITL 2             | into the enzymatic mechanism of          |
+| '_citation.journal_volume',    | 6-PHOSPHOGLUCONOLACTONASE FROM           | 6-phosphogluconolactonase from           |
+| '_citation.year',              | TRYPANOSOMA BRUCEITITL 3 USING           | Trypanosoma brucei using structural data |
+| '_citation.page_first',        | STRUCTURAL DATA AND MOLECULAR            | and molecular dynamics simulation.',     |
+| '_citation.journal_id_ISSN', ' | DYNAMICSTITL 4 SIMULATION.REF            | 'J.Mol.Biol.', '388', '2009', '1009',    |
+| _citation.pdbx_database_id_Pub | J.MOL.BIOL.                   V. 388     | '0022-2836', '19345229',                 |
+| Med', '_citation.pdbx_database | 1009 2009REFN                   ISSN     | '10.1016/j.jmb.2009.03.063']             |
+| _id_DOI']]                     | 0022-2836PMID   19345229DOI              |                                          |
+|                                | 10.1016/J.JMB.2009.03.063                |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | n.duclert-                               | [['Duclert-Savatier, N.', 'Poggi, L.',   |
+| [CIF:                          | savatier,l.poggi,e.miclet,p.lopes, j.oua | 'Miclet, E.', 'Lopes, P.', 'Ouazzani,    |
+| ['_citation_author.name',      | zzani,n.chevalier,m.nilges,m.delarue,v.s | J.', 'Chevalier, N.', 'Nilges, M.',      |
+| '_citation.title',             | toven insights into the enzymatic        | 'Delarue, M.', 'Stoven, V.'], 'Insights  |
+| '_citation.journal_abbrev',    | mechanism of 6-phosphogluconolactonase   | into the enzymatic mechanism of          |
+| '_citation.journal_volume',    | from trypanosoma brucei using structural | 6-phosphogluconolactonase from           |
+| '_citation.year',              | data and molecular dynamics simulation.  | Trypanosoma brucei using structural data |
+| '_citation.page_first',        | j.mol.biol. v. 388 1009 2009 issn        | and molecular dynamics simulation.',     |
+| '_citation.journal_id_ISSN', ' | 0022-2836 19345229                       | 'J.Mol.Biol.', '388', '2009', '1009',    |
+| _citation.pdbx_database_id_Pub | 10.1016/j.jmb.2009.03.063                | '0022-2836', '19345229',                 |
+| Med', '_citation.pdbx_database |                                          | '10.1016/j.jmb.2009.03.063']             |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | catalytic mechanism, pentose phosphate   | CATALYTIC MECHANISM, PENTOSE PHOSPHATE   |
+| [CIF: _struct_keywords.text]   | pathway, 6- phosphogluconolactonase,     | PATHWAY, 6-PHOSPHOGLUCONOLACTONASE,      |
+|                                | trypanosoma brucei, hydrolase, zinc      | TRYPANOSOMA BRUCEI, HYDROLASE, ZINC      |
+|                                | binding site                             | BINDING SITE                             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of                    | Crystal structure of                     |
+| [CIF: _struct.title]           | 6-phosphogluconolactonase from           | 6-phosphogluconolactonase from           |
+|                                | trypanosoma brucei complexed with        | trypanosoma brucei complexed with        |
+|                                | citrate                                  | citrate                                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | L.Poggi,M.Delarue,N.Duclert-             | ['Poggi, L.', 'Delarue, M.', 'Duclert-   |
+| [CIF: _audit_author.name]      | Savatier,V.Stoven                        | Savatier, N.', 'Stoven, V.']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2008-08-27                               | 2008-08-27                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2009-05-26                               | 2009-05-26                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | Plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | trypanosoma brucei                       | Trypanosoma brucei                       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet21                                    | PET21                                    |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21                                     | BL21                                     |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | 6pgl                                     | 6pgl                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 5691                                     | 5691                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.1.1.17
+PDB key: compound:1:molecule, PDB value: 6-phosphogluconolactonase
+PDB key: compound:1:ec, PDB value: 3.1.1.17

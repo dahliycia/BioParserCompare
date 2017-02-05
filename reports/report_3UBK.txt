@@ -1,0 +1,111 @@
+PDB Parser time: 0.0950000286102
+MMCIF Parser time: 1.9279999733
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Y.PATSKOVSKY,R.TORO,R.BHOSLE,W.D. | [['Patskovsky, Y.', 'Toro, R.', 'Bhosle, |
+| [CIF:                          | ZENCHECK,B.HILLERICH,AUTH 2              | R.', 'Zencheck, W.D.', 'Hillerich, B.',  |
+| ['_citation_author.name',      | R.D.SEIDEL,E.WASHINGTON,A.SCOTT          | 'Seidel, R.D.', 'Washington, E.', 'Scott |
+| '_citation.title',             | GLENN,S.CHOWDHURY,B.EVANS,AUTH 3 J.HAMMO | Glenn, A.', 'Chowdhury, S.', 'Evans,     |
+| '_citation.journal_abbrev',    | NDS,H.J.IMKER,R.N.ARMSTRONG,J.A.GERLT,S. | B.', 'Hammonds, J.', 'Imker, H.J.',      |
+| '_citation.journal_volume',    | C.ALMOTITL   CRYSTAL STRUCTURE OF        | 'Armstrong, R.N.', 'Gerlt, J.A.', 'Almo, |
+| '_citation.year',              | GLUTATHIONE S-TRANSFERASE FROMTITL 2     | S.C.'], 'Crystal Structure of            |
+| '_citation.page_first',        | LEPTOSPIRA INTERROGANSREF    TO BE       | Glutathione S-Transferase from           |
+| '_citation.journal_id_ISSN', ' | PUBLISHEDREFN                            | Leptospira Interrogans', 'To be          |
+| _citation.pdbx_database_id_Pub |                                          | Published', '?', '?', '?', '?', '?',     |
+| Med', '_citation.pdbx_database |                                          | '?']                                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | y.patskovsky,r.toro,r.bhosle,w.d.zenchec | [['Patskovsky, Y.', 'Toro, R.', 'Bhosle, |
+| [CIF:                          | k,b.hillerichr.d.seidel,e.washington,a.s | R.', 'Zencheck, W.D.', 'Hillerich, B.',  |
+| ['_citation_author.name',      | cott glenn,s.chowdhury,b.ej.hammonds,h.j | 'Seidel, R.D.', 'Washington, E.', 'Scott |
+| '_citation.title',             | .imker,r.n.armstrong,j.a.gerlt,s.c.almoc | Glenn, A.', 'Chowdhury, S.', 'Evans,     |
+| '_citation.journal_abbrev',    | rystal structure of glutathione          | B.', 'Hammonds, J.', 'Imker, H.J.',      |
+| '_citation.journal_volume',    | s-transferase from leptospira            | 'Armstrong, R.N.', 'Gerlt, J.A.', 'Almo, |
+| '_citation.year',              | interrogans to be published              | S.C.'], 'Crystal Structure of            |
+| '_citation.page_first',        |                                          | Glutathione S-Transferase from           |
+| '_citation.journal_id_ISSN', ' |                                          | Leptospira Interrogans', 'To be          |
+| _citation.pdbx_database_id_Pub |                                          | Published', '?', '?', '?', '?', '?',     |
+| Med', '_citation.pdbx_database |                                          | '?']                                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | transferase, gsh binding                 | TRANSFERASE, GSH BINDING                 |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of glutathione        | Crystal structure of glutathione         |
+| [CIF: _struct.title]           | transferase (target efi-501770) from     | transferase (TARGET EFI-501770) from     |
+|                                | leptospira interrogans                   | leptospira interrogans                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Y.Patskovsky,R.Toro,R.Bhosle,W.D.Zenchec | ['Patskovsky, Y.', 'Toro, R.', 'Bhosle,  |
+| [CIF: _audit_author.name]      | k,B.Hillerich,R.D.Seidel,E.Washington,A. | R.', 'Zencheck, W.D.', 'Hillerich, B.',  |
+|                                | Scott Glenn,S.Chowdhury,B.Evans,J.Hammon | 'Seidel, R.D.', 'Washington, E.', 'Scott |
+|                                | ds,H.J.Imker,R.N.Armstrong,J.A.Gerlt,S.C | Glenn, A.', 'Chowdhury, S.', 'Evans,     |
+|                                | .Almo,(Efi) Enzyme Function Initiative   | B.', 'Hammonds, J.', 'Imker, H.J.',      |
+|                                |                                          | 'Armstrong, R.N.', 'Gerlt, J.A.', 'Almo, |
+|                                |                                          | S.C.', '(Efi) Enzyme Function            |
+|                                |                                          | Initiative']                             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2011-10-24                               | ['2011-10-24', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2011-11-09                               | ['2011-11-09', '2012-02-29']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | leptospira interrogans serovar lai       | Leptospira interrogans serovar Lai       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet                                      | PET                                      |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | gst, la_2623                             | gst, LA_2623                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 189518                                   | 189518                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: glutathione transferase
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:misc, PDB value: 

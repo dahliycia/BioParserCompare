@@ -1,0 +1,152 @@
+PDB Parser time: 0.0419998168945
+MMCIF Parser time: 1.02999997139
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | electron microscopy                      | ELECTRON MICROSCOPY                      |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | virus/receptor                           | Virus/Receptor                           |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Y.HE,V.D.BOWMAN,S.MUELLER,C.M.BAT | [['He, Y.', 'Bowman, V.D.', 'Mueller,    |
+| [CIF:                          | OR,J.BELLA,X.PENG,AUTH 2 T.S.BAKER,E.WIM | S.', 'Bator, C.M.', 'Bella, J.', 'Peng,  |
+| ['_citation_author.name',      | MER,R.J.KUHN,M.G.ROSSMANNTITL            | X.', 'Baker, T.S.', 'Wimmer, E.', 'Kuhn, |
+| '_citation.title',             | INTERACTION OF THE POLIOVIRUS RECEPTOR   | R.J.', 'Rossmann, M.G.', 'Bella, J.',    |
+| '_citation.journal_abbrev',    | WITH POLIOVIRUS.REF                      | 'Kolatkar, P.', 'Marlor, C.W.', 'Greve,  |
+| '_citation.journal_volume',    | PROC.NATL.ACAD.SCI.USA        V.  97     | J.', 'Rossmann, M.G.', 'Hogle, J.',      |
+| '_citation.year',              | 79 2000REFN                   ISSN       | 'Chow, M.', 'Filman, D.J.'],             |
+| '_citation.page_first',        | 0027-8424PMID   10618374DOI              | ['Interaction of the poliovirus receptor |
+| '_citation.journal_id_ISSN', ' | 10.1073/PNAS.97.1.79                     | with poliovirus.', 'The Structure of the |
+| _citation.pdbx_database_id_Pub |                                          | Two Amino-Terminal Domain of Human       |
+| Med', '_citation.pdbx_database |                                          | Icam-1 Suggests How It Functions as a    |
+| _id_DOI']]                     |                                          | Rhinovirus Receptor and as an Lfa-1      |
+|                                |                                          | Integrin Ligand', 'Three-Dimensional     |
+|                                |                                          | Structure of Poliovirus at 2.9A          |
+|                                |                                          | Resolution'], ['Proc.Natl.Acad.Sci.USA', |
+|                                |                                          | 'Proc.Natl.Acad.Sci.USA', 'Science'],    |
+|                                |                                          | ['97', '95', '229'], ['2000', '1998',    |
+|                                |                                          | '1985'], ['79', '4140', '1358'],         |
+|                                |                                          | ['0027-8424', '0027-8424', '0036-8075'], |
+|                                |                                          | ['10618374', '?', '?'],                  |
+|                                |                                          | ['10.1073/pnas.97.1.79',                 |
+|                                |                                          | '10.1073/pnas.95.8.4140', '?']]          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | y.he,v.d.bowman,s.mueller,c.m.bator,j.be | [['He, Y.', 'Bowman, V.D.', 'Mueller,    |
+| [CIF:                          | lla,x.peng,                              | S.', 'Bator, C.M.', 'Bella, J.', 'Peng,  |
+| ['_citation_author.name',      | t.s.baker,e.wimmer,r.j.kuhn,m.g.rossmann | X.', 'Baker, T.S.', 'Wimmer, E.', 'Kuhn, |
+| '_citation.title',             | interaction of the poliovirus receptor   | R.J.', 'Rossmann, M.G.', 'Bella, J.',    |
+| '_citation.journal_abbrev',    | with polioviruproc.natl.acad.sci.usa v.  | 'Kolatkar, P.', 'Marlor, C.W.', 'Greve,  |
+| '_citation.journal_volume',    | 97 79 2000 issn 0027-8424 10618374       | J.', 'Rossmann, M.G.', 'Hogle, J.',      |
+| '_citation.year',              | 10.1073/pnas.97.1.79                     | 'Chow, M.', 'Filman, D.J.'],             |
+| '_citation.page_first',        |                                          | ['Interaction of the poliovirus receptor |
+| '_citation.journal_id_ISSN', ' |                                          | with poliovirus.', 'The Structure of the |
+| _citation.pdbx_database_id_Pub |                                          | Two Amino-Terminal Domain of Human       |
+| Med', '_citation.pdbx_database |                                          | Icam-1 Suggests How It Functions as a    |
+| _id_DOI']]                     |                                          | Rhinovirus Receptor and as an Lfa-1      |
+|                                |                                          | Integrin Ligand', 'Three-Dimensional     |
+|                                |                                          | Structure of Poliovirus at 2.9A          |
+|                                |                                          | Resolution'], ['Proc.Natl.Acad.Sci.USA', |
+|                                |                                          | 'Proc.Natl.Acad.Sci.USA', 'Science'],    |
+|                                |                                          | ['97', '95', '229'], ['2000', '1998',    |
+|                                |                                          | '1985'], ['79', '4140', '1358'],         |
+|                                |                                          | ['0027-8424', '0027-8424', '0036-8075'], |
+|                                |                                          | ['10618374', '?', '?'],                  |
+|                                |                                          | ['10.1073/pnas.97.1.79',                 |
+|                                |                                          | '10.1073/pnas.95.8.4140', '?']]          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | cd155, pvr, human poliovirus,            | CD155, PVR, HUMAN POLIOVIRUS,            |
+| [CIF: _struct_keywords.text]   | poliovirus-receptor complex, icosahedral | POLIOVIRUS-RECEPTOR COMPLEX, Icosahedral |
+|                                | virus, virus-receptor complex            | virus, Virus-Receptor COMPLEX            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  cryo-em structure of human              | Cryo-EM structure of human               |
+| [CIF: _struct.title]           | poliovirus(serotype 1)complexed with     | poliovirus(serotype 1)complexed with     |
+|                                | three domain cd155                       | three domain CD155                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Y.He,V.D.Bowman,S.Mueller,C.M.Bator,J.Be | ['He, Y.', 'Bowman, V.D.', 'Mueller,     |
+| [CIF: _audit_author.name]      | lla,X.Peng,T.S.Baker,E.Wimmer,R.J.Kuhn,M | S.', 'Bator, C.M.', 'Bella, J.', 'Peng,  |
+|                                | .G.Rossmann                              | X.', 'Baker, T.S.', 'Wimmer, E.', 'Kuhn, |
+|                                |                                          | R.J.', 'Rossmann, M.G.']                 |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 1999-11-24                               | ['1999-11-24', '?', '?', '?', '?', '?',  |
+| [CIF: _database_PDB_rev.date_o |                                          | '?']                                     |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2000-01-24                               | ['2000-01-24', '2000-02-03',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2005-03-22', '2005-04-05',              |
+|                                |                                          | '2005-04-12', '2009-02-24',              |
+|                                |                                          | '2015-12-30']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | homo sapiens                             | ['Homo sapiens', 'Homo sapiens', 'Homo   |
+| [CIF: _entity_src_gen.pdbx_hos |                                          | sapiens', 'Homo sapiens', 'Homo          |
+| t_org_scientific_name]         |                                          | sapiens']                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 9606                                     | ['9606', '9606', '9606', '9606', '9606'] |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | ['Homo sapiens', 'Human poliovirus 1',   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          | 'Human poliovirus 1', 'Human poliovirus  |
+| e_src_scientific_name]         |                                          | 1', 'Human poliovirus 1']                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | ['9606', '12080', '12080', '12080',      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          | '12080']                                 |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | ['human', '?', '?', '?', '?']            |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | human poliovirus 1                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 12080                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['j.bella,p.kolatkar,c.w.marlor,j.greve, | NOT FOUND                                |
+| [CIF: NOT FOUND]               | m.g.rossmann the structure of the two    |                                          |
+|                                | amino-terminal domain of humicam-1       |                                          |
+|                                | suggests how it functions as a           |                                          |
+|                                | rhinovirus receand as an lfa-1 integrin  |                                          |
+|                                | ligand proc.natl.acad.sci.usa v. 95 4140 |                                          |
+|                                | 1998 issn 0027-8424                      |                                          |
+|                                | 10.1073/pnas.95.8.4140 ',                |                                          |
+|                                | 'j.hogle,m.chow,d.j.filman three-        |                                          |
+|                                | dimensional structure of poliovirus at   |                                          |
+|                                | 2.9a resscience v. 229 1358 1985 issn    |                                          |
+|                                | 0036-8075 ']                             |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: three extracellular domains of cd155
+PDB key: compound:2:chain, PDB value: 1
+PDB key: compound:5:engineered, PDB value: yes
+PDB key: compound:2:molecule, PDB value: vp1
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:5:misc, PDB value: 
+PDB key: compound:4:engineered, PDB value: yes
+PDB key: compound:5:fragment, PDB value: poliovirus fragments vp1,vp2,vp3,vp4
+PDB key: compound:1:chain, PDB value: r
+PDB key: compound:4:misc, PDB value: 
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:molecule, PDB value: poliovirus receptor
+PDB key: compound:3:molecule, PDB value: vp2
+PDB key: compound:3:engineered, PDB value: yes
+PDB key: compound:4:chain, PDB value: 3
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:5:molecule, PDB value: vp4
+PDB key: compound:5:chain, PDB value: 4
+PDB key: compound:3:chain, PDB value: 2
+PDB key: compound:4:molecule, PDB value: vp3
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:3:misc, PDB value: 

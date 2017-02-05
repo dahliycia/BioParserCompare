@@ -1,0 +1,78 @@
+PDB Parser time: 0.0139999389648
+MMCIF Parser time: 0.27799987793
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | metal binding protein                    | METAL BINDING PROTEIN                    |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Q.Q.HOANG,F.SICHERI,A.J.HOWARD,D. | [['Hoang, Q.Q.', 'Sicheri, F.', 'Howard, |
+| [CIF:                          | S.YANGTITL   BONE RECOGNITION MECHANISM  | A.J.', 'Yang, D.S.'], 'Bone recognition  |
+| ['_citation_author.name',      | OF PORCINE OSTEOCALCIN FROMTITL 2        | mechanism of porcine osteocalcin from    |
+| '_citation.title',             | CRYSTAL STRUCTURE.REF    NATURE          | crystal structure.', 'Nature', '425',    |
+| '_citation.journal_abbrev',    | V. 425   977 2003REFN                    | '2003', '977', '0028-0836', '14586470',  |
+| '_citation.journal_volume',    | ISSN 0028-0836PMID   14586470DOI         | '10.1038/nature02079']                   |
+| '_citation.year',              | 10.1038/NATURE02079                      |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | q.q.hoang,f.sicheri,a.j.howard,d.s.yang  | [['Hoang, Q.Q.', 'Sicheri, F.', 'Howard, |
+| [CIF:                          | bone recognition mechanism of porcine    | A.J.', 'Yang, D.S.'], 'Bone recognition  |
+| ['_citation_author.name',      | osteocalcin frocrystal structure. nature | mechanism of porcine osteocalcin from    |
+| '_citation.title',             | v. 425 977 2003 issn 0028-0836 14586470  | crystal structure.', 'Nature', '425',    |
+| '_citation.journal_abbrev',    | 10.1038/nature02079                      | '2003', '977', '0028-0836', '14586470',  |
+| '_citation.journal_volume',    |                                          | '10.1038/nature02079']                   |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | helix-turn-helix-turn-helix, paper-clip, | helix-turn-helix-turn-helix, Paper-clip, |
+| [CIF: _struct_keywords.text]   | hydroxyapatite crystal surface binding   | hydroxyapatite crystal surface binding   |
+|                                | protein, calcium binding protein, bone   | protein, calcium binding protein, bone   |
+|                                | gla protein, metal binding protein       | gla protein, METAL BINDING PROTEIN       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of porcine            | Crystal structure of porcine osteocalcin |
+| [CIF: _struct.title]           | osteocalcin                              |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Q.Q.Hoang,F.Sicheri,A.J.Howard,D.S.Yang  | ['Hoang, Q.Q.', 'Sicheri, F.', 'Howard,  |
+| [CIF: _audit_author.name]      |                                          | A.J.', 'Yang, D.S.']                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2003-08-21                               | ['2003-08-21', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2003-11-11                               | ['2003-11-11', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2011-07-13']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | pig                                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9823                                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | sus scrofa                               | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: osteocalcin
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

@@ -1,0 +1,97 @@
+PDB Parser time: 0.119999885559
+MMCIF Parser time: 2.47099995613
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   A.DONG,L.ZHOU,X.ZHANG,S.STICKEL,R | [['Dong, A.', 'Zhou, L.', 'Zhang, X.',   |
+| [CIF:                          | .J.ROBERTS,X.CHENGTITL   STRUCTURE OF    | 'Stickel, S.', 'Roberts, R.J.', 'Cheng,  |
+| ['_citation_author.name',      | THE Q237W MUTANT OF HHAI DNATITL 2       | X.'], 'Structure of the Q237W mutant of  |
+| '_citation.title',             | METHYLTRANSFERASE: AN INSIGHT INTO       | HhaI DNA methyltransferase: an insight   |
+| '_citation.journal_abbrev',    | PROTEIN-PROTEINTITL 3 INTERACTIONSREF    | into protein-protein interactions',      |
+| '_citation.journal_volume',    | BIOL.CHEM.                    V. 385     | 'Biol.Chem.', '385', '2004', '373',      |
+| '_citation.year',              | 373 2004REFN                   ISSN      | '1431-6730', '15195996',                 |
+| '_citation.page_first',        | 1431-6730PMID   15195996DOI              | '10.1515/bchm.385.13.373.57208']         |
+| '_citation.journal_id_ISSN', ' | 10.1515/BCHM.385.13.373.57208            |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | a.dong,l.zhou,x.zhang,s.stickel,r.j.robe | [['Dong, A.', 'Zhou, L.', 'Zhang, X.',   |
+| [CIF:                          | rts,x.cheng structure of the q237w       | 'Stickel, S.', 'Roberts, R.J.', 'Cheng,  |
+| ['_citation_author.name',      | mutant of hhai dna methyltransferase: an | X.'], 'Structure of the Q237W mutant of  |
+| '_citation.title',             | insight into protein-protein             | HhaI DNA methyltransferase: an insight   |
+| '_citation.journal_abbrev',    | interactions biol.chem. v. 385 373 2004  | into protein-protein interactions',      |
+| '_citation.journal_volume',    | issn 1431-6730 15195996                  | 'Biol.Chem.', '385', '2004', '373',      |
+| '_citation.year',              | 10.1515/bchm.385.13.373.57208            | '1431-6730', '15195996',                 |
+| '_citation.page_first',        |                                          | '10.1515/bchm.385.13.373.57208']         |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | dna methyltransferase, protein-protein   | DNA methyltransferase, protein-protein   |
+| [CIF: _struct_keywords.text]   | interactions, evolutionary link, type i  | interactions, evolutionary link, Type I  |
+|                                | and ii restriction-modification systems  | and II restriction-modification systems, |
+|                                |                                          | TRANSFERASE                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  structure of the q237w mutant of hhai   | Structure of the Q237W mutant of HhaI    |
+| [CIF: _struct.title]           | dna methyltransferase: an insight into   | DNA methyltransferase: an insight into   |
+|                                | protein-protein interactions             | protein-protein interactions             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | A.Dong,L.Zhou,X.Zhang,S.Stickel,R.J.Robe | ['Dong, A.', 'Zhou, L.', 'Zhang, X.',    |
+| [CIF: _audit_author.name]      | rts,X.Cheng                              | 'Stickel, S.', 'Roberts, R.J.', 'Cheng,  |
+|                                |                                          | X.']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2004-03-30                               | ['2004-03-30', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2004-06-29                               | ['2004-06-29', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | haemophilus haemolyticus                 | Haemophilus haemolyticus                 |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | hhaim                                    | HHAIM                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 726                                      | 726                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.1.1.37
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: modification methylase hhai
+PDB key: compound:1:ec, PDB value: 2.1.1.37
+PDB key: compound:1:synonym, PDB value: cytosine-specific methyltransferase hhai, m.hhai

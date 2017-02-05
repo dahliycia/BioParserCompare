@@ -1,0 +1,110 @@
+PDB Parser time: 0.0569999217987
+MMCIF Parser time: 1.21600008011
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | chaperone                                | CHAPERONE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Kozlov, G.', 'LePage, K.', 'Vinaik,   |
+| [CIF:                          | G.KOZLOV,K.LEPAGE,R.VINAIK,K.GEHRINGTITL | R.', 'Gehring, K.'], 'Crystal structure  |
+| ['_citation_author.name',      | CRYSTAL STRUCTURE OF THE UBL DOMAIN OF   | of the Ubl domain of BAG6', 'To be       |
+| '_citation.title',             | BAG6REF    TO BE PUBLISHEDREFN           | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_abbrev',    |                                          | '?']                                     |
+| '_citation.journal_volume',    |                                          |                                          |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | g.kozlov,k.lepage,r.vinaik,k.gehring     | [['Kozlov, G.', 'LePage, K.', 'Vinaik,   |
+| [CIF:                          | crystal structure of the ubl domain of   | R.', 'Gehring, K.'], 'Crystal structure  |
+| ['_citation_author.name',      | bag6 to be published                     | of the Ubl domain of BAG6', 'To be       |
+| '_citation.title',             |                                          | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_abbrev',    |                                          | '?']                                     |
+| '_citation.journal_volume',    |                                          |                                          |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | ubiquitin-like fold, gp78-binding,       | ubiquitin-like fold, gp78-binding,       |
+| [CIF: _struct_keywords.text]   | chaperone                                | CHAPERONE                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of the ubl domain of  | Crystal structure of the Ubl domain of   |
+| [CIF: _struct.title]           | bag6                                     | BAG6                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | G.Kozlov,K.Lepage,R.Vinaik,K.Gehring     | ['Kozlov, G.', 'LePage, K.', 'Vinaik,    |
+| [CIF: _audit_author.name]      |                                          | R.', 'Gehring, K.']                      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-03-28                               | 2012-03-28                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-04-11                               | 2012-04-11                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 511693                                   | 511693                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet42a                                   | pET42a                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21                                     | BL21                                     |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | bag6, bat3, g3                           | BAG6, BAT3, G3                           |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: ubiquitin-like domain (unp residues 1-87)
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: large proline-rich protein bag6
+PDB key: compound:1:synonym, PDB value: bag6, bag family molecular chaperone regulator 6, bcl2-associated athanogene 6, bag-6, hla-b-associated transcript 3, protein g3, protein scythe 
+PDB key: compound:1:chain, PDB value: a, b

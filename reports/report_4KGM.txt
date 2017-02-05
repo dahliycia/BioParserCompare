@@ -1,0 +1,89 @@
+PDB Parser time: 0.186000108719
+MMCIF Parser time: 4.06599998474
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | Transferase                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.J.HYDE,B.S.RAO,B.E.ECKENROTH,J. | [['Hyde, S.J.', 'Rao, B.S.', 'Eckenroth, |
+| [CIF:                          | E.JACKMAN,S.DOUBLIETITL   STRUCTURAL     | B.E.', 'Jackman, J.E.', 'Doublie, S.'],  |
+| ['_citation_author.name',      | STUDIES OF A BACTERIAL TRNA(HIS)TITL 2   | 'Structural Studies of a Bacterial       |
+| '_citation.title',             | GUANYLYLTRANSFERASE (THG1)-LIKE PROTEIN, | tRNA(HIS) Guanylyltransferase            |
+| '_citation.journal_abbrev',    | WITH NUCLEOTIDE INTITL 3 THE ACTIVATION  | (Thg1)-Like Protein, with Nucleotide in  |
+| '_citation.journal_volume',    | AND NUCLEOTIDYL TRANSFER SITES.REF       | the Activation and Nucleotidyl Transfer  |
+| '_citation.year',              | PLOS ONE                      V.   8     | Sites.', 'Plos One', '8', '2013',        |
+| '_citation.page_first',        | 67465 2013REFN                   ESSN    | 'e67465', '1932-6203', '23844012',       |
+| '_citation.journal_id_ISSN', ' | 1932-6203PMID   23844012DOI              | '10.1371/journal.pone.0067465']          |
+| _citation.pdbx_database_id_Pub | 10.1371/JOURNAL.PONE.0067465             |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.j.hyde,b.s.rao,b.e.eckenroth,j.e.jackm | [['Hyde, S.J.', 'Rao, B.S.', 'Eckenroth, |
+| [CIF:                          | an,s.doublie structural studies of a     | B.E.', 'Jackman, J.E.', 'Doublie, S.'],  |
+| ['_citation_author.name',      | bacterial trna(his) guanylyltransferase  | 'Structural Studies of a Bacterial       |
+| '_citation.title',             | (thg1)-like protein, with nucleotthe     | tRNA(HIS) Guanylyltransferase            |
+| '_citation.journal_abbrev',    | activation and nucleotidyl transfer      | (Thg1)-Like Protein, with Nucleotide in  |
+| '_citation.journal_volume',    | sites. plos one v. 8 67465 2013 essn     | the Activation and Nucleotidyl Transfer  |
+| '_citation.year',              | 1932-6203 23844012                       | Sites.', 'Plos One', '8', '2013',        |
+| '_citation.page_first',        | 10.1371/journal.pone.0067465             | 'e67465', '1932-6203', '23844012',       |
+| '_citation.journal_id_ISSN', ' |                                          | '10.1371/journal.pone.0067465']          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | polymerase palm-like catalytic domain,   | polymerase palm-like catalytic domain,   |
+| [CIF: _struct_keywords.text]   | transferase, gtp and trna binding        | Transferase, GTP and tRNA binding        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  bacterial trna(his) guanylyltransferase | Bacterial tRNA(HIS) Guanylyltransferase  |
+| [CIF: _struct.title]           | (thg1)-like protein in complex with atp  | (Thg1)-Like Protein in complex with ATP  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.J.Hyde,B.S.Rao,B.E.Eckenroth,J.E.Jackm | ['Hyde, S.J.', 'Rao, B.S.', 'Eckenroth,  |
+| [CIF: _audit_author.name]      | an,S.Doublie                             | B.E.', 'Jackman, J.E.', 'Doublie, S.']   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2013-04-29                               | 2013-04-29                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-08-14                               | 2013-08-14                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | bacillus thuringiensis                   | Bacillus thuringiensis                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | rbth_06728                               | RBTH_06728                               |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 339854                                   | 339854                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: thg1-like uncharacterized protein
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b, c, d
+PDB key: compound:1:misc, PDB value: 

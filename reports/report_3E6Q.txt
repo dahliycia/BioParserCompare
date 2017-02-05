@@ -1,0 +1,104 @@
+PDB Parser time: 0.473999977112
+MMCIF Parser time: 7.51900005341
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | isomerase                                | ISOMERASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   J.OSIPIUK,X.XU,H.CUI,A.SAVCHENKO, | [['Osipiuk, j.', 'Xu, X.', 'Cui, h.',    |
+| [CIF:                          | A.M.EDWARDS,A.JOACHIMIAKTITL   X-RAY     | 'Savchenko, a.', 'Edwards, a.m.',        |
+| ['_citation_author.name',      | CRYSTAL STRUCTURE OF PUTATIVETITL 2      | 'Joachimiak, a.'], 'X-ray crystal        |
+| '_citation.title',             | 5-CARBOXYMETHYL-2-HYDROXYMUCONATE        | structure of putative                    |
+| '_citation.journal_abbrev',    | ISOMERASE FROM PSEUDOMONASTITL 3         | 5-carboxymethyl-2-hydroxymuconate        |
+| '_citation.journal_volume',    | AERUGINOSA.REF    TO BE PUBLISHEDREFN    | isomerase from Pseudomonas aeruginosa.', |
+| '_citation.year',              |                                          | 'To be Published', '?', '?', '?', '?',   |
+| '_citation.page_first',        |                                          | '?', '?']                                |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | j.osipiuk,x.xu,h.cui,a.savchenko,a.m.edw | [['Osipiuk, j.', 'Xu, X.', 'Cui, h.',    |
+| [CIF:                          | ards,a.joachix-ray crystal structure of  | 'Savchenko, a.', 'Edwards, a.m.',        |
+| ['_citation_author.name',      | putative                                 | 'Joachimiak, a.'], 'X-ray crystal        |
+| '_citation.title',             | 5-carboxymethyl-2-hydroxymuconate        | structure of putative                    |
+| '_citation.journal_abbrev',    | isomerase from pseuaeruginosa. to be     | 5-carboxymethyl-2-hydroxymuconate        |
+| '_citation.journal_volume',    | published                                | isomerase from Pseudomonas aeruginosa.', |
+| '_citation.year',              |                                          | 'To be Published', '?', '?', '?', '?',   |
+| '_citation.page_first',        |                                          | '?', '?']                                |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | structural genomics, apc7683, isomerase, | structural genomics, APC7683, isomerase, |
+| [CIF: _struct_keywords.text]   | psi-2, protein structure initiative,     | PSI-2, Protein Structure Initiative,     |
+|                                | midwest center for structural genomics,  | Midwest Center for Structural Genomics,  |
+|                                | mcsg                                     | MCSG                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  putative                                | Putative                                 |
+| [CIF: _struct.title]           | 5-carboxymethyl-2-hydroxymuconate        | 5-carboxymethyl-2-hydroxymuconate        |
+|                                | isomerase from pseudomonas aeruginosa.   | isomerase from Pseudomonas aeruginosa.   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Osipiuk,X.Xu,H.Cui,A.Savchenko,A.M.Edw | ['Osipiuk, j.', 'Xu, x.', 'Cui, h.',     |
+| [CIF: _audit_author.name]      | ards,A.Joachimiak,MidwestCenter For      | 'Savchenko, a.', 'Edwards, a.m.',        |
+|                                | Structural Genomics (Mcsg)               | 'Joachimiak, a.', 'Midwest Center for    |
+|                                |                                          | Structural Genomics (MCSG)']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2008-08-15                               | ['2008-08-15', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2008-08-26                               | ['2008-08-26', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2011-07-13']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | pseudomonas aeruginosa                   | Pseudomonas aeruginosa                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet15b modified                          | pET15b modified                          |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | pa1966                                   | PA1966                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 287                                      | 287                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: putative 5-carboxymethyl-2-hydroxymuconate isomerase
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h, i, j, k, l
+PDB key: compound:1:misc, PDB value: 

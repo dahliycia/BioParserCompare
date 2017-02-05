@@ -1,0 +1,114 @@
+PDB Parser time: 0.0570001602173
+MMCIF Parser time: 1.33999991417
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | protein transport/cell adhesion          | PROTEIN TRANSPORT/CELL ADHESION          |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   R.GHAI,A.BUGARCIC,H.LIU,S.J.NORWO | [['Ghai, R.', 'Bugarcic, A.', 'Liu, H.', |
+| [CIF:                          | OD,S.SKELDAL,E.J.COULSON,AUTH 2          | 'Norwood, S.J.', 'Skeldal, S.',          |
+| ['_citation_author.name',      | S.S.LI,R.D.TEASDALE,B.M.COLLINSTITL      | 'Coulson, E.J.', 'Li, S.S.', 'Teasdale,  |
+| '_citation.title',             | STRUCTURAL BASIS FOR ENDOSOMAL           | R.D.', 'Collins, B.M.'], 'Structural     |
+| '_citation.journal_abbrev',    | TRAFFICKING OF DIVERSETITL 2             | basis for endosomal trafficking of       |
+| '_citation.journal_volume',    | TRANSMEMBRANE CARGOS BY PX-FERM          | diverse transmembrane cargos by PX-FERM  |
+| '_citation.year',              | PROTEINS.REF    PROC.NATL.ACAD.SCI.USA   | proteins.', 'Proc.Natl.Acad.Sci.USA',    |
+| '_citation.page_first',        | V. 110  E643 2013REFN                    | '110', '2013', 'E643', '0027-8424',      |
+| '_citation.journal_id_ISSN', ' | ISSN 0027-8424PMID   23382219DOI         | '23382219', '10.1073/pnas.1216229110']   |
+| _citation.pdbx_database_id_Pub | 10.1073/PNAS.1216229110                  |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | r.ghai,a.bugarcic,h.liu,s.j.norwood,s.sk | [['Ghai, R.', 'Bugarcic, A.', 'Liu, H.', |
+| [CIF:                          | eldal,e.j.cous.s.li,r.d.teasdale,b.m.col | 'Norwood, S.J.', 'Skeldal, S.',          |
+| ['_citation_author.name',      | lins structural basis for endosomal      | 'Coulson, E.J.', 'Li, S.S.', 'Teasdale,  |
+| '_citation.title',             | trafficking of diversetransmembrane      | R.D.', 'Collins, B.M.'], 'Structural     |
+| '_citation.journal_abbrev',    | cargos by px-ferm proteins.              | basis for endosomal trafficking of       |
+| '_citation.journal_volume',    | proc.natl.acad.sci.usa v. 110 e643 2013  | diverse transmembrane cargos by PX-FERM  |
+| '_citation.year',              | issn 0027-8424 23382219                  | proteins.', 'Proc.Natl.Acad.Sci.USA',    |
+| '_citation.page_first',        | 10.1073/pnas.1216229110                  | '110', '2013', 'E643', '0027-8424',      |
+| '_citation.journal_id_ISSN', ' |                                          | '23382219', '10.1073/pnas.1216229110']   |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | ferm domain, protein transport-cell      | FERM domain, PROTEIN TRANSPORT-CELL      |
+| [CIF: _struct_keywords.text]   | adhesion complex                         | ADHESION complex                         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  structure of the snx17 atypical ferm    | Structure of the SNX17 atypical FERM     |
+| [CIF: _struct.title]           | domain bound to the npxy motif of        | domain bound to the NPxY motif of        |
+|                                | p-selectin                               | P-selectin                               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | R.Ghai,A.Bugarcic,H.Liu,S.J.Norwood,S.S. | ['Ghai, R.', 'Bugarcic, A.', 'Liu, H.',  |
+| [CIF: _audit_author.name]      | Li,R.D.Teasdale,B.M.Collins              | 'Norwood, S.J.', 'Li, S.S.', 'Teasdale,  |
+|                                |                                          | R.D.', 'Collins, B.M.']                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-09-04                               | 2012-09-04                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-03-13                               | 2013-03-13                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ['Escherichia coli', 'Escherichia coli'] |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | ['562', '562']                           |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | ['9606', '10090']                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | ['Homo sapiens', 'Mus musculus']         |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | snx17                                    | ['SNX17', 'Selp']                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | ['human', 'mouse']                       |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 10090                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | mus musculus                             | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_common       | mouse                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:2:fragment, PDB value: intracellular domain, unp residues 735-768
+PDB key: compound:1:fragment, PDB value: ferm domain, unp residues 111-388
+PDB key: compound:2:chain, PDB value: b
+PDB key: compound:2:molecule, PDB value: p-selectin
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: sorting nexin-17
+PDB key: compound:1:synonym, PDB value: snx17
+PDB key: compound:1:chain, PDB value: a

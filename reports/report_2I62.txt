@@ -1,0 +1,100 @@
+PDB Parser time: 0.232000112534
+MMCIF Parser time: 5.46200013161
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | transferase                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   H.WU,J.MIN,H.ZENG,P.LOPPNAU,J.WEI | [['Wu, H.', 'Min, J.', 'Zeng, H.',       |
+| [CIF:                          | GELT,M.SUNDSTROM,AUTH 2 C.H.ARROWSMITH,A | 'Loppnau, P.', 'Weigelt, J.',            |
+| ['_citation_author.name',      | .M.EDWARDS,A.BOCHKAREV,AUTH 3            | 'Sundstrom, M.', 'Arrowsmith, C.H.',     |
+| '_citation.title',             | A.N.PLOTNIKOVTITL   THE CRYSTAL          | 'Edwards, A.M.', 'Bochkarev, A.',        |
+| '_citation.journal_abbrev',    | STRUCTURE OF MOUSE NICOTINAMIDETITL 2    | 'Plotnikov, A.N.'], 'The Crystal         |
+| '_citation.journal_volume',    | N-METHYLTRANSFERASE IN COMPLEX WITH      | Structure of Mouse Nicotinamide          |
+| '_citation.year',              | SAHREF    TO BE PUBLISHEDREFN            | N-methyltransferase in complex with      |
+| '_citation.page_first',        |                                          | SAH', 'To be Published', '?', '?', '?',  |
+| '_citation.journal_id_ISSN', ' |                                          | '?', '?', '?']                           |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | h.wu,j.min,h.zeng,p.loppnau,j.weigelt,m. | [['Wu, H.', 'Min, J.', 'Zeng, H.',       |
+| [CIF:                          | sundstrom,                               | 'Loppnau, P.', 'Weigelt, J.',            |
+| ['_citation_author.name',      | c.h.arrowsmith,a.m.edwards,a.bochkarev,  | 'Sundstrom, M.', 'Arrowsmith, C.H.',     |
+| '_citation.title',             | a.n.plotnikov the crystal structure of   | 'Edwards, A.M.', 'Bochkarev, A.',        |
+| '_citation.journal_abbrev',    | mouse nicotinamide n-methyltransferase   | 'Plotnikov, A.N.'], 'The Crystal         |
+| '_citation.journal_volume',    | in complex with sah to be published      | Structure of Mouse Nicotinamide          |
+| '_citation.year',              |                                          | N-methyltransferase in complex with      |
+| '_citation.page_first',        |                                          | SAH', 'To be Published', '?', '?', '?',  |
+| '_citation.journal_id_ISSN', ' |                                          | '?', '?', '?']                           |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | nicotinamide n-methyltransferase,        | Nicotinamide N-methyltransferase,        |
+| [CIF: _struct_keywords.text]   | structural genomics, structural genomics | Structural Genomics, Structural Genomics |
+|                                | consortium, sgc                          | Consortium, SGC, transferase             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  mouse nicotinamide n-methyltransferase  | Mouse Nicotinamide N-methyltransferase   |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Min,H.Wu,H.Zeng,P.Loppnau,J.Weigelt,M. | ['Min, J.', 'Wu, H.', 'Zeng, H.',        |
+| [CIF: _audit_author.name]      | Sundstrom,C.H.Arrowsmith,A.M.Edwards,A.B | 'Loppnau, P.', 'Weigelt, J.',            |
+|                                | ochkarev,A.N.Plotnikov,Structural        | 'Sundstrom, M.', 'Arrowsmith, C.H.',     |
+|                                | Genomics Consortium (Sgc)                | 'Edwards, A.M.', 'Bochkarev, A.',        |
+|                                |                                          | 'Plotnikov, A.N.', 'Structural Genomics  |
+|                                |                                          | Consortium (SGC)']                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2006-08-27                               | ['2006-08-27', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2006-09-12                               | ['2006-09-12', '2006-09-20',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 10090                                    | 10090                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | mus musculus                             | Mus musculus                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | nnmt                                     | Nnmt                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | house mouse                              | house mouse                              |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b, c, d
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.1.1.1
+PDB key: compound:1:molecule, PDB value: nicotinamide n-methyltransferase
+PDB key: compound:1:ec, PDB value: 2.1.1.1

@@ -1,0 +1,112 @@
+PDB Parser time: 0.0929999351501
+MMCIF Parser time: 1.70199990273
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Moore, T.C.', 'Newmister, S.A.',      |
+| [CIF:                          | T.C.MOORE,S.A.NEWMISTER,I.RAYMENT,J.C    | 'Rayment, I.', 'Escalante-Semerena,      |
+| ['_citation_author.name',      | .ESCALANTE-SEMERENATITL   STRUCTURAL     | J.C.'], 'Structural Insights into the    |
+| '_citation.title',             | INSIGHTS INTO THE MECHANISM OF FOUR-     | Mechanism of Four-Coordinate             |
+| '_citation.journal_abbrev',    | COORDINATETITL 2 COB(II)ALAMIN FORMATION | Cob(II)alamin Formation in the Active    |
+| '_citation.journal_volume',    | IN THE ACTIVE SITE OF THE SALMONELLATITL | Site of the Salmonella enterica          |
+| '_citation.year',              | 3 ENTERICA ATP:CO(I)RRINOID              | ATP:Co(I)rrinoid Adenosyltransferase     |
+| '_citation.page_first',        | ADENOSYLTRANSFERASE ENZYME:TITL 4        | Enzyme: Critical Role of Residues Phe91  |
+| '_citation.journal_id_ISSN', ' | CRITICAL ROLE OF RESIDUES PHE91 AND      | and Trp93.', 'Biochemistry', '51',       |
+| _citation.pdbx_database_id_Pub | TRP93.REF    BIOCHEMISTRY                | '2012', '9647', '0006-2960', '23148601', |
+| Med', '_citation.pdbx_database | V.  51  9647 2012REFN                    | '10.1021/bi301378d']                     |
+| _id_DOI']]                     | ISSN 0006-2960PMID   23148601DOI         |                                          |
+|                                | 10.1021/BI301378D                        |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | t.c.moore,s.a.newmister,i.rayment,j.c    | [['Moore, T.C.', 'Newmister, S.A.',      |
+| [CIF:                          | .escalante-semerstructural insights into | 'Rayment, I.', 'Escalante-Semerena,      |
+| ['_citation_author.name',      | the mechanism of four-                   | J.C.'], 'Structural Insights into the    |
+| '_citation.title',             | coordicob(ii)alamin formation in the     | Mechanism of Four-Coordinate             |
+| '_citation.journal_abbrev',    | active site of the salenterica           | Cob(II)alamin Formation in the Active    |
+| '_citation.journal_volume',    | atp:co(i)rrinoid adenosyltransferase     | Site of the Salmonella enterica          |
+| '_citation.year',              | enzyme:critical role of residues phe91   | ATP:Co(I)rrinoid Adenosyltransferase     |
+| '_citation.page_first',        | and trp93. biochemistry v. 51 9647 2012  | Enzyme: Critical Role of Residues Phe91  |
+| '_citation.journal_id_ISSN', ' | issn 0006-2960 23148601                  | and Trp93.', 'Biochemistry', '51',       |
+| _citation.pdbx_database_id_Pub | 10.1021/bi301378d                        | '2012', '9647', '0006-2960', '23148601', |
+| Med', '_citation.pdbx_database |                                          | '10.1021/bi301378d']                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | transferase                              | transferase                              |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  structure of atp:co(i)rrinoid           | Structure of ATP:co(I)rrinoid            |
+| [CIF: _struct.title]           | adenosyltransferase (coba) from          | adenosyltransferase (CobA) from          |
+|                                | salmonella enterica in complex with four | Salmonella enterica in complex with four |
+|                                | and five-coordinate cob(ii) alamin and   | and five-coordinate cob(II)alamin and    |
+|                                | atp                                      | ATP                                      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | T.C.Moore,S.A.Newmister,I.Rayment,J.C    | ['Moore, T.C.', 'Newmister, S.A.',       |
+| [CIF: _audit_author.name]      | .Escalante-Semerena                      | 'Rayment, I.', 'Escalante-Semerena,      |
+|                                |                                          | J.C.']                                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-11-04                               | ['2012-11-04', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-01-23                               | ['2013-01-23', '2013-02-20']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | salmonella enterica subsp. enterica      | Salmonella enterica subsp. enterica      |
+| [CIF: _entity_src_gen.pdbx_hos | serovartyphimurium                       | serovar Typhimurium                      |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 90371                                    | 90371                                    |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | salmonella enterica subsp. enterica      | Salmonella enterica subsp. enterica      |
+| [CIF: _entity_src_gen.pdbx_gen | serovartyphimurium                       | serovar Typhimurium                      |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pcoba15                                  | pCOBA15                                  |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | je2884                                   | JE2884                                   |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | btur, coba, stm1718                      | btuR, cobA, STM1718                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 99287                                    | 99287                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.5.1.17
+PDB key: compound:1:molecule, PDB value: cob(i)yrinic acid a,c-diamide adenosyltransferase
+PDB key: compound:1:ec, PDB value: 2.5.1.17
+PDB key: compound:1:synonym, PDB value: cob(i)alamin adenosyltransferase, corrinoidadenosyltransferase 

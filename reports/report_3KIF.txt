@@ -1,0 +1,91 @@
+PDB Parser time: 0.164999961853
+MMCIF Parser time: 3.67000007629
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | sugar binding protein                    | SUGAR BINDING PROTEIN                    |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   I.YADID,N.KIRSHENBAUM,M.SHARON,O. | [['Yadid, I.', 'Kirshenbaum, N.',        |
+| [CIF:                          | DYM,D.S.TAWFIKTITL   METAMORPHIC         | 'Sharon, M.', 'Dym, O.', 'Tawfik,        |
+| ['_citation_author.name',      | PROTEINS MEDIATE EVOLUTIONARY            | D.S.'], 'Metamorphic proteins mediate    |
+| '_citation.title',             | TRANSITIONS OFTITL 2 STRUCTUREREF        | evolutionary transitions of structure',  |
+| '_citation.journal_abbrev',    | PROC.NATL.ACAD.SCI.USA        V. 107     | 'Proc.Natl.Acad.Sci.USA', '107', '2010', |
+| '_citation.journal_volume',    | 7287 2010REFN                   ISSN     | '7287', '0027-8424', '20368465',         |
+| '_citation.year',              | 0027-8424PMID   20368465DOI              | '10.1073/pnas.0912616107']               |
+| '_citation.page_first',        | 10.1073/PNAS.0912616107                  |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | i.yadid,n.kirshenbaum,m.sharon,o.dym,d.s | [['Yadid, I.', 'Kirshenbaum, N.',        |
+| [CIF:                          | .tawfik metamorphic proteins mediate     | 'Sharon, M.', 'Dym, O.', 'Tawfik,        |
+| ['_citation_author.name',      | evolutionary transitionsstructure        | D.S.'], 'Metamorphic proteins mediate    |
+| '_citation.title',             | proc.natl.acad.sci.usa v. 107 7287 2010  | evolutionary transitions of structure',  |
+| '_citation.journal_abbrev',    | issn 0027-8424 20368465                  | 'Proc.Natl.Acad.Sci.USA', '107', '2010', |
+| '_citation.journal_volume',    | 10.1073/pnas.0912616107                  | '7287', '0027-8424', '20368465',         |
+| '_citation.year',              |                                          | '10.1073/pnas.0912616107']               |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | 5-bladed -propeller, structural          | 5-bladed -propeller, Structural          |
+| [CIF: _struct_keywords.text]   | genomics, israel structural proteomics   | Genomics, Israel Structural Proteomics   |
+|                                | center, ispc, sugar binding protein      | Center, ISPC, SUGAR BINDING PROTEIN      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the crystal structures of two fragments | The crystal structures of two fragments  |
+| [CIF: _struct.title]           | truncated from 5-bladed beta- propeller  | truncated from 5-bladed beta-propeller   |
+|                                | lectin, tachylectin-2 (lib1-b7-18 and    | lectin, tachylectin-2 (Lib1-B7-18 and    |
+|                                | lib2-d2-15)                              | Lib2-D2-15)                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | O.Dym,D.S.Tawfik,I.Yadid,Israel          | ['Dym, O.', 'Tawfik, D.S.', 'Yadid, I.', |
+| [CIF: _audit_author.name]      | Structural Proteomics Center (Ispc)      | 'Israel Structural Proteomics Center     |
+|                                |                                          | (ISPC)']                                 |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2009-11-02                               | ['2009-11-02', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-04-28                               | ['2010-04-28', '2014-02-26',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2014-03-19']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 32630                                    | 32630                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | synthetic construct                      | synthetic construct                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: residues 1-106
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: 5-bladed beta-propeller lectin
+PDB key: compound:1:synonym, PDB value: tachylectin-2
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h, i, j

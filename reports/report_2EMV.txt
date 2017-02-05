@@ -1,0 +1,103 @@
+PDB Parser time: 0.496000051498
+MMCIF Parser time: 5.44000005722
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transcription                            | TRANSCRIPTION                            |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   N.TOCHIO,T.TOMIZAWA,H.ABE,K.SAITO | [['Tochio, N.', 'Tomizawa, T.', 'Abe,    |
+| [CIF:                          | ,H.LI,M.SATO,AUTH 2 S.KOSHIBA,N.KOBAYASH | H.', 'Saito, K.', 'Li, H.', 'Sato, M.',  |
+| ['_citation_author.name',      | I,T.KIGAWA,S.YOKOYAMATITL   SOLUTION     | 'Koshiba, S.', 'Kobayashi, N.', 'Kigawa, |
+| '_citation.title',             | STRUCTURE OF THE C2H2 TYPE ZINC          | T.', 'Yokoyama, S.'], 'Solution          |
+| '_citation.journal_abbrev',    | FINGERTITL 2 (REGION 859-889) OF HUMAN   | structure of the C2H2 type zinc finger   |
+| '_citation.journal_volume',    | ZINC FINGER PROTEIN 268REF    TO BE      | (region 859-889) of human Zinc finger    |
+| '_citation.year',              | PUBLISHEDREFN                            | protein 268', 'To be Published', '?',    |
+| '_citation.page_first',        |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | n.tochio,t.tomizawa,h.abe,k.saito,h.li,m | [['Tochio, N.', 'Tomizawa, T.', 'Abe,    |
+| [CIF:                          | .sato, s.koshiba,n.kobayashi,t.kigawa,s. | H.', 'Saito, K.', 'Li, H.', 'Sato, M.',  |
+| ['_citation_author.name',      | yokoyama solution structure of the c2h2  | 'Koshiba, S.', 'Kobayashi, N.', 'Kigawa, |
+| '_citation.title',             | type zinc finger (region 859-889) of     | T.', 'Yokoyama, S.'], 'Solution          |
+| '_citation.journal_abbrev',    | human zinc finger protein 268 to be      | structure of the C2H2 type zinc finger   |
+| '_citation.journal_volume',    | published                                | (region 859-889) of human Zinc finger    |
+| '_citation.year',              |                                          | protein 268', 'To be Published', '?',    |
+| '_citation.page_first',        |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | zf-c2h2, nmr, structural genomics,       | zf-C2H2, Structural Genomics, NPPSFA,    |
+| [CIF: _struct_keywords.text]   | nppsfa, national project on protein      | National Project on Protein Structural   |
+|                                | structural and functional analyses,      | and Functional Analyses, RIKEN           |
+|                                | riken structural genomics/proteomics     | Structural Genomics/Proteomics           |
+|                                | initiative, rsgi, transcription          | Initiative, RSGI, TRANSCRIPTION          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  solution structure of the c2h2 type     | Solution structure of the C2H2 type zinc |
+| [CIF: _struct.title]           | zinc finger (region 859- 889) of human   | finger (region 859-889) of human Zinc    |
+|                                | zinc finger protein 268                  | finger protein 268                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | N.Tochio,T.Tomizawa,H.Abe,K.Saito,H.Li,M | ['Tochio, N.', 'Tomizawa, T.', 'Abe,     |
+| [CIF: _audit_author.name]      | .Sato,S.Koshiba,N.Kobayashi,T.Kigawa,S.Y | H.', 'Saito, K.', 'Li, H.', 'Sato, M.',  |
+|                                | okoyama,Riken                            | 'Koshiba, S.', 'Kobayashi, N.', 'Kigawa, |
+|                                | StructuralGenomics/proteomics Initiative | T.', 'Yokoyama, S.', 'RIKEN Structural   |
+|                                | (Rsgi)                                   | Genomics/Proteomics Initiative (RSGI)']  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2007-03-28                               | ['2007-03-28', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2007-10-02                               | ['2007-10-02', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | p061225-03                               | P061225-03                               |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | znf268                                   | ZNF268                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: zf-c2h2 domain
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: zinc finger protein 268
+PDB key: compound:1:synonym, PDB value: zinc finger protein hzf3
+PDB key: compound:1:chain, PDB value: a

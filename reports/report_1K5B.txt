@@ -1,0 +1,113 @@
+PDB Parser time: 0.0250000953674
+MMCIF Parser time: 0.621000051498
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   D.D.LEONIDAS,R.SHAPIRO,G.V.SUBBAR | [['Leonidas, D.D.', 'Shapiro, R.',       |
+| [CIF:                          | AO,A.RUSSO,AUTH 2 K.R.ACHARYATITL        | 'Subbarao, G.V.', 'Russo, A.', 'Acharya, |
+| ['_citation_author.name',      | CRYSTALLOGRAPHIC STUDIES ON THE ROLE OF  | K.R.', 'Leonidas, D.D.', 'Shapiro, R.',  |
+| '_citation.title',             | THETITL 2 C-TERMINAL SEGMENT OF HUMAN    | 'Allen, S.C.', 'Subbarao, G.V.',         |
+| '_citation.journal_abbrev',    | ANGIOGENIN IN DEFININGTITL 3 ENZYMATIC   | 'Veluraja, K.', 'Acharya, K.R.'],        |
+| '_citation.journal_volume',    | POTENCY.REF    BIOCHEMISTRY              | ['Crystallographic studies on the role   |
+| '_citation.year',              | V.  41  2552 2002REFN                    | of the C-terminal segment of human       |
+| '_citation.page_first',        | ISSN 0006-2960PMID   11851402DOI         | angiogenin in defining enzymatic         |
+| '_citation.journal_id_ISSN', ' | 10.1021/BI015768Q                        | potency.', 'Refined Crystal Structures   |
+| _citation.pdbx_database_id_Pub |                                          | of Native Human Angiogenin and Two       |
+| Med', '_citation.pdbx_database |                                          | Active Site Variants: Implications for   |
+| _id_DOI']]                     |                                          | the Unique Functional Properties of an   |
+|                                |                                          | Enzyme Involved in Neovascularisation    |
+|                                |                                          | During Tumour Growth'], ['Biochemistry', |
+|                                |                                          | 'J.Mol.Biol.'], ['41', '285'], ['2002',  |
+|                                |                                          | '1999'], ['2552', '1209'], ['0006-2960', |
+|                                |                                          | '0022-2836'], ['11851402', '?'],         |
+|                                |                                          | ['10.1021/bi015768q',                    |
+|                                |                                          | '10.1006/jmbi.1998.2378']]               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | d.d.leonidas,r.shapiro,g.v.subbarao,a.ru | [['Leonidas, D.D.', 'Shapiro, R.',       |
+| [CIF:                          | sso, k.r.acharya crystallographic        | 'Subbarao, G.V.', 'Russo, A.', 'Acharya, |
+| ['_citation_author.name',      | studies on the role of the c-terminal    | K.R.', 'Leonidas, D.D.', 'Shapiro, R.',  |
+| '_citation.title',             | segment of human angiogenin in defining  | 'Allen, S.C.', 'Subbarao, G.V.',         |
+| '_citation.journal_abbrev',    | enzymatic potency. biochemistry v. 41    | 'Veluraja, K.', 'Acharya, K.R.'],        |
+| '_citation.journal_volume',    | 2552 2002 issn 0006-2960 11851402        | ['Crystallographic studies on the role   |
+| '_citation.year',              | 10.1021/bi015768q                        | of the C-terminal segment of human       |
+| '_citation.page_first',        |                                          | angiogenin in defining enzymatic         |
+| '_citation.journal_id_ISSN', ' |                                          | potency.', 'Refined Crystal Structures   |
+| _citation.pdbx_database_id_Pub |                                          | of Native Human Angiogenin and Two       |
+| Med', '_citation.pdbx_database |                                          | Active Site Variants: Implications for   |
+| _id_DOI']]                     |                                          | the Unique Functional Properties of an   |
+|                                |                                          | Enzyme Involved in Neovascularisation    |
+|                                |                                          | During Tumour Growth'], ['Biochemistry', |
+|                                |                                          | 'J.Mol.Biol.'], ['41', '285'], ['2002',  |
+|                                |                                          | '1999'], ['2552', '1209'], ['0006-2960', |
+|                                |                                          | '0022-2836'], ['11851402', '?'],         |
+|                                |                                          | ['10.1021/bi015768q',                    |
+|                                |                                          | '10.1006/jmbi.1998.2378']]               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase, ribonuclease, vascularization | Hydrolase, ribonuclease, vascularization |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of human angiogenin   | Crystal Structure of Human Angiogenin    |
+| [CIF: _struct.title]           | variant des(121-123)                     | Variant des(121-123)                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | D.D.Leonidas,R.Shapiro,G.V.Subbarao,A.Ru | ['Leonidas, D.D.', 'Shapiro, R.',        |
+| [CIF: _audit_author.name]      | sso,K.R.Acharya                          | 'Subbarao, G.V.', 'Russo, A.', 'Acharya, |
+|                                |                                          | K.R.']                                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2001-10-10                               | ['2001-10-10', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2002-03-20                               | ['2002-03-20', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['d.d.leonidas,r.shapiro,s.c.allen,g.v.s | NOT FOUND                                |
+| [CIF: NOT FOUND]               | ubbarao, k.veluraja,k.r.acharya refined  |                                          |
+|                                | crystal structures of native human       |                                          |
+|                                | angiogenin and two active site variants: |                                          |
+|                                | implications for the unique functional   |                                          |
+|                                | properties of an enzyme involved in      |                                          |
+|                                | neovascularisation during tumour growth  |                                          |
+|                                | j.mol.biol. v. 285 1209 1999 issn        |                                          |
+|                                | 0022-2836 10.1006/jmbi.1998.2378 ']      |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: angiogenin
+PDB key: compound:1:ec, PDB value: 3.1.27.-

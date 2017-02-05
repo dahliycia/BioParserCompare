@@ -1,0 +1,112 @@
+PDB Parser time: 0.109000205994
+MMCIF Parser time: 2.05399990082
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   T.HAIKARAINEN,J.KOIVUNEN,M.NARWAL | [['Haikarainen, T.', 'Koivunen, J.',     |
+| [CIF:                          | ,H.VENKANNAGARI,E.OBAJI,AUTH 2           | 'Narwal, M.', 'Venkannagari, H.',        |
+| ['_citation_author.name',      | P.JOENSUU,T.PIHLAJANIEMI,L.LEHTIOTITL    | 'Obaji, E.', 'Joensuu, P.',              |
+| '_citation.title',             | PARA-SUBSTITUTED                         | 'Pihlajaniemi, T.', 'Lehtio, L.'],       |
+| '_citation.journal_abbrev',    | 2-PHENYL-3,4-DIHYDROQUINAZOLIN-4-ONES    | 'Para-Substituted                        |
+| '_citation.journal_volume',    | ASTITL 2 POTENT AND SELECTIVE TANKYRASE  | 2-Phenyl-3,4-Dihydroquinazolin-4-Ones as |
+| '_citation.year',              | INHIBITORS.REF    CHEMMEDCHEM            | Potent and Selective Tankyrase           |
+| '_citation.page_first',        | V.   8  1978 2013REFN                    | Inhibitors.', 'Chemmedchem', '8',        |
+| '_citation.journal_id_ISSN', ' | ISSN 1860-7179PMID   24130191DOI         | '2013', '1978', '1860-7179', '24130191', |
+| _citation.pdbx_database_id_Pub | 10.1002/CMDC.201300337                   | '10.1002/CMDC.201300337']                |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | t.haikarainen,j.koivunen,m.narwal,h.venk | [['Haikarainen, T.', 'Koivunen, J.',     |
+| [CIF:                          | annagari,e.obp.joensuu,t.pihlajaniemi,l. | 'Narwal, M.', 'Venkannagari, H.',        |
+| ['_citation_author.name',      | lehtio para-substituted 2-phenyl-3,4-dih | 'Obaji, E.', 'Joensuu, P.',              |
+| '_citation.title',             | ydroquinazolin-4-onepotent and selective | 'Pihlajaniemi, T.', 'Lehtio, L.'],       |
+| '_citation.journal_abbrev',    | tankyrase inhibitors. chemmedchem v. 8   | 'Para-Substituted                        |
+| '_citation.journal_volume',    | 1978 2013 issn 1860-7179 24130191        | 2-Phenyl-3,4-Dihydroquinazolin-4-Ones as |
+| '_citation.year',              | 10.1002/cmdc.201300337                   | Potent and Selective Tankyrase           |
+| '_citation.page_first',        |                                          | Inhibitors.', 'Chemmedchem', '8',        |
+| '_citation.journal_id_ISSN', ' |                                          | '2013', '1978', '1860-7179', '24130191', |
+| _citation.pdbx_database_id_Pub |                                          | '10.1002/CMDC.201300337']                |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | transferase, protein-ligand complex,     | TRANSFERASE, PROTEIN-LIGAND COMPLEX,     |
+| [CIF: _struct_keywords.text]   | diphtheria toxin like fold, adp-         | DIPHTHERIA TOXIN LIKE FOLD, ADP-         |
+|                                | ribosylation, transferase-transferase    | RIBOSYLATION, TRANSFERASE-TRANSFERASE    |
+|                                | inhibitor complex                        | INHIBITOR COMPLEX                        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of human tankyrase 2  | Crystal structure of human tankyrase 2   |
+| [CIF: _struct.title]           | in complex with 2-(4- (4-oxo-3,4-dihydro | in complex with 2-(4-(4-oxo-3,           |
+|                                | quinazolin-2-yl)phenoxy)acetic acid      | 4-dihydroquinazolin-2-yl)phenoxy)acetic  |
+|                                |                                          | acid                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | T.Haikarainen,M.Narwal,L.Lehtio          | ['Haikarainen, T.', 'Narwal, M.',        |
+| [CIF: _audit_author.name]      |                                          | 'Lehtio, L.']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2013-06-24                               | ['2013-06-24', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-10-30                               | ['2013-10-30', '2013-12-11']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | HOMO SAPIENS                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pnic28-bsa4                              | PNIC28-BSA4                              |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | HUMAN                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:ec, PDB value: 2.4.2.30
+PDB key: compound:1:fragment, PDB value: c-terminal fragment, residues 946-1162
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.4.2.30
+PDB key: compound:1:molecule, PDB value: tankyrase-2
+PDB key: compound:1:synonym, PDB value: tank2, adp-ribosyltransferase diphtheria toxin-like 6,artd6 poly adp-ribose polymerase 5b, tnks-2, trf1-interacting ankyrin -related adp-ribose polymerase 2, tankyrase ii, tankyrase-like protein, tankyrase-related protein 
+PDB key: compound:1:chain, PDB value: a, b

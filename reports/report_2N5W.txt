@@ -1,0 +1,71 @@
+PDB Parser time: 0.0820000171661
+MMCIF Parser time: 2.10500001907
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | antimicrobial protein                    | Antimicrobial protein                    |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.A.COCHRANE,B.FINDLAY,A.BAKHTIAR | [['Cochrane, S.A.', 'Findlay, B.',       |
+| [CIF:                          | Y,J.Z.ACEDO,AUTH 2 E.M.RODRIGUEZ-        | 'Bakhtiary, A.', 'Acedo, J.Z.',          |
+| ['_citation_author.name',      | LOPEZ,P.MERCIER,J.C.VEDERASTITL          | 'Rodriguez-Lopez, E.M.', 'Mercier, P.',  |
+| '_citation.title',             | ANTIMICROBIAL LIPOPEPTIDE TRIDECAPTIN A1 | 'Vederas, J.C.'], 'Antimicrobial         |
+| '_citation.journal_abbrev',    | SELECTIVELY BINDSTITL 2 TO GRAM-NEGATIVE | lipopeptide tridecaptin A1 selectively   |
+| '_citation.journal_volume',    | LIPID II.REF    PROC.NATL.ACAD.SCI.USA   | binds to Gram-negative lipid II.',       |
+| '_citation.year',              | V. 113 11561 2016REFN                    | 'Proc.Natl.Acad.Sci.USA', '113', '2016', |
+| '_citation.page_first',        | ISSN 0027-8424PMID   27688760DOI         | '11561', '0027-8424', '27688760',        |
+| '_citation.journal_id_ISSN', ' | 10.1073/PNAS.1608623113                  | '10.1073/pnas.1608623113']               |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.a.cochrane,b.findlay,a.bakhtiary,j.z.a | [['Cochrane, S.A.', 'Findlay, B.',       |
+| [CIF:                          | cedo, e.m.rodriguez-                     | 'Bakhtiary, A.', 'Acedo, J.Z.',          |
+| ['_citation_author.name',      | lopez,p.mercier,j.c.vederas              | 'Rodriguez-Lopez, E.M.', 'Mercier, P.',  |
+| '_citation.title',             | antimicrobial lipopeptide tridecaptin a1 | 'Vederas, J.C.'], 'Antimicrobial         |
+| '_citation.journal_abbrev',    | selectively to gram-negative lipid ii.   | lipopeptide tridecaptin A1 selectively   |
+| '_citation.journal_volume',    | proc.natl.acad.sci.usa v. 113 11561 2016 | binds to Gram-negative lipid II.',       |
+| '_citation.year',              | issn 0027-8424 27688760                  | 'Proc.Natl.Acad.Sci.USA', '113', '2016', |
+| '_citation.page_first',        | 10.1073/pnas.1608623113                  | '11561', '0027-8424', '27688760',        |
+| '_citation.journal_id_ISSN', ' |                                          | '10.1073/pnas.1608623113']               |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | tridecaptin a1, lipopeptide,             | Tridecaptin A1, Lipopeptide,             |
+| [CIF: _struct_keywords.text]   | antimicrobial, antibiotic, non-          | Antimicrobial, Antibiotic, Non-          |
+|                                | ribosomal, antimicrobial protein         | ribosomal, Antimicrobial protein         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the nmr solution structure of octyl-    | The NMR solution structure of octyl-     |
+| [CIF: _struct.title]           | tridecaptin a1 in dpc micelles           | tridecaptin A1 in DPC micelles           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.A.Cochrane,B.Findlay,A.Bakhtiary,J.Z.A | ['Cochrane, S.A.', 'Findlay, B.',        |
+| [CIF: _audit_author.name]      | cedo,E.M.Rodriguez-Lopez,J.C.Vederas     | 'Bakhtiary, A.', 'Acedo, J.Z.',          |
+|                                |                                          | 'Rodriguez-Lopez, E.M.', 'Vederas,       |
+|                                |                                          | J.C.']                                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2015-08-01                               | ['2015-08-01', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2016-09-28                               | ['2016-09-28', '2016-10-19',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2016-10-26']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: octyl-tridecaptin a1
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

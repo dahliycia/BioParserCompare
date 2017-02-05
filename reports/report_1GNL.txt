@@ -1,0 +1,88 @@
+PDB Parser time: 0.301000118256
+MMCIF Parser time: 5.01200008392
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hybrid cluster protein                   | HYBRID CLUSTER PROTEIN                   |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.MACEDO,E.P.MITCHELL,C.V.ROMAO,S | [['Macedo, S.', 'Mitchell, E.P.',        |
+| [CIF:                          | .J.COOPER,R.COELHO,M.Y.LIU,AUTH 2 A.V.XA | 'Romao, C.V.', 'Cooper, S.J.', 'Coelho,  |
+| ['_citation_author.name',      | VIER,J.LEGALL,S.BAILEY,D.C.GARNER,W.R.HA | R.', 'Liu, M.Y.', 'Xavier, A.V.',        |
+| '_citation.title',             | GEN,AUTH 3                               | 'Legall, J.', 'Bailey, S.', 'Garner,     |
+| '_citation.journal_abbrev',    | M.TEIXEIRA,M.A.CARRONDO,P.LINDLEYTITL    | D.C.', 'Hagen, W.R.', 'Teixeira, M.',    |
+| '_citation.journal_volume',    | HYBRID CLUSTER PROTEINS (HCPS) FROM      | 'Carrondo, M.A.', 'Lindley, P.'],        |
+| '_citation.year',              | DESULFOVIBRIOTITL 2 DESULFURICANS ATCC   | 'Hybrid Cluster Proteins (Hcps) from     |
+| '_citation.page_first',        | 27774 AND DESULFOVIBRIO VULGARISTITL 3   | Desulfovibrio Desulfuricans Atcc 27774   |
+| '_citation.journal_id_ISSN', ' | (HILDENBOROUGH): X-RAY STRUCTURES AT     | and Desulfovibrio Vulgaris               |
+| _citation.pdbx_database_id_Pub | 1.25 A RESOLUTIONTITL 4 USING            | (Hildenborough): X-Ray Structures at     |
+| Med', '_citation.pdbx_database | SYNCHROTRON RADIATION.REF                | 1.25 A Resolution Using Synchrotron      |
+| _id_DOI']]                     | J.BIOL.INORG.CHEM.            V.   7     | Radiation.', 'J.Biol.Inorg.Chem.', '7',  |
+|                                | 514 2002REFN                   ISSN      | '2002', '514', '0949-8257', '11941509',  |
+|                                | 0949-8257PMID   11941509DOI              | '10.1007/S00775-001-0326-Y']             |
+|                                | 10.1007/S00775-001-0326-Y                |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.macedo,e.p.mitchell,c.v.romao,s.j.coop | [['Macedo, S.', 'Mitchell, E.P.',        |
+| [CIF:                          | er,r.coelho,ma.v.xavier,j.legall,s.baile | 'Romao, C.V.', 'Cooper, S.J.', 'Coelho,  |
+| ['_citation_author.name',      | y,d.c.garner,w.r.hagen,                  | R.', 'Liu, M.Y.', 'Xavier, A.V.',        |
+| '_citation.title',             | m.teixeira,m.a.carrondo,p.lindley hybrid | 'Legall, J.', 'Bailey, S.', 'Garner,     |
+| '_citation.journal_abbrev',    | cluster proteins (hcps) from             | D.C.', 'Hagen, W.R.', 'Teixeira, M.',    |
+| '_citation.journal_volume',    | desulfovibrio desulfuricans atcc 27774   | 'Carrondo, M.A.', 'Lindley, P.'],        |
+| '_citation.year',              | and desulfovibrio vulgaris               | 'Hybrid Cluster Proteins (Hcps) from     |
+| '_citation.page_first',        | (hildenborough): x-ray structures at     | Desulfovibrio Desulfuricans Atcc 27774   |
+| '_citation.journal_id_ISSN', ' | 1.25 a resolutiousing synchrotron        | and Desulfovibrio Vulgaris               |
+| _citation.pdbx_database_id_Pub | radiation. j.biol.inorg.chem. v. 7 514   | (Hildenborough): X-Ray Structures at     |
+| Med', '_citation.pdbx_database | 2002 issn 0949-8257 11941509             | 1.25 A Resolution Using Synchrotron      |
+| _id_DOI']]                     | 10.1007/s00775-001-0326-y                | Radiation.', 'J.Biol.Inorg.Chem.', '7',  |
+|                                |                                          | '2002', '514', '0949-8257', '11941509',  |
+|                                |                                          | '10.1007/S00775-001-0326-Y']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hybrid cluster protein, anaerobic        | HYBRID CLUSTER PROTEIN, ANAEROBIC        |
+| [CIF: _struct_keywords.text]   | desulfovibrio desulfuricans, iron        | DESULFOVIBRIO DESULFURICANS, IRON        |
+|                                | anomalous                                | ANOMALOUS                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  hybrid cluster protein from             | Hybrid Cluster Protein from              |
+| [CIF: _struct.title]           | desulfovibrio desulfuricans x-ray        | Desulfovibrio desulfuricans ATCC 27774   |
+|                                | structure at 1.25a resolution using      | X-ray structure at 1.25A resolution      |
+|                                | synchrotron radiation at a wavelength of | using synchrotron radiation at a         |
+|                                | 0.933a                                   | wavelength of 0.933A                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.Macedo,E.P.Mitchell,C.V.Romao,S.J.Coop | ['Macedo, S.', 'Mitchell, E.P.', 'Romao, |
+| [CIF: _audit_author.name]      | er,R.Coelho,M.Y.Liu,A.V.Xavier,J.Legall, | C.V.', 'Cooper, S.J.', 'Coelho, R.',     |
+|                                | S.Bailey,D.C.Garner,W.R.Hagen,M.Teixeira | 'Liu, M.Y.', 'Xavier, A.V.', 'Legall,    |
+|                                | ,M.A.Carrondo,P.Lindley                  | J.', 'Bailey, S.', 'Garner, D.C.',       |
+|                                |                                          | 'Hagen, W.R.', 'Teixeira, M.',           |
+|                                |                                          | 'Carrondo, M.A.', 'Lindley, P.']         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2001-10-05                               | ['2001-10-05', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2002-04-11                               | ['2002-04-11', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2015-04-15']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 876                                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | desulfovibrio desulfuricans              | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: hybrid cluster protein
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:synonym, PDB value: hcp
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:other_details, PDB value: cubane cluster [4fe-4s] hybrid cluster[4fe-3s-3o] persulphide bond between s7 (hybrid cluster) and s of cys399 

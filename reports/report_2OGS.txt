@@ -1,0 +1,93 @@
+PDB Parser time: 0.0989999771118
+MMCIF Parser time: 2.20700001717
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   P.LIU,H.E.EWIS,P.C.TAI,C.D.LU,I.T | [['Liu, P.', 'Ewis, H.E.', 'Tai, P.C.',  |
+| [CIF:                          | .WEBERTITL   CRYSTAL STRUCTURE OF THE    | 'Lu, C.D.', 'Weber, I.T.'], 'Crystal     |
+| ['_citation_author.name',      | GEOBACILLUSTITL 2 STEAROTHERMOPHILUS     | Structure of the Geobacillus             |
+| '_citation.title',             | CARBOXYLESTERASE EST55 AND ITSTITL 3     | stearothermophilus Carboxylesterase      |
+| '_citation.journal_abbrev',    | ACTIVATION OF PRODRUG CPT-11.REF         | Est55 and Its Activation of Prodrug      |
+| '_citation.journal_volume',    | J.MOL.BIOL.                   V. 367     | CPT-11.', 'J.Mol.Biol.', '367', '2007',  |
+| '_citation.year',              | 212 2007REFN                   ISSN      | '212', '0022-2836', '17239398',          |
+| '_citation.page_first',        | 0022-2836PMID   17239398DOI              | '10.1016/j.jmb.2006.12.067']             |
+| '_citation.journal_id_ISSN', ' | 10.1016/J.JMB.2006.12.067                |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | p.liu,h.e.ewis,p.c.tai,c.d.lu,i.t.weber  | [['Liu, P.', 'Ewis, H.E.', 'Tai, P.C.',  |
+| [CIF:                          | crystal structure of the geobacillus     | 'Lu, C.D.', 'Weber, I.T.'], 'Crystal     |
+| ['_citation_author.name',      | stearothermophilus carboxylesterase      | Structure of the Geobacillus             |
+| '_citation.title',             | est55 and its activation of prodrug      | stearothermophilus Carboxylesterase      |
+| '_citation.journal_abbrev',    | cpt-11. j.mol.biol. v. 367 212 2007 issn | Est55 and Its Activation of Prodrug      |
+| '_citation.journal_volume',    | 0022-2836 17239398                       | CPT-11.', 'J.Mol.Biol.', '367', '2007',  |
+| '_citation.year',              | 10.1016/j.jmb.2006.12.067                | '212', '0022-2836', '17239398',          |
+| '_citation.page_first',        |                                          | '10.1016/j.jmb.2006.12.067']             |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | carboxylesterase, alpha/beta hydrolase   | CARBOXYLESTERASE, ALPHA/BETA HYDROLASE,  |
+| [CIF: _struct_keywords.text]   |                                          | HYDROLASE                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of the geobacillus    | Crystal Structure of the GEOBACILLUS     |
+| [CIF: _struct.title]           | stearothermophilus carboxylesterase      | STEAROTHERMOPHILUS Carboxylesterase      |
+|                                | est55 at ph 6.2                          | EST55 at pH 6.2                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | P.Liu,H.E.Ewis,P.C.Tai,C.D.Lu,I.T.Weber  | ['Liu, P.', 'Ewis, H.E.', 'Tai, P.C.',   |
+| [CIF: _audit_author.name]      |                                          | 'Lu, C.D.', 'Weber, I.T.']               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2007-01-08                               | ['2007-01-08', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2007-02-13                               | ['2007-02-13', '2007-02-27',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2007-03-13', '2009-02-24']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | geobacillus stearothermophilus           | Geobacillus stearothermophilus           |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | top10                                    | Top10                                    |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 1422                                     | 1422                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.1.1.1
+PDB key: compound:1:molecule, PDB value: thermostable carboxylesterase est50
+PDB key: compound:1:ec, PDB value: 3.1.1.1

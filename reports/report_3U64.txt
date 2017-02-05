@@ -1,0 +1,101 @@
+PDB Parser time: 0.0929999351501
+MMCIF Parser time: 1.93700003624
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transport protein                        | TRANSPORT PROTEIN                        |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   R.K.DEKA,C.A.BRAUTIGAM,M.GOLDBERG | [['Deka, R.K.', 'Brautigam, C.A.',       |
+| [CIF:                          | ,P.SCHUCK,D.R.TOMCHICK,AUTH 2            | 'Goldberg, M.', 'Schuck, P.', 'Tomchick, |
+| ['_citation_author.name',      | M.V.NORGARDTITL   STRUCTURAL,            | D.R.', 'Norgard, M.V.'], 'Structural,    |
+| '_citation.title',             | BIOINFORMATIC, AND IN VIVO ANALYSES OF   | Bioinformatic, and In Vivo Analyses of   |
+| '_citation.journal_abbrev',    | TWOTITL 2 TREPONEMA PALLIDUM             | Two Treponema pallidum Lipoproteins      |
+| '_citation.journal_volume',    | LIPOPROTEINS REVEAL A UNIQUE TRAPTITL 3  | Reveal a Unique TRAP Transporter.',      |
+| '_citation.year',              | TRANSPORTER.REF    J.MOL.BIOL.           | 'J.Mol.Biol.', '416', '2012', '678',     |
+| '_citation.page_first',        | V. 416   678 2012REFN                    | '0022-2836', '22306465',                 |
+| '_citation.journal_id_ISSN', ' | ISSN 0022-2836PMID   22306465DOI         | '10.1016/j.jmb.2012.01.015']             |
+| _citation.pdbx_database_id_Pub | 10.1016/J.JMB.2012.01.015                |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | r.k.deka,c.a.brautigam,m.goldberg,p.schu | [['Deka, R.K.', 'Brautigam, C.A.',       |
+| [CIF:                          | ck,d.r.tomchim.v.norgard structural,     | 'Goldberg, M.', 'Schuck, P.', 'Tomchick, |
+| ['_citation_author.name',      | bioinformatic, and in vivo analyses of   | D.R.', 'Norgard, M.V.'], 'Structural,    |
+| '_citation.title',             | twtreponema pallidum lipoproteins reveal | Bioinformatic, and In Vivo Analyses of   |
+| '_citation.journal_abbrev',    | a unique trap transporter. j.mol.biol.   | Two Treponema pallidum Lipoproteins      |
+| '_citation.journal_volume',    | v. 416 678 2012 issn 0022-2836 22306465  | Reveal a Unique TRAP Transporter.',      |
+| '_citation.year',              | 10.1016/j.jmb.2012.01.015                | 'J.Mol.Biol.', '416', '2012', '678',     |
+| '_citation.page_first',        |                                          | '0022-2836', '22306465',                 |
+| '_citation.journal_id_ISSN', ' |                                          | '10.1016/j.jmb.2012.01.015']             |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | treponema pallidum, tetratrico peptide   | Treponema pallidum, tetratrico peptide   |
+| [CIF: _struct_keywords.text]   | repeat, protein-protein interaction,     | repeat, protein-protein interaction,     |
+|                                | syphilis, lipoprotein, transport protein | syphilis, lipoprotein, TRANSPORT PROTEIN |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the crystal structure of tat-t (tp0956) | The Crystal Structure of Tat-T (Tp0956)  |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | D.R.Tomchick,C.A.Brautigam,R.K.Deka,M.V. | ['Tomchick, D.R.', 'Brautigam, C.A.',    |
+| [CIF: _audit_author.name]      | Norgard                                  | 'Deka, R.K.', 'Norgard, M.V.']           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2011-10-12                               | ['2011-10-12', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-02-22                               | ['2012-02-22', '2012-03-14']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | treponema pallidum subsp. pallidum       | Treponema pallidum subsp. pallidum       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | tp0956, tp_0956                          | tp0956, TP_0956                          |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 243276                                   | 243276                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: protein tp_0956
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:fragment, PDB value: unp residues 23-323
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

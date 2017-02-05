@@ -1,0 +1,119 @@
+PDB Parser time: 0.0469999313354
+MMCIF Parser time: 1.125
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | hydrolase                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   L.DE GARAVILLA,M.N.GRECO,N.SUKUMA | [['de Garavilla, L.', 'Greco, M.N.',     |
+| [CIF:                          | R,Z.W.CHEN,A.O.PINEDA,AUTH 2             | 'Sukumar, N.', 'Chen, Z.W.', 'Pineda,    |
+| ['_citation_author.name',      | F.S.MATHEWS,E.DI CERA,E.C.GIARDINO,G.I.W | A.O.', 'Mathews, F.S.', 'Di Cera, E.',   |
+| '_citation.title',             | ELLS,B.J.HAERTLEIN,AUTH 3 J.A.KAUFFMAN,T | 'Giardino, E.C.', 'Wells, G.I.',         |
+| '_citation.journal_abbrev',    | .W.CORCORAN,C.K.DERIAN,A.J.ECKARDT,AUTH  | 'Haertlein, B.J.', 'Kauffman, J.A.',     |
+| '_citation.journal_volume',    | 4 B.P.DAMIANO,P.ANDRADE-                 | 'Corcoran, T.W.', 'Derian, C.K.',        |
+| '_citation.year',              | GORDON,B.E.MARYANOFFTITL   A NOVEL,      | 'Eckardt, A.J.', 'Damiano, B.P.',        |
+| '_citation.page_first',        | POTENT DUAL INHIBITOR OF THE LEUKOCYTE   | 'Andrade-Gordon, P.', 'Maryanoff,        |
+| '_citation.journal_id_ISSN', ' | PROTEASESTITL 2 CATHEPSIN G AND CHYMASE: | B.E.'], 'A novel, potent dual inhibitor  |
+| _citation.pdbx_database_id_Pub | MOLECULAR MECHANISMS ANDTITL 3 ANTI-     | of the leukocyte proteases cathepsin G   |
+| Med', '_citation.pdbx_database | INFLAMMATORY ACTIVITY IN VIVO.REF        | and chymase: molecular mechanisms and    |
+| _id_DOI']]                     | J.BIOL.CHEM.                  V. 280     | anti-inflammatory activity in vivo.',    |
+|                                | 18001 2005REFN                   ISSN    | 'J.Biol.Chem.', '280', '2005', '18001',  |
+|                                | 0021-9258PMID   15741158DOI              | '0021-9258', '15741158',                 |
+|                                | 10.1074/JBC.M501302200                   | '10.1074/jbc.M501302200']                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | l.de garavilla,m.n.greco,n.sukumar,z.w.c | [['de Garavilla, L.', 'Greco, M.N.',     |
+| [CIF:                          | hen,a.o.pinedf.s.mathews,e.di cera,e.c.g | 'Sukumar, N.', 'Chen, Z.W.', 'Pineda,    |
+| ['_citation_author.name',      | iardino,g.i.wells,b.j.haerj.a.kauffman,t | A.O.', 'Mathews, F.S.', 'Di Cera, E.',   |
+| '_citation.title',             | .w.corcoran,c.k.derian,a.j.eckardt,      | 'Giardino, E.C.', 'Wells, G.I.',         |
+| '_citation.journal_abbrev',    | b.p.damiano,p.andrade-                   | 'Haertlein, B.J.', 'Kauffman, J.A.',     |
+| '_citation.journal_volume',    | gordon,b.e.maryanoff a novel, potent     | 'Corcoran, T.W.', 'Derian, C.K.',        |
+| '_citation.year',              | dual inhibitor of the leukocyte          | 'Eckardt, A.J.', 'Damiano, B.P.',        |
+| '_citation.page_first',        | protecathepsin g and chymase: molecular  | 'Andrade-Gordon, P.', 'Maryanoff,        |
+| '_citation.journal_id_ISSN', ' | mechanisms and anti-inflammatory         | B.E.'], 'A novel, potent dual inhibitor  |
+| _citation.pdbx_database_id_Pub | activity in vivo. j.biol.chem. v. 280    | of the leukocyte proteases cathepsin G   |
+| Med', '_citation.pdbx_database | 18001 2005 issn 0021-9258 15741158       | and chymase: molecular mechanisms and    |
+| _id_DOI']]                     | 10.1074/jbc.m501302200                   | anti-inflammatory activity in vivo.',    |
+|                                |                                          | 'J.Biol.Chem.', '280', '2005', '18001',  |
+|                                |                                          | '0021-9258', '15741158',                 |
+|                                |                                          | '10.1074/jbc.M501302200']                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | human chymase, serine proteinase,        | HUMAN CHYMASE, SERINE PROTEINASE,        |
+| [CIF: _struct_keywords.text]   | hydrolase                                | hydrolase                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  a dual inhibitor of the leukocyte       | A Dual Inhibitor of the Leukocyte        |
+| [CIF: _struct.title]           | proteases cathepsin g and chymase with   | Proteases Cathepsin G and Chymase with   |
+|                                | therapeutic efficacy in animals models   | Therapeutic Efficacy in Animals Models   |
+|                                | of inflammation                          | of Inflammation                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | L.De Garavilla,M.N.Greco,E.C.Giardino,G. | ['de Garavilla, L.', 'Greco, M.N.',      |
+| [CIF: _audit_author.name]      | I.Wells,B.J.Haertlein,J.A.Kauffman,T.W.C | 'Giardino, E.C.', 'Wells, G.I.',         |
+|                                | orcoran,C.K.Derian,A.J.Eckardt,W.M.Abrah | 'Haertlein, B.J.', 'Kauffman, J.A.',     |
+|                                | am,N.Sukumar,Z.Chen,A.O.Pineda,F.S.Mathe | 'Corcoran, T.W.', 'Derian, C.K.',        |
+|                                | ws,E.Di Cera,P.Andrade-Gordon,B.P.Damian | 'Eckardt, A.J.', 'Abraham, W.M.',        |
+|                                | o,B.E.Maryanoff,P.J.B.Pereira,Z.M.Wang,H | 'Sukumar, N.', 'Chen, Z.', 'Pineda,      |
+|                                | .Rubin,R.Huber,W.Bode,N.M.Schechter,S.St | A.O.', 'Mathews, F.S.', 'Di Cera, E.',   |
+|                                | robl                                     | 'Andrade-Gordon, P.', 'Damiano, B.P.',   |
+|                                |                                          | 'Maryanoff, B.E.', 'Pereira, P.J.B.',    |
+|                                |                                          | 'Wang, Z.M.', 'Rubin, H.', 'Huber, R.',  |
+|                                |                                          | 'Bode, W.', 'Schechter, N.M.', 'Strobl,  |
+|                                |                                          | S.']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2004-04-23                               | ['2004-04-23', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2005-03-01                               | ['2005-03-01', '2005-05-10',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24', '2011-07-13']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | baculovirus                              | baculovirus                              |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | spodoptera frugiperda                    | Spodoptera frugiperda                    |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 7108                                     | 7108                                     |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | cma1, cym, cyh                           | CMA1, CYM, CYH                           |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.4.21.39
+PDB key: compound:1:molecule, PDB value: chymase
+PDB key: compound:1:ec, PDB value: 3.4.21.39
+PDB key: compound:1:synonym, PDB value: mast cell protease i

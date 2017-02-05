@@ -1,0 +1,174 @@
+PDB Parser time: 2.63100004196
+MMCIF Parser time: 46.7249999046
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase/hydrolase inhibitor            | HYDROLASE/HYDROLASE INHIBITOR            |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   E.M.HUBER,W.HEINEMEYER,X.LI,C.S.A | [['Huber, E.M.', 'Heinemeyer, W.', 'Li,  |
+| [CIF:                          | RENDT,M.HOCHSTRASSER,AUTH 2 M.GROLLTITL  | X.', 'Arendt, C.S.', 'Hochstrasser, M.', |
+| ['_citation_author.name',      | A UNIFIED MECHANISM FOR PROTEOLYSIS AND  | 'Groll, M.'], 'A unified mechanism for   |
+| '_citation.title',             | AUTOCATALYTICTITL 2 ACTIVATION IN THE    | proteolysis and autocatalytic activation |
+| '_citation.journal_abbrev',    | 20S PROTEASOME.REF    NAT COMMUN         | in the 20S proteasome.', 'Nat Commun',   |
+| '_citation.journal_volume',    | V.   7 10900 2016REFN                    | '7', '2016', '10900', '2041-1723',       |
+| '_citation.year',              | ESSN 2041-1723PMID   26964885DOI         | '26964885', '10.1038/ncomms10900']       |
+| '_citation.page_first',        | 10.1038/NCOMMS10900                      |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | e.m.huber,w.heinemeyer,x.li,c.s.arendt,m | [['Huber, E.M.', 'Heinemeyer, W.', 'Li,  |
+| [CIF:                          | .hochstrasserm.groll a unified mechanism | X.', 'Arendt, C.S.', 'Hochstrasser, M.', |
+| ['_citation_author.name',      | for proteolysis and                      | 'Groll, M.'], 'A unified mechanism for   |
+| '_citation.title',             | autocatalyticactivation in the 20s       | proteolysis and autocatalytic activation |
+| '_citation.journal_abbrev',    | proteasome. nat commun v. 7 10900 2016   | in the 20S proteasome.', 'Nat Commun',   |
+| '_citation.journal_volume',    | essn 2041-1723 26964885                  | '7', '2016', '10900', '2041-1723',       |
+| '_citation.year',              | 10.1038/ncomms10900                      | '26964885', '10.1038/ncomms10900']       |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase complex, proteasome, mutant,   | HYDROLASE complex, Proteasome, Mutant,   |
+| [CIF: _struct_keywords.text]   | binding analysis, hydrolase- hydrolase   | Binding Analysis, HYDROLASE-HYDROLASE    |
+|                                | inhibitor complex                        | INHIBITOR complex                        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  yeast 20s proteasome beta5-d166n mutant | Yeast 20S proteasome beta5-D166N mutant  |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | E.M.Huber,M.Groll                        | ['Huber, E.M.', 'Groll, M.']             |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2015-07-31                               | 2015-07-31                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2016-03-23                               | 2016-03-23                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | baker's yeast                            | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 559292                                   | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | saccharomyces cerevisiae (strain atcc    | NOT FOUND                                |
+| [CIF: NOT FOUND]               | 204508 /s288c)                           |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_common       | baker's yeast                            | ?                                        |
+| [CIF: _pdbx_entity_src_syn.org |                                          |                                          |
+| anism_common_name]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 559292                                   | 32630                                    |
+| [CIF: _pdbx_entity_src_syn.ncb |                                          |                                          |
+| i_taxonomy_id]                 |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | saccharomyces cerevisiae (strain atcc    | synthetic construct                      |
+| [CIF: _pdbx_entity_src_syn.org | 204508 /s288c)                           |                                          |
+| anism_scientific]              |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:10:ec, PDB value: 3.4.25.1
+PDB key: compound:7:molecule, PDB value: proteasome subunit alpha type-1
+PDB key: compound:6:ec, PDB value: 3.4.25.1
+PDB key: compound:2:ec, PDB value: 3.4.25.1
+PDB key: compound:9:ec, PDB value: 3.4.25.1
+PDB key: compound:2:ec_number, PDB value: 3.4.25.1
+PDB key: compound:2:chain, PDB value: b, p
+PDB key: compound:9:synonym, PDB value: macropain subunit pup3,multicatalytic endopeptidase complexsubunit pup3,proteasome component pup3 
+PDB key: compound:2:molecule, PDB value: proteasome subunit alpha type-3
+PDB key: compound:14:synonym, PDB value: macropain subunit pre3,multicatalytic endopeptidase complexsubunit pre3,proteasome component pre3,proteinase ysce subunit pre3 
+PDB key: compound:5:ec, PDB value: 3.4.25.1
+PDB key: compound:12:molecule, PDB value: proteasome subunit beta type-6
+PDB key: compound:13:chain, PDB value: m, a
+PDB key: compound:14:ec, PDB value: 3.4.25.1
+PDB key: compound:11:chain, PDB value: k, y
+PDB key: compound:1:ec_number, PDB value: 3.4.25.1
+PDB key: compound:5:synonym, PDB value: macropain subunit pre5,multicatalytic endopeptidase complexsubunit pre5,proteasome component pre5,proteinase ysce subunit pre5 
+PDB key: compound:7:ec, PDB value: 3.4.25.1
+PDB key: compound:4:synonym, PDB value: macropain subunit pup2,multicatalytic endopeptidase complexsubunit pup2,proteasome component pup2,proteinase ysce subunit pup2 
+PDB key: compound:8:ec_number, PDB value: 3.4.25.1
+PDB key: compound:14:chain, PDB value: n, b
+PDB key: compound:13:misc, PDB value: 
+PDB key: compound:1:chain, PDB value: a, o
+PDB key: compound:10:synonym, PDB value: macropain subunit c11,multicatalytic endopeptidase complexsubunit c11,proteasome component c11,proteinase ysce subunit 11 
+PDB key: compound:12:ec_number, PDB value: 3.4.25.1
+PDB key: compound:6:misc, PDB value: 
+PDB key: compound:4:misc, PDB value: 
+PDB key: compound:5:ec_number, PDB value: 3.4.25.1
+PDB key: compound:8:misc, PDB value: 
+PDB key: compound:10:ec_number, PDB value: 3.4.25.1
+PDB key: compound:12:synonym, PDB value: multicatalytic endopeptidase complex subunit c5,proteasomecomponent c5 
+PDB key: compound:6:molecule, PDB value: probable proteasome subunit alpha type-7
+PDB key: compound:6:ec_number, PDB value: 3.4.25.1
+PDB key: compound:9:ec_number, PDB value: 3.4.25.1
+PDB key: compound:10:molecule, PDB value: proteasome subunit beta type-4
+PDB key: compound:8:ec, PDB value: 3.4.25.1
+PDB key: compound:1:molecule, PDB value: proteasome subunit alpha type-2
+PDB key: compound:1:ec, PDB value: 3.4.25.1
+PDB key: compound:9:molecule, PDB value: proteasome subunit beta type-3
+PDB key: compound:3:molecule, PDB value: proteasome subunit alpha type-4
+PDB key: compound:4:molecule, PDB value: proteasome subunit alpha type-5
+PDB key: compound:12:ec, PDB value: 3.4.25.1
+PDB key: compound:13:molecule, PDB value: proteasome subunit beta type-7
+PDB key: compound:4:ec, PDB value: 3.4.25.1
+PDB key: compound:8:molecule, PDB value: proteasome subunit beta type-2
+PDB key: compound:11:mutation, PDB value: yes
+PDB key: compound:3:synonym, PDB value: macropain subunit pre6,multicatalytic endopeptidase complexsubunit pre6,proteasome component pre6,proteinase ysce subunit pre6 
+PDB key: compound:11:synonym, PDB value: macropain subunit pre2,multicatalytic endopeptidase complexsubunit pre2,proteasome component pre2,proteinase ysce subunit pre2 
+PDB key: compound:9:chain, PDB value: i, w
+PDB key: compound:4:chain, PDB value: d, r
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:12:chain, PDB value: l, z
+PDB key: compound:14:ec_number, PDB value: 3.4.25.1
+PDB key: compound:5:molecule, PDB value: proteasome subunit alpha type-6
+PDB key: compound:3:ec, PDB value: 3.4.25.1
+PDB key: compound:12:misc, PDB value: 
+PDB key: compound:5:chain, PDB value: e, s
+PDB key: compound:4:ec_number, PDB value: 3.4.25.1
+PDB key: compound:3:chain, PDB value: c, q
+PDB key: compound:7:ec_number, PDB value: 3.4.25.1
+PDB key: compound:11:molecule, PDB value: proteasome subunit beta type-5
+PDB key: compound:14:misc, PDB value: 
+PDB key: compound:8:chain, PDB value: h, v
+PDB key: compound:6:chain, PDB value: f, t
+PDB key: compound:10:misc, PDB value: 
+PDB key: compound:9:misc, PDB value: 
+PDB key: compound:14:molecule, PDB value: proteasome subunit beta type-1
+PDB key: compound:11:ec, PDB value: 3.4.25.1
+PDB key: compound:5:misc, PDB value: 
+PDB key: compound:7:chain, PDB value: g, u
+PDB key: compound:11:ec_number, PDB value: 3.4.25.1
+PDB key: compound:13:synonym, PDB value: macropain subunit pre4,multicatalytic endopeptidase complexsubunit pre4,proteasome component pre4,proteinase ysce subunit pre4 
+PDB key: compound:13:ec_number, PDB value: 3.4.25.1
+PDB key: compound:11:misc, PDB value: 
+PDB key: compound:6:synonym, PDB value: macropain subunit c1,multicatalytic endopeptidase complexsubunit c1,proteasome component c1,proteinase ysce subunit 1 
+PDB key: compound:7:misc, PDB value: 
+PDB key: compound:2:synonym, PDB value: macropain subunit y13,multicatalytic endopeptidase complexsubunit y13,proteasome component y13,proteinase ysce subunit 13 
+PDB key: compound:7:synonym, PDB value: macropain subunit c7-alpha,multicatalytic endopeptidasecomplex c7,proteasome component c7-alpha,proteasome component y8, proteinase ysce subunit 7,scl1 suppressor protein 
+PDB key: compound:3:ec_number, PDB value: 3.4.25.1
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:8:synonym, PDB value: macropain subunit pup1,multicatalytic endopeptidase complexsubunit pup1,proteasome component pup1,proteinase ysce subunit pup1 
+PDB key: compound:3:misc, PDB value: 
+PDB key: compound:10:chain, PDB value: j, x
+PDB key: compound:13:ec, PDB value: 3.4.25.1
+PDB key: compound:1:synonym, PDB value: macropain subunit y7,multicatalytic endopeptidase complexsubunit y7,proteasome component y7,proteinase ysce subunit 7 

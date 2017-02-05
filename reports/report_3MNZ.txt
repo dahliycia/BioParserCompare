@@ -1,0 +1,97 @@
+PDB Parser time: 0.141999959946
+MMCIF Parser time: 3.59299993515
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | immune system                            | IMMUNE SYSTEM                            |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   N.I.NICELY,S.M.DENNISON,G.KELSOE, | [['Nicely, N.I.', 'Dennison, S.M.',      |
+| [CIF:                          | Y.UEDA,H.-X.LIAO,S.M.ALAM,AUTH 2         | 'Kelsoe, G.', 'Ueda, Y.', 'Liao, H.-X.', |
+| ['_citation_author.name',      | B.F.HAYNESTITL   CRYSTAL STRUCTURE OF A  | 'Alam, S.M.', 'Haynes, B.F.'], 'Crystal  |
+| '_citation.title',             | NON-NEUTRALIZING HIV-1 GP41 ENVELOPETITL | Structure of a Non-Neutralizing HIV-1    |
+| '_citation.journal_abbrev',    | 2 ANTIBODY DEMONSTRATES NEUTRALIZATION   | gp41 Envelope Antibody Demonstrates      |
+| '_citation.journal_volume',    | MECHANISM OF GP41TITL 3 ANTIBODIESREF    | Neutralization Mechanism of gp41         |
+| '_citation.year',              | TO BE PUBLISHEDREFN                      | Antibodies', 'To be Published', '?',     |
+| '_citation.page_first',        |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | n.i.nicely,s.m.dennison,g.kelsoe,y.ueda, | [['Nicely, N.I.', 'Dennison, S.M.',      |
+| [CIF:                          | h.-x.liao,s.mb.f.haynes crystal          | 'Kelsoe, G.', 'Ueda, Y.', 'Liao, H.-X.', |
+| ['_citation_author.name',      | structure of a non-neutralizing hiv-1    | 'Alam, S.M.', 'Haynes, B.F.'], 'Crystal  |
+| '_citation.title',             | gp41 enantibody demonstrates             | Structure of a Non-Neutralizing HIV-1    |
+| '_citation.journal_abbrev',    | neutralization mechanism of              | gp41 Envelope Antibody Demonstrates      |
+| '_citation.journal_volume',    | gp4antibodies to be published            | Neutralization Mechanism of gp41         |
+| '_citation.year',              |                                          | Antibodies', 'To be Published', '?',     |
+| '_citation.page_first',        |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hiv-1, hiv gp41 mper, 13h11, 2f5, z13,   | HIV-1, HIV gp41 MPER, 13H11, 2F5, Z13,   |
+| [CIF: _struct_keywords.text]   | 4e10, fab antibody, immune system        | 4E10, Fab antibody, IMMUNE SYSTEM        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of the non-           | Crystal structure of the non-            |
+| [CIF: _struct.title]           | neutralizing hiv antibody 13h11 fab      | neutralizing HIV antibody 13H11 Fab      |
+|                                | fragment with a gp41 mper-derived        | fragment with a gp41 MPER-derived        |
+|                                | peptide bearing ala substitutions in a   | peptide bearing Ala substitutions in a   |
+|                                | helical conformation                     | helical conformation                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | N.I.Nicely,S.M.Dennison,G.Kelsoe,H.-X.Li | ['Nicely, N.I.', 'Dennison, S.M.',       |
+| [CIF: _audit_author.name]      | ao,S.M.Alam,B.F.Haynes                   | 'Kelsoe, G.', 'Liao, H.-X.', 'Alam,      |
+|                                |                                          | S.M.', 'Haynes, B.F.']                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2010-04-22                               | ['2010-04-22', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-11-17                               | ['2010-11-17', '2011-10-05']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | mus musculus,homo sapiens                | ?                                        |
+| [CIF: _pdbx_entity_src_syn.org |                                          |                                          |
+| anism_scientific]              |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 10090,9606                               | ?                                        |
+| [CIF: _pdbx_entity_src_syn.ncb |                                          |                                          |
+| i_taxonomy_id]                 |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_common       | mouse,human                              | ?                                        |
+| [CIF: _pdbx_entity_src_syn.org |                                          |                                          |
+| anism_common_name]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:3:chain, PDB value: b
+PDB key: compound:2:fragment, PDB value: fusion protein between mouse fv and a human fc
+PDB key: compound:1:chain, PDB value: p
+PDB key: compound:3:engineered, PDB value: yes
+PDB key: compound:2:chain, PDB value: a
+PDB key: compound:3:misc, PDB value: 
+PDB key: compound:2:molecule, PDB value: anti-hiv-1 antibody 13h11 light chain
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: gp41 mper-derived peptide
+PDB key: compound:3:fragment, PDB value: fusion protein between mouse fv and a human fc
+PDB key: compound:3:molecule, PDB value: anti-hiv-1 antibody 13h11 heavy chain

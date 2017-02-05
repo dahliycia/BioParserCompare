@@ -1,0 +1,105 @@
+PDB Parser time: 0.0199999809265
+MMCIF Parser time: 0.398000001907
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | isomerase                                | Isomerase                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   D.LEE,L.CHEN,D.NGUYEN,B.D.DILLARD | [['Lee, D.', 'Chen, L.', 'Nguyen, D.',   |
+| [CIF:                          | ,W.TEMPEL,J.HABEL,W.ZHOU,AUTH 2 S.-H.CHA | 'Dillard, B.D.', 'Tempel, W.', 'Habel,   |
+| ['_citation_author.name',      | NG,L.-L.C.KELLEY,Z.-J.LIU,D.LIN,H.ZHANG, | J.', 'Zhou, W.', 'Chang, S.-H.',         |
+| '_citation.title',             | J.PRAISSMAN,AUTH 3 S.BRIDGER,J.C.ENEH,R. | 'Kelley, L.-L.C.', 'Liu, Z.-J.', 'Lin,   |
+| '_citation.journal_abbrev',    | C.HOPKINS,F.E.JENNEY                     | D.', 'Zhang, H.', 'Praissman, J.',       |
+| '_citation.journal_volume',    | JR.,H.-S.LEE,T.LI,AUTH 4 F.L.POOLE II,C. | 'Bridger, S.', 'Eneh, J.C.', 'Hopkins,   |
+| '_citation.year',              | SHAH,F.J.SUGAR,M.W.W.ADAMS,J.P.ROSE,B.-C | R.C.', 'Jenney Jr., F.E.', 'Lee, H.-S.', |
+| '_citation.page_first',        | .WANGTITL   CONSERVED HYPOTHETICAL       | 'Li, T.', 'Poole II, F.L.', 'Shah, C.',  |
+| '_citation.journal_id_ISSN', ' | PROTEIN FROM PYROCOCCUS FURIOSUSTITL 2   | 'Sugar, F.J.', 'Adams, M.W.W.', 'Rose,   |
+| _citation.pdbx_database_id_Pub | PFU-1581948-001REF    TO BE              | J.P.', 'Wang, B.-C.'], 'Conserved        |
+| Med', '_citation.pdbx_database | PUBLISHEDREFN                            | hypothetical protein from Pyrococcus     |
+| _id_DOI']]                     |                                          | furiosus Pfu-1581948-001', 'To be        |
+|                                |                                          | published', '?', '?', '?', '?', '?',     |
+|                                |                                          | '?']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | d.lee,l.chen,d.nguyen,b.d.dillard,w.temp | [['Lee, D.', 'Chen, L.', 'Nguyen, D.',   |
+| [CIF:                          | el,j.habel,w.s.-h.chang,l.-l.c.kelley,z. | 'Dillard, B.D.', 'Tempel, W.', 'Habel,   |
+| ['_citation_author.name',      | -j.liu,d.lin,h.zhang,j.pras.bridger,j.c. | J.', 'Zhou, W.', 'Chang, S.-H.',         |
+| '_citation.title',             | eneh,r.c.hopkins,f.e.jenney              | 'Kelley, L.-L.C.', 'Liu, Z.-J.', 'Lin,   |
+| '_citation.journal_abbrev',    | jr.,h.-s.lef.l.poole ii,c.shah,f.j.sugar | D.', 'Zhang, H.', 'Praissman, J.',       |
+| '_citation.journal_volume',    | ,m.w.w.adams,j.p.rose,b.conserved        | 'Bridger, S.', 'Eneh, J.C.', 'Hopkins,   |
+| '_citation.year',              | hypothetical protein from pyrococcus     | R.C.', 'Jenney Jr., F.E.', 'Lee, H.-S.', |
+| '_citation.page_first',        | furiospfu-1581948-001 to be published    | 'Li, T.', 'Poole II, F.L.', 'Shah, C.',  |
+| '_citation.journal_id_ISSN', ' |                                          | 'Sugar, F.J.', 'Adams, M.W.W.', 'Rose,   |
+| _citation.pdbx_database_id_Pub |                                          | J.P.', 'Wang, B.-C.'], 'Conserved        |
+| Med', '_citation.pdbx_database |                                          | hypothetical protein from Pyrococcus     |
+| _id_DOI']]                     |                                          | furiosus Pfu-1581948-001', 'To be        |
+|                                |                                          | published', '?', '?', '?', '?', '?',     |
+|                                |                                          | '?']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | conserved hypothetical protein,          | conserved hypothetical protein,          |
+| [CIF: _struct_keywords.text]   | pyrococcus furiosus, hyperthermophile,   | Pyrococcus furiosus, hyperthermophile,   |
+|                                | structural genomics, psi, protein        | Structural Genomics, PSI, Protein        |
+|                                | structure initiative, southeast          | Structure Initiative, Southeast          |
+|                                | collaboratory for structural genomics,   | Collaboratory for Structural Genomics,   |
+|                                | secsg, isomerase                         | SECSG, Isomerase                         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  conserved hypothetical protein from     | Conserved hypothetical protein from      |
+| [CIF: _struct.title]           | pyrococcus furiosus pfu-1581948- 001     | Pyrococcus furiosus Pfu-1581948-001      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | D.Lee,L.Chen,D.Nguyen,B.D.Dillard,W.Temp | ['Lee, D.', 'Chen, L.', 'Nguyen, D.',    |
+| [CIF: _audit_author.name]      | el,J.Habel,W.Zhou,S.-H.Chang,L.-L.C.Kell | 'Dillard, B.D.', 'Tempel, W.', 'Habel,   |
+|                                | ey,Z.-J.Liu,D.Lin,H.Zhang,J.Praissman,S. | J.', 'Zhou, W.', 'Chang, S.-H.',         |
+|                                | Bridger,J.C.Eneh,R.C.Hopkins,F.E.Jenney  | 'Kelley, L.-L.C.', 'Liu, Z.-J.', 'Lin,   |
+|                                | Jr.,H.-S.Lee,T.Li,F.L.Poole Ii,C.Shah,F. | D.', 'Zhang, H.', 'Praissman, J.',       |
+|                                | J.Sugar,M.W.W.Adams,J.P.Rose,B.-C.Wang,S | 'Bridger, S.', 'Eneh, J.C.', 'Hopkins,   |
+|                                | outheast Collaboratory ForStructural     | R.C.', 'Jenney Jr., F.E.', 'Lee, H.-S.', |
+|                                | Genomics (Secsg)                         | 'Li, T.', 'Poole II, F.L.', 'Shah, C.',  |
+|                                |                                          | 'Sugar, F.J.', 'Adams, M.W.W.', 'Rose,   |
+|                                |                                          | J.P.', 'Wang, B.-C.', 'Southeast         |
+|                                |                                          | Collaboratory for Structural Genomics    |
+|                                |                                          | (SECSG)']                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2004-12-21                               | ['2004-12-21', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2005-02-01                               | ['2005-02-01', '2006-10-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24', '2011-07-13']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 2261                                     | 2261                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | pyrococcus furiosus                      | Pyrococcus furiosus                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 5.4.99.5
+PDB key: compound:1:molecule, PDB value: chorismate mutase
+PDB key: compound:1:ec, PDB value: 5.4.99.5

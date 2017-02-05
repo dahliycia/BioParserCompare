@@ -1,0 +1,96 @@
+PDB Parser time: 0.326999902725
+MMCIF Parser time: 6.69199991226
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   K.NADEZHDIN,S.GONCHARUK,A.ARSENIE | [['Nadezhdin, K.', 'Goncharuk, S.',      |
+| [CIF:                          | V,M.VILARTITL   TRKA TRANSMEMBRANE       | 'Arseniev, A.', 'Vilar, M.'], 'TrkA      |
+| ['_citation_author.name',      | DOMAIN NMR STRUCTURE IN DPC MICELLESREF  | transmembrane domain NMR structure in    |
+| '_citation.title',             | TO BE PUBLISHEDREFN                      | DPC micelles', 'To be Published', '?',   |
+| '_citation.journal_abbrev',    |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_volume',    |                                          |                                          |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | k.nadezhdin,s.goncharuk,a.arseniev,m.vil | [['Nadezhdin, K.', 'Goncharuk, S.',      |
+| [CIF:                          | ar trka transmembrane domain nmr         | 'Arseniev, A.', 'Vilar, M.'], 'TrkA      |
+| ['_citation_author.name',      | structure in dpc micellto be published   | transmembrane domain NMR structure in    |
+| '_citation.title',             |                                          | DPC micelles', 'To be Published', '?',   |
+| '_citation.journal_abbrev',    |                                          | '?', '?', '?', '?', '?']                 |
+| '_citation.journal_volume',    |                                          |                                          |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | neurotrophin receptor, transferase       | neurotrophin receptor, TRANSFERASE       |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  trka transmembrane domain nmr structure | TrkA transmembrane domain NMR structure  |
+| [CIF: _struct.title]           | in dpc micelles                          | in DPC micelles                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | K.Nadezhdin,S.Goncharuk,A.Arseniev       | ['Nadezhdin, K.', 'Goncharuk, S.',       |
+| [CIF: _audit_author.name]      |                                          | 'Arseniev, A.']                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2015-10-29                               | 2015-10-29                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2016-11-09                               | 2016-11-09                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | ntrk1, mtc, trk, trka                    | NTRK1, MTC, TRK, TRKA                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.7.10.1
+PDB key: compound:1:molecule, PDB value: high affinity nerve growth factor receptor
+PDB key: compound:1:ec, PDB value: 2.7.10.1
+PDB key: compound:1:synonym, PDB value: neurotrophic tyrosine kinase receptor type 1, trk1-transforming tyrosine kinase protein, tropomyosin-related kinase a, tyrosine kinase receptor, tyrosine kinase receptor a, trk-a, gp140trk, p140-trka 

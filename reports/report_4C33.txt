@@ -1,0 +1,133 @@
+PDB Parser time: 0.114000082016
+MMCIF Parser time: 3.18299984932
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase/inhibitor                    | TRANSFERASE/INHIBITOR                    |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.COUTY,I.M.WESTWOOD,A.KALUSA,C.C | [['Couty, S.', 'Westwood, I.M.',         |
+| [CIF:                          | ANO,J.TRAVERS,K.BOXALL,AUTH 2 C.L.CHOW,S | 'Kalusa, A.', 'Cano, C.', 'Travers, J.', |
+| ['_citation_author.name',      | .BURNS,J.SCHMITT,L.PICKARD,C.BARILLARI,A | 'Boxall, K.', 'Chow, C.L.', 'Burns, S.', |
+| '_citation.title',             | UTH 3 P.C.MCANDREW,P.A.CLARKE,S.LINARDOP | 'Schmitt, J.', 'Pickard, L.',            |
+| '_citation.journal_abbrev',    | OULOS,R.J.GRIFFIN,AUTH 4 G.W.AHERNE,F.I. | 'Barillari, C.', 'Mcandrew, P.C.',       |
+| '_citation.journal_volume',    | RAYNAUD,P.WORKMAN,K.JONES,R.L.M.VAN      | 'Clarke, P.A.', 'Linardopoulos, S.',     |
+| '_citation.year',              | MONTFORTTITL   THE DISCOVERY OF POTENT   | 'Griffin, R.J.', 'Aherne, G.W.',         |
+| '_citation.page_first',        | RIBOSOMAL S6 KINASE INHIBITORS BYTITL 2  | 'Raynaud, F.I.', 'Workman, P.', 'Jones,  |
+| '_citation.journal_id_ISSN', ' | HIGH-THROUGHPUT SCREENING AND STRUCTURE- | K.', 'Van Montfort, R.L.M.'], 'The       |
+| _citation.pdbx_database_id_Pub | GUIDED DRUG DESIGN.REF    ONCOTARGET     | Discovery of Potent Ribosomal S6 Kinase  |
+| Med', '_citation.pdbx_database | V.   4  1647 2013REFN                    | Inhibitors by High-Throughput Screening  |
+| _id_DOI']]                     | ISSN 1949-2553PMID   24072592            | and Structure-Guided Drug Design.',      |
+|                                |                                          | 'Oncotarget', '4', '2013', '1647',       |
+|                                |                                          | '1949-2553', '24072592', '?']            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.couty,i.m.westwood,a.kalusa,c.cano,j.t | [['Couty, S.', 'Westwood, I.M.',         |
+| [CIF:                          | ravers,k.boxac.l.chow,s.burns,j.schmitt, | 'Kalusa, A.', 'Cano, C.', 'Travers, J.', |
+| ['_citation_author.name',      | l.pickard,c.barillari, p.c.mcandrew,p.a. | 'Boxall, K.', 'Chow, C.L.', 'Burns, S.', |
+| '_citation.title',             | clarke,s.linardopoulos,r.j.griffin, g.w. | 'Schmitt, J.', 'Pickard, L.',            |
+| '_citation.journal_abbrev',    | aherne,f.i.raynaud,p.workman,k.jones,r.l | 'Barillari, C.', 'Mcandrew, P.C.',       |
+| '_citation.journal_volume',    | .m.van mothe discovery of potent         | 'Clarke, P.A.', 'Linardopoulos, S.',     |
+| '_citation.year',              | ribosomal s6 kinase inhibitorhigh-       | 'Griffin, R.J.', 'Aherne, G.W.',         |
+| '_citation.page_first',        | throughput screening and structure-      | 'Raynaud, F.I.', 'Workman, P.', 'Jones,  |
+| '_citation.journal_id_ISSN', ' | guided drug doncotarget v. 4 1647 2013   | K.', 'Van Montfort, R.L.M.'], 'The       |
+| _citation.pdbx_database_id_Pub | issn 1949-2553 24072592                  | Discovery of Potent Ribosomal S6 Kinase  |
+| Med', '_citation.pdbx_database |                                          | Inhibitors by High-Throughput Screening  |
+| _id_DOI']]                     |                                          | and Structure-Guided Drug Design.',      |
+|                                |                                          | 'Oncotarget', '4', '2013', '1647',       |
+|                                |                                          | '1949-2553', '24072592', '?']            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | transferase-inhibitor complex            | TRANSFERASE-INHIBITOR COMPLEX            |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  pka-s6k1 chimera apo                    | PKA-S6K1 Chimera Apo                     |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.Couty,I.M.Westwood,A.Kalusa,C.Cano,J.T | ['Couty, S.', 'Westwood, I.M.', 'Kalusa, |
+| [CIF: _audit_author.name]      | ravers,K.Boxall,C.L.Chow,S.Burns,J.Schmi | A.', 'Cano, C.', 'Travers, J.', 'Boxall, |
+|                                | tt,L.Pickard,C.Barillari,P.C.Mcandrew,P. | K.', 'Chow, C.L.', 'Burns, S.',          |
+|                                | A.Clarke,S.Linardopoulos,R.J.Griffin,G.W | 'Schmitt, J.', 'Pickard, L.',            |
+|                                | .Aherne,F.I.Raynaud,P.Workman,K.Jones,R. | 'Barillari, C.', 'McAndrew, P.C.',       |
+|                                | L.M.Van Montfort                         | 'Clarke, P.A.', 'Linardopoulos, S.',     |
+|                                |                                          | 'Griffin, R.J.', 'Aherne, G.W.',         |
+|                                |                                          | 'Raynaud, F.I.', 'Workman, P.', 'Jones,  |
+|                                |                                          | K.', 'van Montfort, R.L.M.']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2013-08-21                               | ['2013-08-21', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-10-09                               | ['2013-10-09', '2013-11-20']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | bos taurus                               | BOS TAURUS                               |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9913                                     | 9913                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | bovine                                   | BOVINE                                   |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:synthetic             | yes                                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_common       | bovine                                   | BOVINE                                   |
+| [CIF: _pdbx_entity_src_syn.org |                                          |                                          |
+| anism_common_name]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 9913                                     | 9913                                     |
+| [CIF: _pdbx_entity_src_syn.ncb |                                          |                                          |
+| i_taxonomy_id]                 |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | bos taurus                               | BOS TAURUS                               |
+| [CIF: _pdbx_entity_src_syn.org |                                          |                                          |
+| anism_scientific]              |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:2:fragment, PDB value: residues 6-23
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:2:chain, PDB value: i
+PDB key: compound:2:molecule, PDB value: camp-dependent protein kinase inhibitor alpha
+PDB key: compound:2:synonym, PDB value: pki-alpha
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.7.11.11
+PDB key: compound:1:other_details, PDB value: pka-s6k1 chimera
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: camp-dependent protein kinase catalytic subunit alpha
+PDB key: compound:1:ec, PDB value: 2.7.11.11
+PDB key: compound:1:synonym, PDB value: pka c-alpha

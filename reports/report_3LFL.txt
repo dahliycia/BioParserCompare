@@ -1,0 +1,100 @@
+PDB Parser time: 0.266000032425
+MMCIF Parser time: 3.36800003052
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   H.ZHOU,J.BROCK,M.G.CASAROTTO,A.J. | [['Zhou, H.', 'Brock, J.', 'Casarotto,   |
+| [CIF:                          | OAKLEY,P.G.BOARDTITL   NOVEL FOLDING AND | M.G.', 'Oakley, A.J.', 'Board, P.G.'],   |
+| ['_citation_author.name',      | STABILITY DEFECTS CAUSE A DEFICIENCY     | 'Novel folding and stability defects     |
+| '_citation.title',             | OFTITL 2 HUMAN GLUTATHIONE TRANSFERASE   | cause a deficiency of human glutathione  |
+| '_citation.journal_abbrev',    | OMEGA 1.REF    J.BIOL.CHEM.              | transferase omega 1.', 'J.Biol.Chem.',   |
+| '_citation.journal_volume',    | V. 286  4271 2011REFN                    | '286', '2011', '4271', '0021-9258',      |
+| '_citation.year',              | ISSN 0021-9258PMID   21106529DOI         | '21106529', '10.1074/jbc.M110.197822']   |
+| '_citation.page_first',        | 10.1074/JBC.M110.197822                  |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | h.zhou,j.brock,m.g.casarotto,a.j.oakley, | [['Zhou, H.', 'Brock, J.', 'Casarotto,   |
+| [CIF:                          | p.g.board novel folding and stability    | M.G.', 'Oakley, A.J.', 'Board, P.G.'],   |
+| ['_citation_author.name',      | defects cause a deficienchuman           | 'Novel folding and stability defects     |
+| '_citation.title',             | glutathione transferase omega 1.         | cause a deficiency of human glutathione  |
+| '_citation.journal_abbrev',    | j.biol.chem. v. 286 4271 2011 issn       | transferase omega 1.', 'J.Biol.Chem.',   |
+| '_citation.journal_volume',    | 0021-9258 21106529                       | '286', '2011', '4271', '0021-9258',      |
+| '_citation.year',              | 10.1074/jbc.m110.197822                  | '21106529', '10.1074/jbc.M110.197822']   |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | glutathione s-transferase omega 1        | Glutathione S-transferase omega 1        |
+| [CIF: _struct_keywords.text]   | del155, protein-glutathione complex,     | del155, protein-glutathione complex,     |
+|                                | n-terminal thioredoxin-like domain,      | N-terminal Thioredoxin-like domain,      |
+|                                | c-terminal alpha- helical domain,        | C-terminal alpha-helical domain,         |
+|                                | transferase                              | TRANSFERASE                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of human glutathione  | Crystal Structure of human Glutathione   |
+| [CIF: _struct.title]           | transferase omega 1, delta 155           | Transferase Omega 1, delta 155           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Brock J.                                 | Brock J.                                 |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2010-01-18                               | ['2010-01-18', '?', '?', '?', '?']       |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-11-24                               | ['2010-11-24', '2010-12-01',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2011-02-23', '2011-12-14',              |
+|                                |                                          | '2012-05-09']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | gsto1, gsttlp28                          | GSTO1, GSTTLP28                          |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b, c
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.5.1.18
+PDB key: compound:1:molecule, PDB value: glutathione s-transferase omega-1
+PDB key: compound:1:ec, PDB value: 2.5.1.18
+PDB key: compound:1:synonym, PDB value: gsto 1-1

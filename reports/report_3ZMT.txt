@@ -1,0 +1,124 @@
+PDB Parser time: 0.15499997139
+MMCIF Parser time: 3.3599998951
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase/peptide                   | OXIDOREDUCTASE/PEPTIDE                   |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   M.TORTORICI,M.T.BORRELLO,M.TARDUG | [['Tortorici, M.', 'Borrello, M.T.',     |
+| [CIF:                          | NO,L.R.CHIARELLI,S.PILOTTO,AUTH 2 G.CIOS | 'Tardugno, M.', 'Chiarelli, L.R.',       |
+| ['_citation_author.name',      | SANI,N.A.VELLORE,S.G.BAILEY,J.COWAN,M.O' | 'Pilotto, S.', 'Ciossani, G.', 'Vellore, |
+| '_citation.title',             | CONNELL,AUTH 3 S.J.CRABB,G.K.PACKHAM,A.M | N.A.', 'Bailey, S.G.', 'Cowan, J.',      |
+| '_citation.journal_abbrev',    | AI,R.BARON,A.GANESAN,A.MATTEVITITL       | "O'Connell, M.", 'Crabb, S.J.',          |
+| '_citation.journal_volume',    | PROTEIN RECOGNITION BY SMALL PEPTIDE     | 'Packham, G.K.', 'Mai, A.', 'Baron, R.', |
+| '_citation.year',              | REVERSIBLE INHIBITORSTITL 2 OF THE       | 'Ganesan, A.', 'Mattevi, A.'], 'Protein  |
+| '_citation.page_first',        | CHROMATIN-MODIFYING LSD1/COREST LYSINE   | Recognition by Small Peptide Reversible  |
+| '_citation.journal_id_ISSN', ' | DEMETHYLASE.REF    ACS CHEM.BIOL.        | Inhibitors of the Chromatin-Modifying    |
+| _citation.pdbx_database_id_Pub | V.   8  1677 2013REFN                    | Lsd1/Corest Lysine Demethylase.', 'Acs   |
+| Med', '_citation.pdbx_database | ISSN 1554-8929PMID   23721412DOI         | Chem.Biol.', '8', '2013', '1677',        |
+| _id_DOI']]                     | 10.1021/CB4001926                        | '1554-8929', '23721412',                 |
+|                                |                                          | '10.1021/CB4001926']                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.tortorici,m.t.borrello,m.tardugno,l.r. | [['Tortorici, M.', 'Borrello, M.T.',     |
+| [CIF:                          | chiarelli,s.pg.ciossani,n.a.vellore,s.g. | 'Tardugno, M.', 'Chiarelli, L.R.',       |
+| ['_citation_author.name',      | bailey,j.cowan,m.o'connells.j.crabb,g.k. | 'Pilotto, S.', 'Ciossani, G.', 'Vellore, |
+| '_citation.title',             | packham,a.mai,r.baron,a.ganesan,a.mattep | N.A.', 'Bailey, S.G.', 'Cowan, J.',      |
+| '_citation.journal_abbrev',    | rotein recognition by small peptide      | "O'Connell, M.", 'Crabb, S.J.',          |
+| '_citation.journal_volume',    | reversible inhibof the chromatin-        | 'Packham, G.K.', 'Mai, A.', 'Baron, R.', |
+| '_citation.year',              | modifying lsd1/corest lysine demethyacs  | 'Ganesan, A.', 'Mattevi, A.'], 'Protein  |
+| '_citation.page_first',        | chem.biol. v. 8 1677 2013 issn 1554-8929 | Recognition by Small Peptide Reversible  |
+| '_citation.journal_id_ISSN', ' | 23721412 10.1021/cb4001926               | Inhibitors of the Chromatin-Modifying    |
+| _citation.pdbx_database_id_Pub |                                          | Lsd1/Corest Lysine Demethylase.', 'Acs   |
+| Med', '_citation.pdbx_database |                                          | Chem.Biol.', '8', '2013', '1677',        |
+| _id_DOI']]                     |                                          | '1554-8929', '23721412',                 |
+|                                |                                          | '10.1021/CB4001926']                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | oxidoreductase-peptide complex,          | OXIDOREDUCTASE-PEPTIDE COMPLEX,          |
+| [CIF: _struct_keywords.text]   | demethylase, transcription factor,       | DEMETHYLASE, TRANSCRIPTION FACTOR,       |
+|                                | chromatin                                | CHROMATIN                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  lsd1-corest in complex with prsflv      | LSD1-CoREST in complex with PRSFLV       |
+| [CIF: _struct.title]           | peptide                                  | peptide                                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | M.Tortorici,M.T.Borrello,M.Tardugno,L.R. | ['Tortorici, M.', 'Borrello, M.T.',      |
+| [CIF: _audit_author.name]      | Chiarelli,S.Pilotto,G.Ciossani,N.A.Vello | 'Tardugno, M.', 'Chiarelli, L.R.',       |
+|                                | re,J.Cowan,M.O'connell,A.Mai,R.Baron,A.G | 'Pilotto, S.', 'Ciossani, G.', 'Vellore, |
+|                                | anesan,A.Mattevi                         | N.A.', 'Cowan, J.', "O'Connell, M.",     |
+|                                |                                          | 'Mai, A.', 'Baron, R.', 'Ganesan, A.',   |
+|                                |                                          | 'Mattevi, A.']                           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2013-02-12                               | ['2013-02-12', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-06-12                               | ['2013-06-12', '2013-08-28']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ['ESCHERICHIA COLI', 'ESCHERICHIA COLI', |
+| [CIF: _entity_src_gen.pdbx_hos |                                          | 'ESCHERICHIA COLI']                      |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 511693                                   | ['511693', '511693', '511693']           |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | ['HOMO SAPIENS', 'HOMO SAPIENS', 'HOMO   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          | SAPIENS']                                |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21                                     | ['BL21', 'BL21', 'BL21']                 |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | ['9606', '9606', '9606']                 |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | ['HUMAN', 'HUMAN', 'HUMAN']              |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | homo sapiens                             | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 9606                                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_common       | human                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:3:chain, PDB value: c
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:3:molecule, PDB value: peptide
+PDB key: compound:2:chain, PDB value: b
+PDB key: compound:3:misc, PDB value: 
+PDB key: compound:2:molecule, PDB value: rest corepressor 1
+PDB key: compound:2:synonym, PDB value: protein corest
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:3:engineered, PDB value: yes
+PDB key: compound:1:molecule, PDB value: lysine-specific histone demethylase 1a
+PDB key: compound:1:ec, PDB value: 1.-.-.-
+PDB key: compound:1:synonym, PDB value: lds1, braf35-hdac complex protein bhc110,flavin-containing amine oxidase domain-containing protein 2 

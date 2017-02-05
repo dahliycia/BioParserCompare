@@ -1,0 +1,76 @@
+PDB Parser time: 0.0319998264313
+MMCIF Parser time: 0.84099984169
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | de novo protein                          | DE NOVO PROTEIN                          |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   A.G.KREUTZER,S.YOO,R.K.SPENCER,J. | [['Kreutzer, A.G.', 'Yoo, S.', 'Spencer, |
+| [CIF:                          | S.NOWICKTITL   X-RAY CRYSTALLOGRAPHIC    | R.K.', 'Nowick, J.S.'], 'X-ray           |
+| ['_citation_author.name',      | STRUCTURE OF A COVALENT TRIMERTITL 2     | crystallographic structure of a covalent |
+| '_citation.title',             | DERIVED FROM A-BETA 17_36. X-RAY         | trimer derived from A-beta 17_36. X-ray  |
+| '_citation.journal_abbrev',    | DIFFRACTOMETER DATA SET.TITL 3           | diffractometer data set.                 |
+| '_citation.journal_volume',    | (ORN)CVF(MEA)CED(ORN)AIIGL(ORN)V.REF     | (ORN)CVF(MEA)CED(ORN)AIIGL(ORN)V.', 'To  |
+| '_citation.year',              | TO BE PUBLISHEDREFN                      | Be Published', '?', '?', '?', '?', '?',  |
+| '_citation.page_first',        |                                          | '?']                                     |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | a.g.kreutzer,s.yoo,r.k.spencer,j.s.nowic | [['Kreutzer, A.G.', 'Yoo, S.', 'Spencer, |
+| [CIF:                          | k x-ray crystallographic structure of a  | R.K.', 'Nowick, J.S.'], 'X-ray           |
+| ['_citation_author.name',      | covalent trimerderived from a-beta       | crystallographic structure of a covalent |
+| '_citation.title',             | 17_36. x-ray diffractometer data         | trimer derived from A-beta 17_36. X-ray  |
+| '_citation.journal_abbrev',    | (orn)cvf(mea)ced(orn)aiigl(orn)v. to be  | diffractometer data set.                 |
+| '_citation.journal_volume',    | published                                | (ORN)CVF(MEA)CED(ORN)AIIGL(ORN)V.', 'To  |
+| '_citation.year',              |                                          | Be Published', '?', '?', '?', '?', '?',  |
+| '_citation.page_first',        |                                          | '?']                                     |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | amyloid, oligomer, alzheimer's, trimer,  | amyloid, oligomer, Alzheimer's, trimer,  |
+| [CIF: _struct_keywords.text]   | protein fibril, de novo protein          | PROTEIN FIBRIL, DE NOVO PROTEIN          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  x-ray crystallographic structure of a   | X-ray crystallographic structure of a    |
+| [CIF: _struct.title]           | covalent trimer derived from a- beta     | covalent trimer derived from A-beta      |
+|                                | 17_36. x-ray diffractometer data set.    | 17_36. X-ray diffractometer data set.    |
+|                                | (orn)cvf(mea)ced(orn) aiigl(orn)v.       | (ORN)CVF(MEA)CED(ORN)AIIGL(ORN)V.        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | A.G.Kreutzer,S.Yoo,J.S.Nowick            | ['Kreutzer, A.G.', 'Yoo, S.', 'Nowick,   |
+| [CIF: _audit_author.name]      |                                          | J.S.']                                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2016-08-03                               | 2016-08-03                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2017-01-11                               | 2017-01-11                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: 16mer a-beta peptideala-ile-ile-gly-leu-orn-val 
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b, c, d
+PDB key: compound:1:misc, PDB value: 

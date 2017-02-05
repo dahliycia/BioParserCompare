@@ -1,0 +1,102 @@
+PDB Parser time: 0.0230000019073
+MMCIF Parser time: 0.463999986649
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | flavoprotein                             | FLAVOPROTEIN                             |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Grininger, M.', 'Zeth, K.',           |
+| [CIF:                          | M.GRININGER,K.ZETH,D.OESTERHELTTITL      | 'Oesterhelt, D.'], 'Dodecins: A Family   |
+| ['_citation_author.name',      | DODECINS: A FAMILY OF LUMICHROME BINDING | of Lumichrome Binding Proteins.',        |
+| '_citation.title',             | PROTEINS.REF    J.MOL.BIOL.              | 'J.Mol.Biol.', '357', '2006', '842',     |
+| '_citation.journal_abbrev',    | V. 357   842 2006REFN                    | '0022-2836', '16460756',                 |
+| '_citation.journal_volume',    | ISSN 0022-2836PMID   16460756DOI         | '10.1016/J.JMB.2005.12.072']             |
+| '_citation.year',              | 10.1016/J.JMB.2005.12.072                |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.grininger,k.zeth,d.oesterhelt          | [['Grininger, M.', 'Zeth, K.',           |
+| [CIF:                          | dodecins: a family of lumichrome binding | 'Oesterhelt, D.'], 'Dodecins: A Family   |
+| ['_citation_author.name',      | proteins. j.mol.biol. v. 357 842 2006    | of Lumichrome Binding Proteins.',        |
+| '_citation.title',             | issn 0022-2836 16460756                  | 'J.Mol.Biol.', '357', '2006', '842',     |
+| '_citation.journal_abbrev',    | 10.1016/j.jmb.2005.12.072                | '0022-2836', '16460756',                 |
+| '_citation.journal_volume',    |                                          | '10.1016/J.JMB.2005.12.072']             |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | flavoprotein, flavin, flavin-like        | FLAVOPROTEIN, FLAVIN, FLAVIN-LIKE        |
+| [CIF: _struct_keywords.text]   | ligands                                  | LIGANDS                                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  complexes of dodecin with flavin and    | COMPLEXES OF DODECIN WITH FLAVIN AND     |
+| [CIF: _struct.title]           | flavin-like ligands                      | FLAVIN-LIKE LIGANDS                      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | M.Grininger,K.Zeth,D.Oesterhelt          | ['Grininger, M.', 'Zeth, K.',            |
+| [CIF: _audit_author.name]      |                                          | 'Oesterhelt, D.']                        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2006-01-13                               | ['2006-01-13', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2006-01-31                               | ['2006-01-31', '2006-03-22',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24', '2009-12-22']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | halobacterium salinarum                  | HALOBACTERIUM SALINARUM                  |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet22b                                   | PET22B                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 478009                                   | 478009                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:other_details, PDB value: rbf bound
+PDB key: compound:1:molecule, PDB value: vng1446h
+PDB key: compound:1:synonym, PDB value: dodecin

@@ -1,0 +1,123 @@
+PDB Parser time: 0.236000061035
+MMCIF Parser time: 3.33700013161
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | dna binding protein/dna                  | DNA BINDING PROTEIN/DNA                  |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   R.SUKACKAITE,S.GRAZULIS,G.TAMULAI | [['Sukackaite, R.', 'Grazulis, S.',      |
+| [CIF:                          | TIS,V.SIKSNYSTITL   THE RECOGNITION      | 'Tamulaitis, G.', 'Siksnys, V.'], 'The   |
+| ['_citation_author.name',      | DOMAIN OF THE METHYL-SPECIFIC            | recognition domain of the methyl-        |
+| '_citation.title',             | ENDONUCLEASETITL 2 MCRBC FLIPS OUT       | specific endonuclease McrBC flips out    |
+| '_citation.journal_abbrev',    | 5-METHYLCYTOSINE.REF    NUCLEIC ACIDS    | 5-methylcytosine.', 'Nucleic Acids       |
+| '_citation.journal_volume',    | RES.            V.  40  7552 2012REFN    | Res.', '40', '2012', '7552',             |
+| '_citation.year',              | ISSN 0305-1048PMID   22570415DOI         | '0305-1048', '22570415',                 |
+| '_citation.page_first',        | 10.1093/NAR/GKS332                       | '10.1093/nar/gks332']                    |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | r.sukackaite,s.grazulis,g.tamulaitis,v.s | [['Sukackaite, R.', 'Grazulis, S.',      |
+| [CIF:                          | iksnys the recognition domain of the     | 'Tamulaitis, G.', 'Siksnys, V.'], 'The   |
+| ['_citation_author.name',      | methyl-specific endonucmcrbc flips out   | recognition domain of the methyl-        |
+| '_citation.title',             | 5-methylcytosine. nucleic acids res. v.  | specific endonuclease McrBC flips out    |
+| '_citation.journal_abbrev',    | 40 7552 2012 issn 0305-1048 22570415     | 5-methylcytosine.', 'Nucleic Acids       |
+| '_citation.journal_volume',    | 10.1093/nar/gks332                       | Res.', '40', '2012', '7552',             |
+| '_citation.year',              |                                          | '0305-1048', '22570415',                 |
+| '_citation.page_first',        |                                          | '10.1093/nar/gks332']                    |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | protein-dna complex, restriction         | protein-DNA complex, restriction         |
+| [CIF: _struct_keywords.text]   | endonuclease, 5-methylcytosine, base     | endonuclease, 5-methylcytosine, base     |
+|                                | flipping complex, dna binding protein-   | flipping complex, DNA BINDING PROTEIN-   |
+|                                | dna complex                              | DNA complex                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  dna binding domain of restriction       | DNA binding domain of restriction        |
+| [CIF: _struct.title]           | endonuclease bound to dna                | endonuclease bound to DNA                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | R.Sukackaite,S.Grazulis,V.Siksnys        | ['Sukackaite, R.', 'Grazulis, S.',       |
+| [CIF: _audit_author.name]      |                                          | 'Siksnys, V.']                           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2011-07-08                               | ['2011-07-08', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-05-23                               | ['2012-05-23', '2012-09-05']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pbad24                                   | pBAD24                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | er2267                                   | ER2267                                   |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | b4346, jw5871, mcrb, rglb                | b4346, JW5871, mcrB, rglB                |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 83333                                    | 83333                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:synthetic             | yes                                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:3:chain, PDB value: d
+PDB key: compound:1:fragment, PDB value: n-terminal dna binding domain
+PDB key: compound:3:molecule, PDB value: dna (5'-d(*ap*gp*cp*tp*ap*(5cm)p*cp*gp*gp*tp*cp*tp*c)-3')
+PDB key: compound:2:chain, PDB value: c
+PDB key: compound:3:misc, PDB value: 
+PDB key: compound:2:molecule, PDB value: dna (5'-d(*tp*gp*ap*gp*ap*(5cm)p*cp*gp*gp*tp*ap*gp*c)-3')
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:3:engineered, PDB value: yes
+PDB key: compound:1:molecule, PDB value: 5-methylcytosine-specific restriction enzyme b
+PDB key: compound:1:synonym, PDB value: ecokmcrbc
+PDB key: compound:1:ec, PDB value: 3.1.21.-
+PDB key: compound:1:chain, PDB value: a, b

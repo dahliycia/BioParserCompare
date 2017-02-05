@@ -1,0 +1,113 @@
+PDB Parser time: 0.196000099182
+MMCIF Parser time: 5.33800005913
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.SANSENYA,R.OPASSIRI,B.KUAPRASER | [['Sansenya, S.', 'Opassiri, R.',        |
+| [CIF:                          | T,C.J.CHEN,AUTH 2 J.R.KETUDAT CAIRNSTITL | 'Kuaprasert, B.', 'Chen, C.J.', 'Ketudat |
+| ['_citation_author.name',      | THE CRYSTAL STRUCTURE OF RICE (ORYZA     | Cairns, J.R.'], 'The crystal structure   |
+| '_citation.title',             | SATIVA L.) OS4BGLU12,TITL 2 AN           | of rice (Oryza sativa L.) Os4BGlu12, an  |
+| '_citation.journal_abbrev',    | OLIGOSACCHARIDE AND TUBERONIC ACID       | oligosaccharide and tuberonic acid       |
+| '_citation.journal_volume',    | GLUCOSIDE-HYDROLYZINGTITL 3 BETA-        | glucoside-hydrolyzing beta-glucosidase   |
+| '_citation.year',              | GLUCOSIDASE WITH SIGNIFICANT             | with significant thioglucohydrolase      |
+| '_citation.page_first',        | THIOGLUCOHYDROLASETITL 4 ACTIVITYREF     | activity', 'Arch.Biochem.Biophys.',      |
+| '_citation.journal_id_ISSN', ' | ARCH.BIOCHEM.BIOPHYS.         V. 510     | '510', '2011', '62', '0003-9861',        |
+| _citation.pdbx_database_id_Pub | 62 2011REFN                   ISSN       | '21521631', '10.1016/j.abb.2011.04.005'] |
+| Med', '_citation.pdbx_database | 0003-9861PMID   21521631DOI              |                                          |
+| _id_DOI']]                     | 10.1016/J.ABB.2011.04.005                |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.sansenya,r.opassiri,b.kuaprasert,c.j.c | [['Sansenya, S.', 'Opassiri, R.',        |
+| [CIF:                          | hen, j.r.ketudat cairns the crystal      | 'Kuaprasert, B.', 'Chen, C.J.', 'Ketudat |
+| ['_citation_author.name',      | structure of rice (oryza sativa l.)      | Cairns, J.R.'], 'The crystal structure   |
+| '_citation.title',             | os4bgan oligosaccharide and tuberonic    | of rice (Oryza sativa L.) Os4BGlu12, an  |
+| '_citation.journal_abbrev',    | acid glucoside-hydrobeta-glucosidase     | oligosaccharide and tuberonic acid       |
+| '_citation.journal_volume',    | with significant thioglucohydrolase      | glucoside-hydrolyzing beta-glucosidase   |
+| '_citation.year',              | activity arch.biochem.biophys. v. 510 62 | with significant thioglucohydrolase      |
+| '_citation.page_first',        | 2011 issn 0003-9861 21521631             | activity', 'Arch.Biochem.Biophys.',      |
+| '_citation.journal_id_ISSN', ' | 10.1016/j.abb.2011.04.005                | '510', '2011', '62', '0003-9861',        |
+| _citation.pdbx_database_id_Pub |                                          | '21521631', '10.1016/j.abb.2011.04.005'] |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | beta-alpha barrel, glycosidase,          | BETA-ALPHA BARREL, GLYCOSIDASE,          |
+| [CIF: _struct_keywords.text]   | hydrolase                                | HYDROLASE                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the crystal structure of rice (oryza    | The crystal structure of rice (Oryza     |
+| [CIF: _struct.title]           | sativa l.) os4bglu12 with 2-             | sativa L.) Os4BGlu12 with                |
+|                                | fluoroglucopyranoside                    | 2-fluoroglucopyranoside                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.Sansenya,R.Opassiri,B.Kuaprasert,C.J.C | ['Sansenya, S.', 'Opassiri, R.',         |
+| [CIF: _audit_author.name]      | hen,J.R.Ketudat Cairns                   | 'Kuaprasert, B.', 'Chen, C.J.', 'Ketudat |
+|                                |                                          | Cairns, J.R.']                           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2010-12-03                               | 2010-12-03                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2011-05-18                               | 2011-05-18                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 4530                                     | 4530                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | oryza sativa                             | Oryza sativa                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet32a(+)/dest                           | pET32a(+)/DEST                           |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | origami b(de3)                           | ORIGAMI B(DE3)                           |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | os04g0474800                             | Os04g0474800                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | rice                                     | rice                                     |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.2.1.21
+PDB key: compound:1:molecule, PDB value: beta-glucosidase os4bglu12
+PDB key: compound:1:ec, PDB value: 3.2.1.21
+PDB key: compound:1:synonym, PDB value: osigba0135c13.7 protein

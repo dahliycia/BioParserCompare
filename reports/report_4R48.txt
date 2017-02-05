@@ -1,0 +1,75 @@
+PDB Parser time: 0.0139999389648
+MMCIF Parser time: 0.335999965668
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | dna                                      | DNA                                      |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   P.K.MANDAL,G.W.COLLIE,B.KAUFFMANN | [['Mandal, P.K.', 'Collie, G.W.',        |
+| [CIF:                          | ,I.HUCTITL   RACEMIC DNA                 | 'Kauffmann, B.', 'Huc, I.'], 'Racemic    |
+| ['_citation_author.name',      | CRYSTALLOGRAPHY.REF                      | DNA crystallography.',                   |
+| '_citation.title',             | ANGEW.CHEM.INT.ED.ENGL.       V.  53     | 'Angew.Chem.Int.Ed.Engl.', '53', '2014', |
+| '_citation.journal_abbrev',    | 14424 2014REFN                   ISSN    | '14424', '1433-7851', '25358289',        |
+| '_citation.journal_volume',    | 1433-7851PMID   25358289DOI              | '10.1002/anie.201409014']                |
+| '_citation.year',              | 10.1002/ANIE.201409014                   |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | p.k.mandal,g.w.collie,b.kauffmann,i.huc  | [['Mandal, P.K.', 'Collie, G.W.',        |
+| [CIF:                          | racemic dna crystallography.             | 'Kauffmann, B.', 'Huc, I.'], 'Racemic    |
+| ['_citation_author.name',      | angew.chem.int.ed.engl. v. 53 14424 2014 | DNA crystallography.',                   |
+| '_citation.title',             | issn 1433-7851 25358289                  | 'Angew.Chem.Int.Ed.Engl.', '53', '2014', |
+| '_citation.journal_abbrev',    | 10.1002/anie.201409014                   | '14424', '1433-7851', '25358289',        |
+| '_citation.journal_volume',    |                                          | '10.1002/anie.201409014']                |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | racemic dna, racemates, dna              | racemic DNA, racemates, DNA              |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  racemic crystal structure of a calcium- | Racemic crystal structure of a calcium-  |
+| [CIF: _struct.title]           | bound dna four-way junction              | bound DNA four-way junction              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | P.K.Mandal,G.W.Collie,B.Kauffmann,I.Huc  | ['Mandal, P.K.', 'Collie, G.W.',         |
+| [CIF: _audit_author.name]      |                                          | 'Kauffmann, B.', 'Huc, I.']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2014-08-19                               | ['2014-08-19', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2014-11-12                               | ['2014-11-12', '2015-01-14']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 32630                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | synthetic construct                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: 5'-d(*cp*cp*gp*gp*tp*ap*cp*cp*gp*g)-3'
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:other_details, PDB value: dna four-way junction

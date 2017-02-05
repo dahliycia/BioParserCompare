@@ -1,0 +1,109 @@
+PDB Parser time: 0.457999944687
+MMCIF Parser time: 10.8759999275
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase/inhibitor                 | OXIDOREDUCTASE/INHIBITOR                 |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   R.WARD,C.BRASSINGTON,A.L.BREEZE,A | [['Ward, R.', 'Brassington, C.',         |
+| [CIF:                          | .CAPUTO,S.CRITCHLOW,AUTH 2 G.DAVIES,L.GO | 'Breeze, A.L.', 'Caputo, A.',            |
+| ['_citation_author.name',      | ODWIN,G.HASSALL,R.GREENWOOD,G.HOLDGATE,A | 'Critchlow, S.', 'Davies, G.', 'Goodwin, |
+| '_citation.title',             | UTH 3 M.MROSEK,R.A.NORMAN,S.PEARSON,J.TA | L.', 'Hassall, G.', 'Greenwood, R.',     |
+| '_citation.journal_abbrev',    | RT,J.A.TUCKER,M.VOGTHERR,AUTH 4 D.WHITTA | 'Holdgate, G.', 'Mrosek, M.', 'Norman,   |
+| '_citation.journal_volume',    | KER,J.WINGFIELD,J.WINTER,K.HUDSONTITL    | R.A.', 'Pearson, S.', 'Tart, J.',        |
+| '_citation.year',              | THE DESIGN AND SYNTHESIS OF NOVEL        | 'Tucker, J.A.', 'Vogtherr, M.',          |
+| '_citation.page_first',        | LACTATE DEHYDROGENASE ATITL 2 INHIBITORS | 'Whittaker, D.', 'Wingfield, J.',        |
+| '_citation.journal_id_ISSN', ' | BY FRAGMENT-BASED LEAD GENERATIONREF     | 'Winter, J.', 'Hudson, K.'], 'The Design |
+| _citation.pdbx_database_id_Pub | J.MED.CHEM.                   V.  55     | and Synthesis of Novel Lactate           |
+| Med', '_citation.pdbx_database | 3285 2012REFN                   ISSN     | Dehydrogenase a Inhibitors by Fragment-  |
+| _id_DOI']]                     | 0022-2623PMID   22417091DOI              | Based Lead Generation', 'J.Med.Chem.',   |
+|                                | 10.1021/JM201734R                        | '55', '2012', '3285', '0022-2623',       |
+|                                |                                          | '22417091', '10.1021/JM201734R']         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | r.ward,c.brassington,a.l.breeze,a.caputo | [['Ward, R.', 'Brassington, C.',         |
+| [CIF:                          | ,s.critchlow,g.davies,l.goodwin,g.hassal | 'Breeze, A.L.', 'Caputo, A.',            |
+| ['_citation_author.name',      | l,r.greenwood,g.holdgate, m.mrosek,r.a.n | 'Critchlow, S.', 'Davies, G.', 'Goodwin, |
+| '_citation.title',             | orman,s.pearson,j.tart,j.a.tucker,m.vogd | L.', 'Hassall, G.', 'Greenwood, R.',     |
+| '_citation.journal_abbrev',    | .whittaker,j.wingfield,j.winter,k.hudson | 'Holdgate, G.', 'Mrosek, M.', 'Norman,   |
+| '_citation.journal_volume',    | the design and synthesis of novel        | R.A.', 'Pearson, S.', 'Tart, J.',        |
+| '_citation.year',              | lactate dehydrogenainhibitors by         | 'Tucker, J.A.', 'Vogtherr, M.',          |
+| '_citation.page_first',        | fragment-based lead generation           | 'Whittaker, D.', 'Wingfield, J.',        |
+| '_citation.journal_id_ISSN', ' | j.med.chem. v. 55 3285 2012 issn         | 'Winter, J.', 'Hudson, K.'], 'The Design |
+| _citation.pdbx_database_id_Pub | 0022-2623 22417091 10.1021/jm201734r     | and Synthesis of Novel Lactate           |
+| Med', '_citation.pdbx_database |                                          | Dehydrogenase a Inhibitors by Fragment-  |
+| _id_DOI']]                     |                                          | Based Lead Generation', 'J.Med.Chem.',   |
+|                                |                                          | '55', '2012', '3285', '0022-2623',       |
+|                                |                                          | '22417091', '10.1021/JM201734R']         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | oxidoreductase-inhibitor complex,        | OXIDOREDUCTASE-INHIBITOR COMPLEX,        |
+| [CIF: _struct_keywords.text]   | fragment based lead generated inhibitors | FRAGMENT BASED LEAD GENERATED INHIBITORS |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  rat ldha in complex with                | rat LDHA in complex with                 |
+| [CIF: _struct.title]           | 3-(ethylcarbamoylamino)-n-(2-methyl-1,3- | 3-(ethylcarbamoylamino)-N-(2-methyl-1,3- |
+|                                | benzothiazol-6-yl)propanamide            | benzothiazol-6-yl)propanamide            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.A.Tucker,C.Brassington,G.Hassall,M.Vog | ['Tucker, J.A.', 'Brassington, C.',      |
+| [CIF: _audit_author.name]      | therr,R.Ward,J.Tart,G.Davies,M.Addie,A.F | 'Hassall, G.', 'Vogtherr, M.', 'Ward,    |
+|                                | erguson                                  | R.', 'Tart, J.', 'Davies, G.', 'Addie,   |
+|                                |                                          | M.', 'Ferguson, A.']                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-02-16                               | ['2012-02-16', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-03-21                               | ['2012-03-21', '2012-04-25']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | rattus norvegicus                        | RATTUS NORVEGICUS                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 10116                                    | 10116                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | norway rat                               | NORWAY RAT                               |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b, c, d
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 1.1.1.27
+PDB key: compound:1:molecule, PDB value: l-lactate dehydrogenase a chain
+PDB key: compound:1:ec, PDB value: 1.1.1.27
+PDB key: compound:1:synonym, PDB value: ldh-a, ldh muscle subunit, ldh-m

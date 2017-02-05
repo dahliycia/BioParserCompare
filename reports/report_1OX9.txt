@@ -1,0 +1,104 @@
+PDB Parser time: 0.145999908447
+MMCIF Parser time: 3.4849998951
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase activator                      | HYDROLASE ACTIVATOR                      |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   H.K.SONG,M.J.ECKTITL   STRUCTURAL | [['Song, H.K.', 'Eck, M.J.'],            |
+| [CIF:                          | BASIS OF DEGRADATION SIGNAL RECOGNITION  | 'Structural basis of degradation signal  |
+| ['_citation_author.name',      | BY SSPB,TITL 2 A SPECIFICITY-ENHANCING   | recognition by SspB, a specificity-      |
+| '_citation.title',             | FACTOR FOR THE CLPXP PROTEOLYTICTITL 3   | enhancing factor for the ClpXP           |
+| '_citation.journal_abbrev',    | MACHINEREF    MOL.CELL                   | proteolytic machine', 'Mol.Cell', '12',  |
+| '_citation.journal_volume',    | V.  12    75 2003REFN                    | '2003', '75', '1097-2765', '12887894',   |
+| '_citation.year',              | ISSN 1097-2765PMID   12887894DOI         | '10.1016/S1097-2765(03)00271-5']         |
+| '_citation.page_first',        | 10.1016/S1097-2765(03)00271-5            |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | h.k.song,m.j.eck structural basis of     | [['Song, H.K.', 'Eck, M.J.'],            |
+| [CIF:                          | degradation signal recognition bya       | 'Structural basis of degradation signal  |
+| ['_citation_author.name',      | specificity-enhancing factor for the     | recognition by SspB, a specificity-      |
+| '_citation.title',             | clpxp proteolymachine mol.cell v. 12 75  | enhancing factor for the ClpXP           |
+| '_citation.journal_abbrev',    | 2003 issn 1097-2765 12887894             | proteolytic machine', 'Mol.Cell', '12',  |
+| '_citation.journal_volume',    | 10.1016/s1097-2765(03)00271-5            | '2003', '75', '1097-2765', '12887894',   |
+| '_citation.year',              |                                          | '10.1016/S1097-2765(03)00271-5']         |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | sspb-ssra, hydrolase activator           | SspB-ssrA, HYDROLASE ACTIVATOR           |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of sspb-ssra complex  | Crystal structure of SspB-ssrA complex   |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | H.K.Song,M.J.Eck                         | ['Song, H.K.', 'Eck, M.J.']              |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2003-04-01                               | ['2003-04-01', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2003-08-26                               | ['2003-08-26', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2011-07-13']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | sspb or b3228 or z4586 or ecs4101        | SSPB OR B3228 OR Z4586 OR ECS4101        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 83334                                    | 83334                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:synthetic             | yes                                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:other_details         | this ssra peptide is synthesized and     | This ssrA peptide is synthesized and     |
+| [CIF:                          | occurs naturallyin e. coli.              | occurs naturally in E. coli.             |
+| _pdbx_entity_src_syn.details]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: residues 4-111
+PDB key: compound:2:chain, PDB value: i, j, k, l, m, n, o, p
+PDB key: compound:2:molecule, PDB value: ssra
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: stringent starvation protein b
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h

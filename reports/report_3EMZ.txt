@@ -1,0 +1,93 @@
+PDB Parser time: 0.0720000267029
+MMCIF Parser time: 2.24100017548
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   O.GALLARDO,F.I.PASTOR,J.POLAINA,P | [['Gallardo, O.', 'Pastor, F.I.',        |
+| [CIF:                          | .DIAZ,R.LYSEK,AUTH 2                     | 'Polaina, J.', 'Diaz, P.', 'Lysek, R.',  |
+| ['_citation_author.name',      | P.VOGEL,P.ISORNA,B.GONZALEZ,J.SANZ-      | 'Vogel, P.', 'Isorna, P.', 'Gonzalez,    |
+| '_citation.title',             | APARICIOTITL   STRUCTURAL INSIGHTS INTO  | B.', 'Sanz-Aparicio, J.'], 'Structural   |
+| '_citation.journal_abbrev',    | THE SPECIFICITY OF XYN10BTITL 2 FROM     | insights into the specificity of Xyn10B  |
+| '_citation.journal_volume',    | PAENIBACILLUS BARCINONENSIS AND ITS      | from Paenibacillus barcinonensis and its |
+| '_citation.year',              | IMPROVEDTITL 3 STABILITY BY FORCED       | improved stability by forced protein     |
+| '_citation.page_first',        | PROTEIN EVOLUTION.REF    J.BIOL.CHEM.    | evolution.', 'J.Biol.Chem.', '285',      |
+| '_citation.journal_id_ISSN', ' | V. 285  2721 2010REFN                    | '2010', '2721', '0021-9258', '19940147', |
+| _citation.pdbx_database_id_Pub | ISSN 0021-9258PMID   19940147DOI         | '10.1074/jbc.M109.064394']               |
+| Med', '_citation.pdbx_database | 10.1074/JBC.M109.064394                  |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | o.gallardo,f.i.pastor,j.polaina,p.diaz,r | [['Gallardo, O.', 'Pastor, F.I.',        |
+| [CIF:                          | .lysek, p.vogel,p.isorna,b.gonzalez,j    | 'Polaina, J.', 'Diaz, P.', 'Lysek, R.',  |
+| ['_citation_author.name',      | .sanz-aparicio structural insights into  | 'Vogel, P.', 'Isorna, P.', 'Gonzalez,    |
+| '_citation.title',             | the specificity of xyn10b from           | B.', 'Sanz-Aparicio, J.'], 'Structural   |
+| '_citation.journal_abbrev',    | paenibacillus barcinonensis and its      | insights into the specificity of Xyn10B  |
+| '_citation.journal_volume',    | improved stability by forced protein     | from Paenibacillus barcinonensis and its |
+| '_citation.year',              | evolution. j.biol.chem. v. 285 2721 2010 | improved stability by forced protein     |
+| '_citation.page_first',        | issn 0021-9258 19940147                  | evolution.', 'J.Biol.Chem.', '285',      |
+| '_citation.journal_id_ISSN', ' | 10.1074/jbc.m109.064394                  | '2010', '2721', '0021-9258', '19940147', |
+| _citation.pdbx_database_id_Pub |                                          | '10.1074/jbc.M109.064394']               |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | (alpha/beta)8 barrel, gh10 enzyme        | (alpha/beta)8 barrel, GH10 enzyme        |
+| [CIF: _struct_keywords.text]   | complex, hydrolase                       | complex, HYDROLASE                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of xylanase xynb from | Crystal structure of xylanase XynB from  |
+| [CIF: _struct.title]           | paenibacillus barcinonensis complexed    | Paenibacillus barcinonensis complexed    |
+|                                | with a conduramine derivative            | with a conduramine derivative            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Sanz-Aparicio,P.Isorna                 | ['Sanz-Aparicio, J.', 'Isorna, P.']      |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2008-09-25                               | ['2008-09-25', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2009-09-29                               | ['2009-09-29', '2010-02-16']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | bacillus sp. bp-23                       | Bacillus sp. BP-23                       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | xynb                                     | xynB                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 89769                                    | 89769                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.2.1.8
+PDB key: compound:1:molecule, PDB value: endo-1,4-beta-xylanase
+PDB key: compound:1:ec, PDB value: 3.2.1.8
+PDB key: compound:1:synonym, PDB value: xylanase

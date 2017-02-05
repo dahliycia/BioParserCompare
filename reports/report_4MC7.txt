@@ -1,0 +1,95 @@
+PDB Parser time: 0.510999917984
+MMCIF Parser time: 10.3420000076
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | viral protein                            | VIRAL PROTEIN                            |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.TONG,X.ZHU,Y.LI,M.SHI,J.ZHANG,M | [['Tong, S.', 'Zhu, X.', 'Li, Y.', 'Shi, |
+| [CIF:                          | .BOURGEOIS,H.YANG,X.CHEN,AUTH 2 S.RECUEN | M.', 'Zhang, J.', 'Bourgeois, M.',       |
+| ['_citation_author.name',      | CO,J.GOMEZ,L.M.CHEN,A.JOHNSON,Y.TAO,C.DR | 'Yang, H.', 'Chen, X.', 'Recuenco, S.',  |
+| '_citation.title',             | EYFUS,W.YU,AUTH 3 R.MCBRIDE,P.J.CARNEY,A | 'Gomez, J.', 'Chen, L.M.', 'Johnson,     |
+| '_citation.journal_abbrev',    | .T.GILBERT,J.CHANG,Z.GUO,C.T.DAVIS,AUTH  | A.', 'Tao, Y.', 'Dreyfus, C.', 'Yu, W.', |
+| '_citation.journal_volume',    | 4 J.C.PAULSON,J.STEVENS,C.E.RUPPRECHT,E. | 'McBride, R.', 'Carney, P.J.', 'Gilbert, |
+| '_citation.year',              | C.HOLMES,I.A.WILSON,AUTH 5 R.O.DONISTITL | A.T.', 'Chang, J.', 'Guo, Z.', 'Davis,   |
+| '_citation.page_first',        | NEW WORLD BATS HARBOR DIVERSE INFLUENZA  | C.T.', 'Paulson, J.C.', 'Stevens, J.',   |
+| '_citation.journal_id_ISSN', ' | A VIRUSES.REF    PLOS PATHOG.            | 'Rupprecht, C.E.', 'Holmes, E.C.',       |
+| _citation.pdbx_database_id_Pub | V.   9 03657 2013REFN                    | 'Wilson, I.A.', 'Donis, R.O.'], 'New     |
+| Med', '_citation.pdbx_database | ISSN 1553-7366PMID   24130481DOI         | world bats harbor diverse influenza a    |
+| _id_DOI']]                     | 10.1371/JOURNAL.PPAT.1003657             | viruses.', 'Plos Pathog.', '9', '2013',  |
+|                                |                                          | 'e1003657', '1553-7366', '24130481',     |
+|                                |                                          | '10.1371/journal.ppat.1003657']          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.tong,x.zhu,y.li,m.shi,j.zhang,m.bourge | [['Tong, S.', 'Zhu, X.', 'Li, Y.', 'Shi, |
+| [CIF:                          | ois,h.yang,x.s.recuenco,j.gomez,l.m.chen | M.', 'Zhang, J.', 'Bourgeois, M.',       |
+| ['_citation_author.name',      | ,a.johnson,y.tao,c.dreyfusr.mcbride,p.j. | 'Yang, H.', 'Chen, X.', 'Recuenco, S.',  |
+| '_citation.title',             | carney,a.t.gilbert,j.chang,z.guo,c.t.daj | 'Gomez, J.', 'Chen, L.M.', 'Johnson,     |
+| '_citation.journal_abbrev',    | .c.paulson,j.stevens,c.e.rupprecht,e.c.h | A.', 'Tao, Y.', 'Dreyfus, C.', 'Yu, W.', |
+| '_citation.journal_volume',    | olmes,i.a.wir.o.donis new world bats     | 'McBride, R.', 'Carney, P.J.', 'Gilbert, |
+| '_citation.year',              | harbor diverse influenza a viruses. plos | A.T.', 'Chang, J.', 'Guo, Z.', 'Davis,   |
+| '_citation.page_first',        | pathog. v. 9 03657 2013 issn 1553-7366   | C.T.', 'Paulson, J.C.', 'Stevens, J.',   |
+| '_citation.journal_id_ISSN', ' | 24130481 10.1371/journal.ppat.1003657    | 'Rupprecht, C.E.', 'Holmes, E.C.',       |
+| _citation.pdbx_database_id_Pub |                                          | 'Wilson, I.A.', 'Donis, R.O.'], 'New     |
+| Med', '_citation.pdbx_database |                                          | world bats harbor diverse influenza a    |
+| _id_DOI']]                     |                                          | viruses.', 'Plos Pathog.', '9', '2013',  |
+|                                |                                          | 'e1003657', '1553-7366', '24130481',     |
+|                                |                                          | '10.1371/journal.ppat.1003657']          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | bat, influenza, viral protein            | bat, influenza, VIRAL PROTEIN            |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of a subtype n11      | Crystal structure of a subtype N11       |
+| [CIF: _struct.title]           | neuraminidase-like protein of a/flat-    | neuraminidase-like protein of A/flat-    |
+|                                | faced bat/peru/033/2010 (h18n11)         | faced bat/Peru/033/2010 (H18N11)         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | H.Yang,P.J.Carney,J.C.Chang,Z.Guo,J.Stev | ['Yang, H.', 'Carney, P.J.', 'Chang,     |
+| [CIF: _audit_author.name]      | ens                                      | J.C.', 'Guo, Z.', 'Stevens, J.']         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2013-08-21                               | ['2013-08-21', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2013-10-23                               | ['2013-10-23', '2013-11-20']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | baculovirus                              | baculovirus                              |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | trichoplusia ni                          | Trichoplusia ni                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 7111                                     | 7111                                     |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | influenza a virus                        | Influenza A virus                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 11320                                    | 11320                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: neuraminidase
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b, c, d
+PDB key: compound:1:misc, PDB value: 

@@ -1,0 +1,109 @@
+PDB Parser time: 0.114000082016
+MMCIF Parser time: 1.40400004387
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase                           | OXIDOREDUCTASE                           |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   D.CROBU,G.CANEVARI,M.MILANI,V.PAN | [['Crobu, D.', 'Canevari, G.', 'Milani,  |
+| [CIF:                          | DINI,M.A.VANONI,AUTH 2                   | M.', 'Pandini, V.', 'Vanoni, M.A.',      |
+| ['_citation_author.name',      | M.BOLOGNESI,G.ZANETTI,A.ALIVERTITITL     | 'Bolognesi, M.', 'Zanetti, G.',          |
+| '_citation.title',             | PLASMODIUM FALCIPARUM FERREDOXIN-NADP+   | 'Aliverti, A.'], 'Plasmodium falciparum  |
+| '_citation.journal_abbrev',    | REDUCTASETITL 2 HIS286 PLAYS A DUAL ROLE | ferredoxin-NADP+ reductase His286 plays  |
+| '_citation.journal_volume',    | IN NADP(H) BINDING ANDTITL 3             | a dual role in NADP(H) binding and       |
+| '_citation.year',              | CATALYSISREF    BIOCHEMISTRY             | catalysis', 'Biochemistry', '48',        |
+| '_citation.page_first',        | V.  48  9525 2009REFN                    | '2009', '9525', '0006-2960', '19736991', |
+| '_citation.journal_id_ISSN', ' | ISSN 0006-2960PMID   19736991DOI         | '10.1021/bi9013209']                     |
+| _citation.pdbx_database_id_Pub | 10.1021/BI9013209                        |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | d.crobu,g.canevari,m.milani,v.pandini,m. | [['Crobu, D.', 'Canevari, G.', 'Milani,  |
+| [CIF:                          | a.vanoni,                                | M.', 'Pandini, V.', 'Vanoni, M.A.',      |
+| ['_citation_author.name',      | m.bolognesi,g.zanetti,a.aliverti         | 'Bolognesi, M.', 'Zanetti, G.',          |
+| '_citation.title',             | plasmodium falciparum ferredoxin-nadp+   | 'Aliverti, A.'], 'Plasmodium falciparum  |
+| '_citation.journal_abbrev',    | reductase his286 plays a dual role in    | ferredoxin-NADP+ reductase His286 plays  |
+| '_citation.journal_volume',    | nadp(h) binding and catalysis            | a dual role in NADP(H) binding and       |
+| '_citation.year',              | biochemistry v. 48 9525 2009 issn        | catalysis', 'Biochemistry', '48',        |
+| '_citation.page_first',        | 0006-2960 19736991 10.1021/bi9013209     | '2009', '9525', '0006-2960', '19736991', |
+| '_citation.journal_id_ISSN', ' |                                          | '10.1021/bi9013209']                     |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | ferredoxin-nadp+ reductase, fad,         | Ferredoxin-NADP+ reductase, FAD,         |
+| [CIF: _struct_keywords.text]   | oxidoreductase                           | OXIDOREDUCTASE                           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of the h286l mutant   | Crystal structure of the H286L mutant of |
+| [CIF: _struct.title]           | of ferredoxin-nadp+ reductase from       | Ferredoxin-NADP+ reductase from          |
+|                                | plasmodium falciparum                    | Plasmodium falciparum                    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | G.Canevari,M.Milani,M.Bolognesi          | ['Canevari, G.', 'Milani, M.',           |
+| [CIF: _audit_author.name]      |                                          | 'Bolognesi, M.']                         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2009-09-07                               | 2009-09-07                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-01-12                               | 2010-01-12                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | Plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | plasmodium falciparum                    | Plasmodium falciparum                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet-pffnr-h286l                          | pET-PfFNR-H286L                          |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | rosetta (de3)                            | Rosetta (DE3)                            |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | pffnr, pff1115w                          | PfFNR, PFF1115w                          |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 5833                                     | 5833                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 1.18.1.2
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: ferredoxin nadp reductase
+PDB key: compound:1:ec, PDB value: 1.18.1.2
+PDB key: compound:1:fragment, PDB value: residues in unp 56-371

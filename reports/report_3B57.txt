@@ -1,0 +1,100 @@
+PDB Parser time: 0.0429999828339
+MMCIF Parser time: 1.07899999619
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | structural genomics, unknown function    | STRUCTURAL GENOMICS, UNKNOWN FUNCTION    |
+| [CIF: _struct_keywords.pdbx_ke | 25-oct-07   3b57                         |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   A.P.KUZIN,M.ABASHIDZE,J.SEETHARAM | [['Kuzin, A.P.', 'Abashidze, M.',        |
+| [CIF:                          | AN,J.BENACH,AUTH 2 F.FOROUHAR,S.M.VOROBI | 'Seetharaman, J.', 'Benach, J.',         |
+| ['_citation_author.name',      | EV,H.WANG,H.JANJUA,AUTH 3 K.CUNNINGHAM,L | 'Forouhar, F.', 'Vorobiev, S.M.', 'Wang, |
+| '_citation.title',             | -C.MA,R.XIAO,J.LIU,M.C.BARAN,AUTH 4 T.B. | H.', 'Janjua, H.', 'Cunningham, K.',     |
+| '_citation.journal_abbrev',    | ACTON,B.ROST,G.T.MONTELIONE,L.TONG,J.F.H | 'Ma, L-C.', 'Xiao, R.', 'Liu, J.',       |
+| '_citation.journal_volume',    | UNTTITL   CRYSTAL STRUCTURE OF THE       | 'Baran, M.C.', 'Acton, T.B.', 'Rost,     |
+| '_citation.year',              | LIN1889 PROTEIN (Q92AN1)TITL 2 FROM      | B.', 'Montelione, G.T.', 'Tong, L.',     |
+| '_citation.page_first',        | LISTERIA INNOCUA.REF    TO BE            | 'Hunt, J.F.'], 'Crystal structure of the |
+| '_citation.journal_id_ISSN', ' | PUBLISHEDREFN                            | Lin1889 protein (Q92AN1) from Listeria   |
+| _citation.pdbx_database_id_Pub |                                          | innocua.', 'To be Published', '?', '?',  |
+| Med', '_citation.pdbx_database |                                          | '?', '?', '?', '?']                      |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | a.p.kuzin,m.abashidze,j.seetharaman,j.be | [['Kuzin, A.P.', 'Abashidze, M.',        |
+| [CIF:                          | nach,                                    | 'Seetharaman, J.', 'Benach, J.',         |
+| ['_citation_author.name',      | f.forouhar,s.m.vorobiev,h.wang,h.janjua, | 'Forouhar, F.', 'Vorobiev, S.M.', 'Wang, |
+| '_citation.title',             | k.cunningham,l-c.ma,r.xiao,j.liu,m.c.bar | H.', 'Janjua, H.', 'Cunningham, K.',     |
+| '_citation.journal_abbrev',    | an, t.b.acton,b.rost,g.t.montelione,l.to | 'Ma, L-C.', 'Xiao, R.', 'Liu, J.',       |
+| '_citation.journal_volume',    | ng,j.f.hunt crystal structure of the     | 'Baran, M.C.', 'Acton, T.B.', 'Rost,     |
+| '_citation.year',              | lin1889 protein (q92an1) from listeria   | B.', 'Montelione, G.T.', 'Tong, L.',     |
+| '_citation.page_first',        | innocua. to be published                 | 'Hunt, J.F.'], 'Crystal structure of the |
+| '_citation.journal_id_ISSN', ' |                                          | Lin1889 protein (Q92AN1) from Listeria   |
+| _citation.pdbx_database_id_Pub |                                          | innocua.', 'To be Published', '?', '?',  |
+| Med', '_citation.pdbx_database |                                          | '?', '?', '?', '?']                      |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | lin1889, q92an1, x-ray, nesg, structural | Lin1889, Q92AN1, NESG, Structural        |
+| [CIF: _struct_keywords.text]   | genomics, psi-2, protein structure       | Genomics, PSI-2, Protein Structure       |
+|                                | initiative, northeast structural         | Initiative, Northeast Structural         |
+|                                | genomics consortium, unknown function    | Genomics Consortium, UNKNOWN FUNCTION    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of the lin1889        | Crystal structure of the Lin1889 protein |
+| [CIF: _struct.title]           | protein (q92an1) from listeria innocua.  | (Q92AN1) from Listeria innocua.          |
+|                                | northeast structural consortium target   | Northeast Structural Consortium target   |
+|                                | lkr65                                    | LkR65                                    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | A.P.Kuzin,M.Abashidze,J.Seetharaman,J.Be | ['Kuzin, A.P.', 'Abashidze, M.',         |
+| [CIF: _audit_author.name]      | nach,F.Forouhar,S.M.Vorobiev,H.Wang,H.Ja | 'Seetharaman, J.', 'Benach, J.',         |
+|                                | njua,K.Cunningham,L-C.Ma,R.Xiao,J.Liu,M. | 'Forouhar, F.', 'Vorobiev, S.M.', 'Wang, |
+|                                | C.Baran,T.B.Acton,B.Rost,G.T.Montelione, | H.', 'Janjua, H.', 'Cunningham, K.',     |
+|                                | L.Tong,J.F.Hunt,Northeast Structural     | 'Ma, L-C.', 'Xiao, R.', 'Liu, J.',       |
+|                                | Genomics Consortium (Nesg)               | 'Baran, M.C.', 'Acton, T.B.', 'Rost,     |
+|                                |                                          | B.', 'Montelione, G.T.', 'Tong, L.',     |
+|                                |                                          | 'Hunt, J.F.', 'Northeast Structural      |
+|                                |                                          | Genomics Consortium (NESG)']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2007-10-25                               | ['2007-10-25', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2007-11-06                               | ['2007-11-06', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | listeria innocua clip11262               | Listeria innocua Clip11262               |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | lin1889                                  | lin1889                                  |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 272626                                   | 272626                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: lin1889 protein
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

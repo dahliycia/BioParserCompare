@@ -1,0 +1,102 @@
+PDB Parser time: 1.00300002098
+MMCIF Parser time: 16.3880000114
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | signaling protein                        | SIGNALING PROTEIN                        |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   T.KASAI,S.KOSHIBA,S.WATANABE,T.HA | [['Kasai, T.', 'Koshiba, S.', 'Watanabe, |
+| [CIF:                          | RADA,T.KIGAWA,AUTH 2 S.YOKOYAMATITL      | S.', 'Harada, T.', 'Kigawa, T.',         |
+| ['_citation_author.name',      | SOLUTION STRUCTURE OF THE HUMAN SHIP SH2 | 'Yokoyama, S.'], 'Solution structure of  |
+| '_citation.title',             | DOMAINREF    TO BE PUBLISHEDREFN         | the human SHIP SH2 domain', 'To be       |
+| '_citation.journal_abbrev',    |                                          | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_volume',    |                                          | '?']                                     |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | t.kasai,s.koshiba,s.watanabe,t.harada,t. | [['Kasai, T.', 'Koshiba, S.', 'Watanabe, |
+| [CIF:                          | kigawa, s.yokoyama solution structure of | S.', 'Harada, T.', 'Kigawa, T.',         |
+| ['_citation_author.name',      | the human ship sh2 domain to be          | 'Yokoyama, S.'], 'Solution structure of  |
+| '_citation.title',             | published                                | the human SHIP SH2 domain', 'To be       |
+| '_citation.journal_abbrev',    |                                          | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_volume',    |                                          | '?']                                     |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | sh2 domain, phosphotyrosine binding      | SH2 domain, Phosphotyrosine binding      |
+| [CIF: _struct_keywords.text]   | domain, protein tyrosine kinase, signal  | domain, Protein Tyrosine Kinase, Signal  |
+|                                | transduction, structural genomics,       | Transduction, Structural Genomics,       |
+|                                | nppsfa, national project on protein      | NPPSFA, National Project on Protein      |
+|                                | structural and functional analyses,      | Structural and Functional Analyses,      |
+|                                | riken structural genomics/proteomics     | RIKEN Structural Genomics/Proteomics     |
+|                                | initiative, rsgi, signaling protein      | Initiative, RSGI, SIGNALING PROTEIN      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  solution structure of the human ship    | Solution structure of the human SHIP SH2 |
+| [CIF: _struct.title]           | sh2 domain                               | domain                                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | T.Kasai,S.Koshiba,S.Watanabe,T.Harada,T. | ['Kasai, T.', 'Koshiba, S.', 'Watanabe,  |
+| [CIF: _audit_author.name]      | Kigawa,S.Yokoyama,Riken Structural       | S.', 'Harada, T.', 'Kigawa, T.',         |
+|                                | Genomics/proteomics Initiative (Rsgi)    | 'Yokoyama, S.', 'RIKEN Structural        |
+|                                |                                          | Genomics/Proteomics Initiative (RSGI)']  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2007-04-04                               | ['2007-04-04', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2008-04-08                               | ['2008-04-08', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | p061218-23                               | P061218-23                               |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | ship                                     | SHIP                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: signaling inositol polyphosphate phosphataseship ii 
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:fragment, PDB value: sh2 domain, unp residues 1-112
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

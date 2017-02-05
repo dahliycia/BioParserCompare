@@ -1,0 +1,99 @@
+PDB Parser time: 1.9359998703
+MMCIF Parser time: 36.3409998417
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   J.WOLF,E.VALKOV,M.D.ALLEN,B.MEINE | [['Wolf, J.', 'Valkov, E.', 'Allen,      |
+| [CIF:                          | KE,Y.GORDIYENKO,AUTH 2 S.H.MCLAUGHLIN,T. | M.D.', 'Meineke, B.', 'Gordiyenko, Y.',  |
+| ['_citation_author.name',      | M.OLSEN,C.V.ROBINSON,M.BYCROFT,M.STEWART | 'Mclaughlin, S.H.', 'Olsen, T.M.',       |
+| '_citation.title',             | ,AUTH 3 L.A.PASSMORETITL   STRUCTURAL    | 'Robinson, C.V.', 'Bycroft, M.',         |
+| '_citation.journal_abbrev',    | BASIS FOR PAN3 BINDING TO PAN2 AND ITS   | 'Stewart, M.', 'Passmore, L.A.'],        |
+| '_citation.journal_volume',    | FUNCTIONTITL 2 IN MRNA RECRUITMENT AND   | 'Structural Basis for Pan3 Binding to    |
+| '_citation.year',              | DEADENYLATIONREF    EMBO J.              | Pan2 and its Function in Mrna            |
+| '_citation.page_first',        | V.  33  1514 2014REFN                    | Recruitment and Deadenylation', 'Embo    |
+| '_citation.journal_id_ISSN', ' | ISSN 0261-4189PMID   24872509DOI         | J.', '33', '2014', '1514', '0261-4189',  |
+| _citation.pdbx_database_id_Pub | 10.15252/EMBJ.201488373                  | '24872509', '10.15252/EMBJ.201488373']   |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | j.wolf,e.valkov,m.d.allen,b.meineke,y.go | [['Wolf, J.', 'Valkov, E.', 'Allen,      |
+| [CIF:                          | rdiyenko, s.h.mclaughlin,t.m.olsen,c.v.r | M.D.', 'Meineke, B.', 'Gordiyenko, Y.',  |
+| ['_citation_author.name',      | obinson,m.bycroft,m.stel.a.passmore      | 'Mclaughlin, S.H.', 'Olsen, T.M.',       |
+| '_citation.title',             | structural basis for pan3 binding to     | 'Robinson, C.V.', 'Bycroft, M.',         |
+| '_citation.journal_abbrev',    | pan2 and its funin mrna recruitment and  | 'Stewart, M.', 'Passmore, L.A.'],        |
+| '_citation.journal_volume',    | deadenylation embo j. v. 33 1514 2014    | 'Structural Basis for Pan3 Binding to    |
+| '_citation.year',              | issn 0261-4189 24872509                  | Pan2 and its Function in Mrna            |
+| '_citation.page_first',        | 10.15252/embj.201488373                  | Recruitment and Deadenylation', 'Embo    |
+| '_citation.journal_id_ISSN', ' |                                          | J.', '33', '2014', '1514', '0261-4189',  |
+| _citation.pdbx_database_id_Pub |                                          | '24872509', '10.15252/EMBJ.201488373']   |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  chaetomium thermophilum pan3            | Chaetomium thermophilum Pan3             |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Wolf,E.Valkov,M.D.Allen,B.Meineke,Y.Go | ['Wolf, J.', 'Valkov, E.', 'Allen,       |
+| [CIF: _audit_author.name]      | rdiyenko,S.H.Mclaughlin,T.M.Olsen,C.V.Ro | M.D.', 'Meineke, B.', 'Gordiyenko, Y.',  |
+|                                | binson,M.Bycroft,M.Stewart,L.A.Passmore  | 'McLaughlin, S.H.', 'Olsen, T.M.',       |
+|                                |                                          | 'Robinson, C.V.', 'Bycroft, M.',         |
+|                                |                                          | 'Stewart, M.', 'Passmore, L.A.']         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2014-04-11                               | ['2014-04-11', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2014-06-11                               | ['2014-06-11', '2014-06-25',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2014-10-22']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | chaetomium thermophilum                  | CHAETOMIUM THERMOPHILUM                  |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 209285                                   | 209285                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: pab-dependent poly(a)-specific ribonuclease subunit pan3-like protein, pab-dependent poly(a)-specific ribonuclease subunit pan3-l protein 
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:fragment, PDB value: pkc, residues 203-640
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h
+PDB key: compound:1:misc, PDB value: 

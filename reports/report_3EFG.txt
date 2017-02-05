@@ -1,0 +1,100 @@
+PDB Parser time: 0.0340001583099
+MMCIF Parser time: 0.909999847412
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | structural genomics, unknown function    | structural genomics, unknown function    |
+| [CIF: _struct_keywords.pdbx_ke | 08-sep-08   3efg                         |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   M.E.CUFF,X.XU,H.CUI,A.SAVCHENKO,A | [['Cuff, M.E.', 'Xu, X.', 'Cui, H.',     |
+| [CIF:                          | .EDWARDS,A.JOACHIMIAKTITL   STRUCTURE OF | 'Savchenko, A.', 'Edwards, A.',          |
+| ['_citation_author.name',      | SLYX PROTEIN FROM XANTHOMONAS CAMPESTRIS | 'Joachimiak, A.'], 'Structure of SlyX    |
+| '_citation.title',             | PV.TITL 2 CAMPESTRIS STR. ATCC 33913REF  | protein from Xanthomonas campestris pv.  |
+| '_citation.journal_abbrev',    | TO BE PUBLISHEDREFN                      | campestris str. ATCC 33913', 'TO BE      |
+| '_citation.journal_volume',    |                                          | PUBLISHED', '?', '?', '?', '?', '?',     |
+| '_citation.year',              |                                          | '?']                                     |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.e.cuff,x.xu,h.cui,a.savchenko,a.edward | [['Cuff, M.E.', 'Xu, X.', 'Cui, H.',     |
+| [CIF:                          | s,a.joachimiastructure of slyx protein   | 'Savchenko, A.', 'Edwards, A.',          |
+| ['_citation_author.name',      | from xanthomonas campestriscampestris    | 'Joachimiak, A.'], 'Structure of SlyX    |
+| '_citation.title',             | str. atcc 33913 to be published          | protein from Xanthomonas campestris pv.  |
+| '_citation.journal_abbrev',    |                                          | campestris str. ATCC 33913', 'TO BE      |
+| '_citation.journal_volume',    |                                          | PUBLISHED', '?', '?', '?', '?', '?',     |
+| '_citation.year',              |                                          | '?']                                     |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | xanthomonas campestris pv. campestris,   | Xanthomonas campestris pv. campestris,   |
+| [CIF: _struct_keywords.text]   | coiled-coil, structural genomics, psi-2, | coiled-coil, structural genomics, PSI-2, |
+|                                | protein structure initiative, midwest    | Protein Structure Initiative, Midwest    |
+|                                | center for structural genomics, mcsg,    | Center for Structural Genomics, MCSG,    |
+|                                | unknown function                         | unknown function                         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  structure of slyx protein from          | Structure of SlyX protein from           |
+| [CIF: _struct.title]           | xanthomonas campestris pv. campestris    | Xanthomonas campestris pv. campestris    |
+|                                | str. atcc 33913                          | str. ATCC 33913                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | M.E.Cuff,X.Xu,H.Cui,A.Savchenko,A.Edward | ['Cuff, M.E.', 'Xu, X.', 'Cui, H.',      |
+| [CIF: _audit_author.name]      | s,A.Joachimiak,Midwest CenterFor         | 'Savchenko, A.', 'Edwards, A.',          |
+|                                | Structural Genomics (Mcsg)               | 'Joachimiak, A.', 'Midwest Center for    |
+|                                |                                          | Structural Genomics (MCSG)']             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2008-09-08                               | ['2008-09-08', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2008-12-09                               | ['2008-12-09', '2011-07-13']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | xanthomonas campestris pv. campestris    | Xanthomonas campestris pv. campestris    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | slyx, xcc1504                            | slyX, XCC1504                            |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 340                                      | 340                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: protein slyx homolog
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

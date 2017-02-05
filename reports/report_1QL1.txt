@@ -1,0 +1,145 @@
+PDB Parser time: 0.0139999389648
+MMCIF Parser time: 0.335000038147
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | fiber diffraction                        | FIBER DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | virus                                    | VIRUS                                    |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Welsh, L.C.', 'Symmons, M.F.',        |
+| [CIF:                          | L.C.WELSH,M.F.SYMMONS,D.A.MARVINTITL     | 'Marvin, D.A.', 'Gonzalez, A.', 'Nave,   |
+| ['_citation_author.name',      | THE MOLECULAR STRUCTURE AND STRUCTURAL   | C.', 'Marvin, D.A.', 'Marvin, D.A.',     |
+| '_citation.title',             | TRANSITIONTITL 2 OF THE ALPHA-HELICAL    | 'Nave, C.', 'Bansal, M.', 'Hale, R.D.',  |
+| '_citation.journal_abbrev',    | CAPSID IN FILAMENTOUSTITL 3              | 'Salje, E.K.H.', 'Marvin, D.A.',         |
+| '_citation.journal_volume',    | BACTERIOPHAGE PF1REF    ACTA             | 'Marvin, D.A.'], ['The Molecular         |
+| '_citation.year',              | CRYSTALLOGR.,SECT.D      V. 56    137    | Structure and Structural Transition of   |
+| '_citation.page_first',        | 2000REFN                   ISSN          | the Alpha-Helical Capsid in Filamentous  |
+| '_citation.journal_id_ISSN', ' | 0907-4449PMID   10666593DOI              | Bacteriophage Pf1', 'Pf1 Filamentous     |
+| _citation.pdbx_database_id_Pub | 10.1107/S0907444999015334                | Bacteriophage: Refinement of a Molecular |
+| Med', '_citation.pdbx_database |                                          | Model by Simulated Annealing Using 3.3   |
+| _id_DOI']]                     |                                          | Angstroms Resolution X-Ray Fibre         |
+|                                |                                          | Diffraction Data', 'Two Forms of Pf1     |
+|                                |                                          | Inovirus: X-Ray Diffraction Studies on a |
+|                                |                                          | Structural Phase Transition and a        |
+|                                |                                          | Calculated Libration Normal Mode of the  |
+|                                |                                          | Asymmetric Unit', 'Model-Building        |
+|                                |                                          | Studies of Inovirus: Genetic Variations  |
+|                                |                                          | on a Geometric Theme', 'Dynamics of      |
+|                                |                                          | Telescoping Inovirus: A Mechanism for    |
+|                                |                                          | Assembly at Membrane Adhesions'], ['Acta |
+|                                |                                          | Crystallogr.,Sect.D', 'Acta              |
+|                                |                                          | Crystallogr.,Sect.D', 'Phase             |
+|                                |                                          | Transitions', 'Int.J.Biol.Macromol.',    |
+|                                |                                          | 'Int.J.Biol.Macromol.'], ['56', '51',    |
+|                                |                                          | '39', '12', '11'], ['2000', '1995',      |
+|                                |                                          | '1992', '1990', '1989'], ['137', '792',  |
+|                                |                                          | '45', '125', '159'], ['0907-4449',       |
+|                                |                                          | '0907-4449', '0141-1594', '0141-8130',   |
+|                                |                                          | '0141-8130'], ['10666593', '15299811',   |
+|                                |                                          | '?', '2078529', '2489076'],              |
+|                                |                                          | ['10.1107/S0907444999015334',            |
+|                                |                                          | '10.1107/S0907444995003027', '?',        |
+|                                |                                          | '10.1016/0141-8130(90)90064-H',          |
+|                                |                                          | '10.1016/0141-8130(89)90061-5']]         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | l.c.welsh,m.f.symmons,d.a.marvin the     | [['Welsh, L.C.', 'Symmons, M.F.',        |
+| [CIF:                          | molecular structure and structural       | 'Marvin, D.A.', 'Gonzalez, A.', 'Nave,   |
+| ['_citation_author.name',      | transition of the alpha-helical capsid   | C.', 'Marvin, D.A.', 'Marvin, D.A.',     |
+| '_citation.title',             | in filamentous bacteriophage pf1 acta    | 'Nave, C.', 'Bansal, M.', 'Hale, R.D.',  |
+| '_citation.journal_abbrev',    | crystallogr.,sect.d v. 56 137 2000 issn  | 'Salje, E.K.H.', 'Marvin, D.A.',         |
+| '_citation.journal_volume',    | 0907-4449 10666593                       | 'Marvin, D.A.'], ['The Molecular         |
+| '_citation.year',              | 10.1107/s0907444999015334                | Structure and Structural Transition of   |
+| '_citation.page_first',        |                                          | the Alpha-Helical Capsid in Filamentous  |
+| '_citation.journal_id_ISSN', ' |                                          | Bacteriophage Pf1', 'Pf1 Filamentous     |
+| _citation.pdbx_database_id_Pub |                                          | Bacteriophage: Refinement of a Molecular |
+| Med', '_citation.pdbx_database |                                          | Model by Simulated Annealing Using 3.3   |
+| _id_DOI']]                     |                                          | Angstroms Resolution X-Ray Fibre         |
+|                                |                                          | Diffraction Data', 'Two Forms of Pf1     |
+|                                |                                          | Inovirus: X-Ray Diffraction Studies on a |
+|                                |                                          | Structural Phase Transition and a        |
+|                                |                                          | Calculated Libration Normal Mode of the  |
+|                                |                                          | Asymmetric Unit', 'Model-Building        |
+|                                |                                          | Studies of Inovirus: Genetic Variations  |
+|                                |                                          | on a Geometric Theme', 'Dynamics of      |
+|                                |                                          | Telescoping Inovirus: A Mechanism for    |
+|                                |                                          | Assembly at Membrane Adhesions'], ['Acta |
+|                                |                                          | Crystallogr.,Sect.D', 'Acta              |
+|                                |                                          | Crystallogr.,Sect.D', 'Phase             |
+|                                |                                          | Transitions', 'Int.J.Biol.Macromol.',    |
+|                                |                                          | 'Int.J.Biol.Macromol.'], ['56', '51',    |
+|                                |                                          | '39', '12', '11'], ['2000', '1995',      |
+|                                |                                          | '1992', '1990', '1989'], ['137', '792',  |
+|                                |                                          | '45', '125', '159'], ['0907-4449',       |
+|                                |                                          | '0907-4449', '0141-1594', '0141-8130',   |
+|                                |                                          | '0141-8130'], ['10666593', '15299811',   |
+|                                |                                          | '?', '2078529', '2489076'],              |
+|                                |                                          | ['10.1107/S0907444999015334',            |
+|                                |                                          | '10.1107/S0907444995003027', '?',        |
+|                                |                                          | '10.1016/0141-8130(90)90064-H',          |
+|                                |                                          | '10.1016/0141-8130(89)90061-5']]         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | virus, virus coat protein, helical virus | VIRUS, VIRUS COAT PROTEIN, HELICAL VIRUS |
+| [CIF: _struct_keywords.text]   | coat protein, ssdna viruses, inovirus,   | COAT PROTEIN, SSDNA VIRUSES, INOVIRUS,   |
+|                                | helical virus                            | HELICAL VIRUS                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  inovirus (filamentous bacteriophage)    | INOVIRUS (FILAMENTOUS BACTERIOPHAGE)     |
+| [CIF: _struct.title]           | strain pf1 major coat protein assembly   | STRAIN PF1 MAJOR COAT PROTEIN ASSEMBLY   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | L.C.Welsh,M.F.Symmons,D.A.Marvin         | ['Welsh, L.C.', 'Symmons, M.F.',         |
+| [CIF: _audit_author.name]      |                                          | 'Marvin, D.A.']                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 1999-08-20                               | ['1999-08-20', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2000-02-07                               | ['2000-02-07', '2000-12-18',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 10871                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | pseudomonas phage pf1                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['a.gonzalez,c.nave,d.a.marvin pf1       | NOT FOUND                                |
+| [CIF: NOT FOUND]               | filamentous bacteriophage: refinement of |                                          |
+|                                | a molecular model by simulated annealing |                                          |
+|                                | using 3.3 angstroms resolution x-ray     |                                          |
+|                                | fibre diffraction data acta              |                                          |
+|                                | crystallogr.,sect.d v. 51 792 1995 issn  |                                          |
+|                                | 0907-4449 15299811                       |                                          |
+|                                | 10.1107/s0907444995003027 ', 'd.a.marvin |                                          |
+|                                | ,c.nave,m.bansal,r.d.hale,e.k.h.salje    |                                          |
+|                                | two forms of pf1 inovirus: x-ray         |                                          |
+|                                | diffraction studies on a structural      |                                          |
+|                                | phase transition and a calculated        |                                          |
+|                                | libration normal mode of the asymmetric  |                                          |
+|                                | unit phase transitions v. 39 45 1992     |                                          |
+|                                | issn 0141-1594 ', 'd.a.marvin model-     |                                          |
+|                                | building studies of inovirus: genetic    |                                          |
+|                                | variations on a geometric theme          |                                          |
+|                                | int.j.biol.macromol. v. 12 125 1990 issn |                                          |
+|                                | 0141-8130 2078529                        |                                          |
+|                                | 10.1016/0141-8130(90)90064-h ',          |                                          |
+|                                | 'd.a.marvin dynamics of telescoping      |                                          |
+|                                | inovirus: a mechanism for assembly at    |                                          |
+|                                | membrane adhesions int.j.biol.macromol.  |                                          |
+|                                | v. 11 159 1989 issn 0141-8130 2489076    |                                          |
+|                                | 10.1016/0141-8130(89)90061-5 ']          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: pf1 bacteriophage coat protein b
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:synonym, PDB value: pf1 inovirus
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:other_details, PDB value: major coat protein assembly in thehigher-temperature symmetry 

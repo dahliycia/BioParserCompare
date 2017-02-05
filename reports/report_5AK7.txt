@@ -1,0 +1,105 @@
+PDB Parser time: 0.164999961853
+MMCIF Parser time: 3.61299991608
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   A.B.MONTGOMERY,J.KOPEC,L.SHRESTHA | [['Montgomery, A.B.', 'Kopec, J.',       |
+| [CIF:                          | ,M.L.THEZENAS,AUTH 2 N.A.BURGESS-        | 'Shrestha, L.', 'Thezenas, M.L.',        |
+| ['_citation_author.name',      | BROWN,R.FISCHER,W.W.YUE,P.J.VENABLESTITL | 'Burgess-Brown, N.A.', 'Fischer, R.',    |
+| '_citation.title',             | CRYSTAL STRUCTURE OF PORPHYROMONAS       | 'Yue, W.W.', 'Venables, P.J.'], 'Crystal |
+| '_citation.journal_abbrev',    | GINGIVALISTITL 2 PEPTIDYLARGININE        | Structure of Porphyromonas Gingivalis    |
+| '_citation.journal_volume',    | DEIMINASE: IMPLICATIONS FOR              | Peptidylarginine Deiminase: Implications |
+| '_citation.year',              | AUTOIMMUNITYTITL 3 IN RHEUMATOID         | for Autoimmunity in Rheumatoid           |
+| '_citation.page_first',        | ARTHRITIS.REF    ANN.RHEUM.DIS.          | Arthritis.', 'Ann.Rheum.Dis.', '75',     |
+| '_citation.journal_id_ISSN', ' | V.  75  1255 2016REFN                    | '2016', '1255', '0003-4967', '26209657', |
+| _citation.pdbx_database_id_Pub | ISSN 0003-4967PMID   26209657DOI         | '10.1136/ANNRHEUMDIS-2015-207656']       |
+| Med', '_citation.pdbx_database | 10.1136/ANNRHEUMDIS-2015-207656          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | a.b.montgomery,j.kopec,l.shrestha,m.l.th | [['Montgomery, A.B.', 'Kopec, J.',       |
+| [CIF:                          | ezenas, n.a.burgess-                     | 'Shrestha, L.', 'Thezenas, M.L.',        |
+| ['_citation_author.name',      | brown,r.fischer,w.w.yue,p.j.venables     | 'Burgess-Brown, N.A.', 'Fischer, R.',    |
+| '_citation.title',             | crystal structure of porphyromonas       | 'Yue, W.W.', 'Venables, P.J.'], 'Crystal |
+| '_citation.journal_abbrev',    | gingivalis peptidylarginine deiminase:   | Structure of Porphyromonas Gingivalis    |
+| '_citation.journal_volume',    | implications for autoimmuin rheumatoid   | Peptidylarginine Deiminase: Implications |
+| '_citation.year',              | arthritis. ann.rheum.dis. v. 75 1255     | for Autoimmunity in Rheumatoid           |
+| '_citation.page_first',        | 2016 issn 0003-4967 26209657             | Arthritis.', 'Ann.Rheum.Dis.', '75',     |
+| '_citation.journal_id_ISSN', ' | 10.1136/annrheumdis-2015-207656          | '2016', '1255', '0003-4967', '26209657', |
+| _citation.pdbx_database_id_Pub |                                          | '10.1136/ANNRHEUMDIS-2015-207656']       |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase, ppad                          | HYDROLASE, PPAD                          |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  structure of wt porphyromonas           | Structure of wt Porphyromonas gingivalis |
+| [CIF: _struct.title]           | gingivalis peptidylarginine deiminase    | peptidylarginine deiminase               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Kopec,A.Montgomery,L.Shrestha,W.Kiyani | ['Kopec, J.', 'Montgomery, A.',          |
+| [CIF: _audit_author.name]      | ,R.Nowak,N.Burgess-                      | 'Shrestha, L.', 'Kiyani, W.', 'Nowak,    |
+|                                | Brown,P.J.Venables,W.W.Yue               | R.', 'Burgess-Brown, N.', 'Venables,     |
+|                                |                                          | P.J.', 'Yue, W.W.']                      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2015-03-02                               | ['2015-03-02', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2015-07-22                               | ['2015-07-22', '2015-08-05',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2015-08-19', '2016-05-25']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | porphyromonas gingivalis                 | PORPHYROMONAS GINGIVALIS                 |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pnic28-bsa                               | PNIC28-BSA                               |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 837                                      | 837                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: residues 49-484
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: peptidylarginine deiminase
+PDB key: compound:1:synonym, PDB value: ppad
+PDB key: compound:1:ec, PDB value: 3.5.3.-
+PDB key: compound:1:chain, PDB value: a

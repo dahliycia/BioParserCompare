@@ -1,0 +1,96 @@
+PDB Parser time: 0.538999795914
+MMCIF Parser time: 9.59200000763
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase                           | OXIDOREDUCTASE                           |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   M.MARCHETTI,A.LIUZZI,B.FERMI,R.CO | [['Marchetti, M.', 'Liuzzi, A.', 'Fermi, |
+| [CIF:                          | RSINI,C.FOLLI,V.SPERANZINI,AUTH 2 F.GAND | B.', 'Corsini, R.', 'Folli, C.',         |
+| ['_citation_author.name',      | OLFI,S.BETTATI,L.RONDA,L.CENDRON,R.BERNI | 'Speranzini, V.', 'Gandolfi, F.',        |
+| '_citation.title',             | ,G.ZANOTTI,AUTH 3 R.PERCUDANITITL        | 'Bettati, S.', 'Ronda, L.', 'Cendron,    |
+| '_citation.journal_abbrev',    | CATALYSIS AND STRUCTURE OF ZEBRAFISH     | L.', 'Berni, R.', 'Zanotti, G.',         |
+| '_citation.journal_volume',    | URATE OXIDASE PROVIDETITL 2 INSIGHTS     | 'Percudani, R.'], 'Catalysis and         |
+| '_citation.year',              | INTO THE ORIGIN OF HYPERURICEMIA IN      | Structure of Zebrafish Urate Oxidase     |
+| '_citation.page_first',        | HOMINOIDS.REF    SCI REP                 | Provide Insights into the Origin of      |
+| '_citation.journal_id_ISSN', ' | V.   6 38302 2016REFN                    | Hyperuricemia in Hominoids.', 'Sci Rep', |
+| _citation.pdbx_database_id_Pub | ESSN 2045-2322PMID   27922051DOI         | '6', '2016', '38302', '2045-2322',       |
+| Med', '_citation.pdbx_database | 10.1038/SREP38302                        | '27922051', '10.1038/srep38302']         |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.marchetti,a.liuzzi,b.fermi,r.corsini,c | [['Marchetti, M.', 'Liuzzi, A.', 'Fermi, |
+| [CIF:                          | .folli,v.sperf.gandolfi,s.bettati,l.rond | B.', 'Corsini, R.', 'Folli, C.',         |
+| ['_citation_author.name',      | a,l.cendron,r.berni,g.zanor.percudani    | 'Speranzini, V.', 'Gandolfi, F.',        |
+| '_citation.title',             | catalysis and structure of zebrafish     | 'Bettati, S.', 'Ronda, L.', 'Cendron,    |
+| '_citation.journal_abbrev',    | urate oxidase prinsights into the origin | L.', 'Berni, R.', 'Zanotti, G.',         |
+| '_citation.journal_volume',    | of hyperuricemia in hominoidsci rep v. 6 | 'Percudani, R.'], 'Catalysis and         |
+| '_citation.year',              | 38302 2016 essn 2045-2322 27922051       | Structure of Zebrafish Urate Oxidase     |
+| '_citation.page_first',        | 10.1038/srep38302                        | Provide Insights into the Origin of      |
+| '_citation.journal_id_ISSN', ' |                                          | Hyperuricemia in Hominoids.', 'Sci Rep', |
+| _citation.pdbx_database_id_Pub |                                          | '6', '2016', '38302', '2045-2322',       |
+| Med', '_citation.pdbx_database |                                          | '27922051', '10.1038/srep38302']         |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | uric acid, urate, purine metabolism,     | uric acid, urate, purine metabolism,     |
+| [CIF: _struct_keywords.text]   | uricolytic activities, oxidoreductase    | uricolytic activities, oxidoreductase    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of urate oxidase from | Crystal structure of urate oxidase from  |
+| [CIF: _struct.title]           | zebrafish                                | zebrafish                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | G.Zanotti,L.Cendron,R.Percudani,R.Berni  | ['Zanotti, G.', 'Cendron, l.',           |
+| [CIF: _audit_author.name]      |                                          | 'Percudani, R.', 'Berni, R.']            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2016-07-26                               | 2016-07-26                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2017-01-25                               | 2017-01-25                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli bl21(de3)               | Escherichia coli BL21(DE3)               |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 7955                                     | 7955                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | danio rerio                              | Danio rerio                              |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | uox                                      | uox                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | zebrafish                                | Zebrafish                                |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 1.7.3.3
+PDB key: compound:1:molecule, PDB value: uricase
+PDB key: compound:1:ec, PDB value: 1.7.3.3
+PDB key: compound:1:synonym, PDB value: urate oxidase

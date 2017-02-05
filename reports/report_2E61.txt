@@ -1,0 +1,105 @@
+PDB Parser time: 0.385999917984
+MMCIF Parser time: 9.43499994278
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | structural genomics, unknown function    | STRUCTURAL GENOMICS, UNKNOWN FUNCTION    |
+| [CIF: _struct_keywords.pdbx_ke | 25-dec-06   2e61                         |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   F.HE,T.UMEHARA,K.SAITO,T.HARADA,S | [['He, F.', 'Umehara, T.', 'Saito, K.',  |
+| [CIF:                          | .WATANABE,T.YABUKI,AUTH 2 T.KIGAWA,M.TAK | 'Harada, T.', 'Watanabe, S.', 'Yabuki,   |
+| ['_citation_author.name',      | AHASHI,K.KUWASAKO,K.TSUDA,T.MATSUDA,M.AO | T.', 'Kigawa, T.', 'Takahashi, M.',      |
+| '_citation.title',             | KI,AUTH 3 E.SEKI,N.KOBAYASHI,P.GUNTERT,S | 'Kuwasako, K.', 'Tsuda, K.', 'Matsuda,   |
+| '_citation.journal_abbrev',    | .YOKOYAMA,Y.MUTOTITL   STRUCTURAL        | T.', 'Aoki, M.', 'Seki, E.', 'Kobayashi, |
+| '_citation.journal_volume',    | INSIGHT INTO THE ZINC FINGER CW DOMAIN   | N.', 'Guntert, P.', 'Yokoyama, S.',      |
+| '_citation.year',              | AS ATITL 2 HISTONE MODIFICATION          | 'Muto, Y.'], 'Structural insight into    |
+| '_citation.page_first',        | READERREF    STRUCTURE                   | the zinc finger CW domain as a histone   |
+| '_citation.journal_id_ISSN', ' | V.  18  1127 2010REFN                    | modification reader', 'Structure', '18', |
+| _citation.pdbx_database_id_Pub | ISSN 0969-2126PMID   20826339DOI         | '2010', '1127', '0969-2126', '20826339', |
+| Med', '_citation.pdbx_database | 10.1016/J.STR.2010.06.012                | '10.1016/j.str.2010.06.012']             |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | f.he,t.umehara,k.saito,t.harada,s.watana | [['He, F.', 'Umehara, T.', 'Saito, K.',  |
+| [CIF:                          | be,t.yabuki, t.kigawa,m.takahashi,k.kuwa | 'Harada, T.', 'Watanabe, S.', 'Yabuki,   |
+| ['_citation_author.name',      | sako,k.tsuda,t.matsuda,m.ae.seki,n.kobay | T.', 'Kigawa, T.', 'Takahashi, M.',      |
+| '_citation.title',             | ashi,p.guntert,s.yokoyama,y.muto         | 'Kuwasako, K.', 'Tsuda, K.', 'Matsuda,   |
+| '_citation.journal_abbrev',    | structural insight into the zinc finger  | T.', 'Aoki, M.', 'Seki, E.', 'Kobayashi, |
+| '_citation.journal_volume',    | cw domain as histone modification reader | N.', 'Guntert, P.', 'Yokoyama, S.',      |
+| '_citation.year',              | structure v. 18 1127 2010 issn 0969-2126 | 'Muto, Y.'], 'Structural insight into    |
+| '_citation.page_first',        | 20826339 10.1016/j.str.2010.06.012       | the zinc finger CW domain as a histone   |
+| '_citation.journal_id_ISSN', ' |                                          | modification reader', 'Structure', '18', |
+| _citation.pdbx_database_id_Pub |                                          | '2010', '1127', '0969-2126', '20826339', |
+| Med', '_citation.pdbx_database |                                          | '10.1016/j.str.2010.06.012']             |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | zf-cw domain, structural genomics,       | zf-CW domain, Structural Genomics,       |
+| [CIF: _struct_keywords.text]   | nppsfa, national project on protein      | NPPSFA, National Project on Protein      |
+|                                | structural and functional analyses,      | Structural and Functional Analyses,      |
+|                                | riken structural genomics/proteomics     | RIKEN Structural Genomics/Proteomics     |
+|                                | initiative, rsgi, unknown function       | Initiative, RSGI, UNKNOWN FUNCTION       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  solution structure of the zf-cw domain  | Solution structure of the zf-CW domain   |
+| [CIF: _struct.title]           | in zinc finger cw-type pwwp domain       | in zinc finger CW-type PWWP domain       |
+|                                | protein 1                                | protein 1                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | F.He,Y.Muto,M.Inoue,T.Kigawa,M.Shirouzu, | ['He, F.', 'Muto, Y.', 'Inoue, M.',      |
+| [CIF: _audit_author.name]      | T.Terada,S.Yokoyama,RikenStructural      | 'Kigawa, T.', 'Shirouzu, M.', 'Terada,   |
+|                                | Genomics/proteomics Initiative (Rsgi)    | T.', 'Yokoyama, S.', 'RIKEN Structural   |
+|                                |                                          | Genomics/Proteomics Initiative (RSGI)']  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2006-12-25                               | ['2006-12-25', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2007-06-26                               | ['2007-06-26', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2010-09-15', '2010-09-29']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | cell free synthsis                       | cell free synthsis                       |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | p060116-12                               | P060116-12                               |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | zcwpw1                                   | ZCWPW1                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: zinc finger cw-type pwwp domain protein 1
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:fragment, PDB value: zf-cw domain, unp residues 246-307
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

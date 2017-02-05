@@ -1,0 +1,107 @@
+PDB Parser time: 0.130000114441
+MMCIF Parser time: 3.04800009727
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase                           | OXIDOREDUCTASE                           |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Y.FUKUDA,K.M.TSE,M.LINTULUOTO,Y.F | [['Fukuda, Y.', 'Tse, K.M.',             |
+| [CIF:                          | UKUNISHI,E.MIZOHATA,AUTH 2 H.MATSUMURA,H | 'Lintuluoto, M.', 'Fukunishi, Y.',       |
+| ['_citation_author.name',      | .TAKAMI,M.NOJIRI,T.INOUETITL             | 'Mizohata, E.', 'Matsumura, H.',         |
+| '_citation.title',             | STRUCTURAL INSIGHTS INTO THE FUNCTION OF | 'Takami, H.', 'Nojiri, M.', 'Inoue,      |
+| '_citation.journal_abbrev',    | A THERMOSTABLETITL 2 COPPER-CONTAINING   | T.'], 'Structural insights into the      |
+| '_citation.journal_volume',    | NITRITE REDUCTASEREF    J.BIOCHEM.       | function of a thermostable copper-       |
+| '_citation.year',              | V. 155   123 2014REFN                    | containing nitrite reductase',           |
+| '_citation.page_first',        | ISSN 0021-924XPMID   24293549DOI         | 'J.Biochem.', '155', '2014', '123',      |
+| '_citation.journal_id_ISSN', ' | 10.1093/JB/MVT107                        | '0021-924X', '24293549',                 |
+| _citation.pdbx_database_id_Pub |                                          | '10.1093/jb/mvt107']                     |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | y.fukuda,k.m.tse,m.lintuluoto,y.fukunish | [['Fukuda, Y.', 'Tse, K.M.',             |
+| [CIF:                          | i,e.mizohata,h.matsumura,h.takami,m.noji | 'Lintuluoto, M.', 'Fukunishi, Y.',       |
+| ['_citation_author.name',      | ri,t.inoue structural insights into the  | 'Mizohata, E.', 'Matsumura, H.',         |
+| '_citation.title',             | function of a thermostabcopper-          | 'Takami, H.', 'Nojiri, M.', 'Inoue,      |
+| '_citation.journal_abbrev',    | containing nitrite reductase j.biochem.  | T.'], 'Structural insights into the      |
+| '_citation.journal_volume',    | v. 155 123 2014 issn 0021-924x 24293549  | function of a thermostable copper-       |
+| '_citation.year',              | 10.1093/jb/mvt107                        | containing nitrite reductase',           |
+| '_citation.page_first',        |                                          | 'J.Biochem.', '155', '2014', '123',      |
+| '_citation.journal_id_ISSN', ' |                                          | '0021-924X', '24293549',                 |
+| _citation.pdbx_database_id_Pub |                                          | '10.1093/jb/mvt107']                     |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | copper, oxidoreductase, denitrification, | Copper, Oxidoreductase, Denitrification, |
+| [CIF: _struct_keywords.text]   | electron transfer, nitrite               | Electron Transfer, Nitrite               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  copper-containing nitrite reductase     | Copper-containing nitrite reductase from |
+| [CIF: _struct.title]           | from thermophilic bacterium geobacillus  | thermophilic bacterium Geobacillus       |
+|                                | thermodenitrificans (re-refined)         | thermodenitrificans (Re-refined)         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Y.Fukuda,T.Inoue                         | ['Fukuda, Y.', 'Inoue, T.']              |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2015-04-30                               | 2015-04-30                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2015-05-20                               | 2015-05-20                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli bl21(de3)               | Escherichia coli BL21(DE3)               |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | geobacillus thermodenitrificans ng80-2   | Geobacillus thermodenitrificans NG80-2   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet22b                                   | pET22b                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21 (de3)                               | BL21 (DE3)                               |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | nirk                                     | nirK                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 420246                                   | 420246                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: unp residues 31-352
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: nitrite reductase
+PDB key: compound:1:synonym, PDB value: copper nitrite reductase
+PDB key: compound:1:chain, PDB value: a

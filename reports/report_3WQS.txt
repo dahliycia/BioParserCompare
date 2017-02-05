@@ -1,0 +1,92 @@
+PDB Parser time: 0.0859999656677
+MMCIF Parser time: 1.91400003433
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase/oxidoreductase inhibitor  | OXIDOREDUCTASE/OXIDOREDUCTASE INHIBITOR  |
+| [CIF: _struct_keywords.pdbx_ke | 31-jan-14   3wqs                         |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.KONZUCH,T.UMEDA,J.HELD,S.HAHN,K | [['Konzuch, S.', 'Umeda, T.', 'Held,     |
+| [CIF:                          | .BRUCHER,C.LIENAU,AUTH 2 C.T.BEHRENDT,T. | J.', 'Hahn, S.', 'Brucher, K.', 'Lienau, |
+| ['_citation_author.name',      | GRAWERT,A.BACHER,B.ILLARIONOV,M.FISCHER, | C.', 'Behrendt, C.T.', 'Grawert, T.',    |
+| '_citation.title',             | AUTH 3 B.MORDMULLER,N.TANAKA,T.KURZTITL  | 'Bacher, A.', 'Illarionov, B.',          |
+| '_citation.journal_abbrev',    | BINDING MODES OF REVERSE FOSMIDOMYCIN    | 'Fischer, M.', 'Mordmuller, B.',         |
+| '_citation.journal_volume',    | ANALOGS TOWARD THETITL 2 ANTIMALARIAL    | 'Tanaka, N.', 'Kurz, T.'], 'Binding      |
+| '_citation.year',              | TARGET ISPC.REF    J.MED.CHEM.           | Modes of Reverse Fosmidomycin Analogs    |
+| '_citation.page_first',        | V.  57  8827 2014REFN                    | toward the Antimalarial Target IspC.',   |
+| '_citation.journal_id_ISSN', ' | ISSN 0022-2623PMID   25254502DOI         | 'J.Med.Chem.', '57', '2014', '8827',     |
+| _citation.pdbx_database_id_Pub | 10.1021/JM500850Y                        | '0022-2623', '25254502',                 |
+| Med', '_citation.pdbx_database |                                          | '10.1021/jm500850y']                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.konzuch,t.umeda,j.held,s.hahn,k.bruche | [['Konzuch, S.', 'Umeda, T.', 'Held,     |
+| [CIF:                          | r,c.lienau, c.t.behrendt,t.grawert,a.bac | J.', 'Hahn, S.', 'Brucher, K.', 'Lienau, |
+| ['_citation_author.name',      | her,b.illarionov,m.fischeb.mordmuller,n. | C.', 'Behrendt, C.T.', 'Grawert, T.',    |
+| '_citation.title',             | tanaka,t.kurz binding modes of reverse   | 'Bacher, A.', 'Illarionov, B.',          |
+| '_citation.journal_abbrev',    | fosmidomycin analogs toward antimalarial | 'Fischer, M.', 'Mordmuller, B.',         |
+| '_citation.journal_volume',    | target ispc. j.med.chem. v. 57 8827 2014 | 'Tanaka, N.', 'Kurz, T.'], 'Binding      |
+| '_citation.year',              | issn 0022-2623 25254502                  | Modes of Reverse Fosmidomycin Analogs    |
+| '_citation.page_first',        | 10.1021/jm500850y                        | toward the Antimalarial Target IspC.',   |
+| '_citation.journal_id_ISSN', ' |                                          | 'J.Med.Chem.', '57', '2014', '8827',     |
+| _citation.pdbx_database_id_Pub |                                          | '0022-2623', '25254502',                 |
+| Med', '_citation.pdbx_database |                                          | '10.1021/jm500850y']                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | reductoisomerase, oxidoreductase-        | REDUCTOISOMERASE, OXIDOREDUCTASE-        |
+| [CIF: _struct_keywords.text]   | oxidoreductase inhibitor complex         | OXIDOREDUCTASE INHIBITOR COMPLEX         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of pfdxr complexed    | Crystal structure of pfdxr complexed     |
+| [CIF: _struct.title]           | with inhibitor-126                       | with inhibitor-126                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | N.Tanaka,T.Umeda                         | ['Tanaka, N.', 'Umeda, T.']              |
+| [CIF: _audit_author.name]      |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2014-01-31                               | 2014-01-31                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2014-11-26                               | 2014-11-26                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | plasmodium falciparum                    | Plasmodium falciparum                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | dxr                                      | DXR                                      |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 137071                                   | 137071                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 1.1.1.267
+PDB key: compound:1:molecule, PDB value: 1-deoxy-d-xylulose 5-phosphate reductoisomerase,apicoplast 
+PDB key: compound:1:ec, PDB value: 1.1.1.267
+PDB key: compound:1:synonym, PDB value: 1-deoxyxylulose-5-phosphate reductoisomerase, doxpreductoisomerase, dxp reductoisomerase 

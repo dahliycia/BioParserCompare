@@ -1,0 +1,99 @@
+PDB Parser time: 0.861999988556
+MMCIF Parser time: 12.888999939
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | solution nmr                             | SOLUTION NMR                             |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | protein binding                          | PROTEIN BINDING                          |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   H.LI,T.TOMIZAWA,S.KOSHIBA,M.INOUE | [['Li, H.', 'Tomizawa, T.', 'Koshiba,    |
+| [CIF:                          | ,T.KIGAWA,AUTH 2 S.YOKOYAMATITL          | S.', 'Inoue, M.', 'Kigawa, T.',          |
+| ['_citation_author.name',      | SOLUTION STRUCTURE OF THE RA DOMAIN OF   | 'Yokoyama, S.'], 'Solution Structure of  |
+| '_citation.title',             | HUMAN GRB7TITL 2 PROTEINREF    TO BE     | the RA Domain of Human Grb7 Protein',    |
+| '_citation.journal_abbrev',    | PUBLISHEDREFN                            | 'To be Published', '?', '?', '?', '?',   |
+| '_citation.journal_volume',    |                                          | '?', '?']                                |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | h.li,t.tomizawa,s.koshiba,m.inoue,t.kiga | [['Li, H.', 'Tomizawa, T.', 'Koshiba,    |
+| [CIF:                          | wa, s.yokoyama solution structure of the | S.', 'Inoue, M.', 'Kigawa, T.',          |
+| ['_citation_author.name',      | ra domain of human grb7 protein to be    | 'Yokoyama, S.'], 'Solution Structure of  |
+| '_citation.title',             | published                                | the RA Domain of Human Grb7 Protein',    |
+| '_citation.journal_abbrev',    |                                          | 'To be Published', '?', '?', '?', '?',   |
+| '_citation.journal_volume',    |                                          | '?', '?']                                |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | ra domain, grb7, structural genomics,    | RA domain, Grb7, structural genomics,    |
+| [CIF: _struct_keywords.text]   | riken structural genomics/proteomics     | RIKEN Structural Genomics/Proteomics     |
+|                                | initiative, rsgi, protein binding        | Initiative, RSGI, PROTEIN BINDING        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  solution structure of the ra domain of  | Solution Structure of the RA Domain of   |
+| [CIF: _struct.title]           | human grb7 protein                       | Human Grb7 Protein                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | H.Li,T.Tomizawa,S.Koshiba,M.Inoue,T.Kiga | ['Li, H.', 'Tomizawa, T.', 'Koshiba,     |
+| [CIF: _audit_author.name]      | wa,S.Yokoyama,RikenStructural            | S.', 'Inoue, M.', 'Kigawa, T.',          |
+|                                | Genomics/proteomics Initiative (Rsgi)    | 'Yokoyama, S.', 'RIKEN Structural        |
+|                                |                                          | Genomics/Proteomics Initiative (RSGI)']  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2004-05-28                               | ['2004-05-28', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2004-11-28                               | ['2004-11-28', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | Homo sapiens                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | p040223-63                               | P040223-63                               |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | ims cdna hep10521                        | IMS cDNA HEP10521                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | human                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: ra domain
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: growth factor receptor-bound protein 7
+PDB key: compound:1:synonym, PDB value: grb7, grb7 adapter protein, epidermal growthfactor receptor grb-7, b47 
+PDB key: compound:1:chain, PDB value: a

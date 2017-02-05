@@ -1,0 +1,122 @@
+PDB Parser time: 0.348000049591
+MMCIF Parser time: 7.16399979591
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | regulatory protein                       | REGULATORY PROTEIN                       |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   P.KURSULA,P.STENMARK,C.ARROWSMITH | [['Kursula, P.', 'Stenmark, P.',         |
+| [CIF:                          | ,H.BERGLUND,AUTH 2 A.EDWARDS,M.EHN,S.FLO | 'Arrowsmith, C.', 'Berglund, H.',        |
+| ['_citation_author.name',      | DIN,S.GRASLUND,M.HAMMARSTROM,AUTH 3      | 'Edwards, A.', 'Ehn, M.', 'Flodin, S.',  |
+| '_citation.title',             | B.M.HALLBERG,L.HOLMBERG                  | 'Graslund, S.', 'Hammarstrom, M.',       |
+| '_citation.journal_abbrev',    | SCHIAVONE,T.KOTENYOVA,AUTH 4 P.NILSSON-  | 'Hallberg, B.M.', 'Holmberg Schiavone,   |
+| '_citation.journal_volume',    | EHLE,D.OGG,C.PERSSON,J.SAGEMARK,AUTH 5   | L.', 'Kotenyova, T.', 'Nilsson-Ehle,     |
+| '_citation.year',              | H.SCHULER,M.SUNDSTROM,A.G.THORSELL,S.VAN | P.', 'Ogg, D.', 'Persson, C.',           |
+| '_citation.page_first',        | DEN BERG,AUTH 6 J.WEIGELT,P.NORDLUNDTITL | 'Sagemark, J.', 'Schuler, H.',           |
+| '_citation.journal_id_ISSN', ' | CRYSTAL STRUCTURE OF HUMANTITL 2         | 'Sundstrom, M.', 'Thorsell, A.G.', 'Van  |
+| _citation.pdbx_database_id_Pub | PHOSPHORIBOSYLPYROPHOSPHATE SYNTHETASE-  | Den Berg, S.', 'Weigelt, J.', 'Nordlund, |
+| Med', '_citation.pdbx_database | ASSOCIATEDTITL 3 PROTEIN 39 (PAP39)REF   | P.'], 'Crystal Structure of Human        |
+| _id_DOI']]                     | TO BE PUBLISHEDREFN                      | Phosphoribosylpyrophosphate Synthetase-  |
+|                                |                                          | Associated Protein 39 (Pap39)', 'To be   |
+|                                |                                          | Published', '?', '?', '?', '?', '?',     |
+|                                |                                          | '?']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | p.kursula,p.stenmark,c.arrowsmith,h.berg | [['Kursula, P.', 'Stenmark, P.',         |
+| [CIF:                          | lund, a.edwards,m.ehn,s.flodin,s.graslun | 'Arrowsmith, C.', 'Berglund, H.',        |
+| ['_citation_author.name',      | d,m.hammarstrom, b.m.hallberg,l.holmberg | 'Edwards, A.', 'Ehn, M.', 'Flodin, S.',  |
+| '_citation.title',             | schiavone,t.kotenyova, p.nilsson-        | 'Graslund, S.', 'Hammarstrom, M.',       |
+| '_citation.journal_abbrev',    | ehle,d.ogg,c.persson,j.sagemark,         | 'Hallberg, B.M.', 'Holmberg Schiavone,   |
+| '_citation.journal_volume',    | h.schuler,m.sundstrom,a.g.thorsell,s.van | L.', 'Kotenyova, T.', 'Nilsson-Ehle,     |
+| '_citation.year',              | den berg, j.weigelt,p.nordlund crystal   | P.', 'Ogg, D.', 'Persson, C.',           |
+| '_citation.page_first',        | structure of human                       | 'Sagemark, J.', 'Schuler, H.',           |
+| '_citation.journal_id_ISSN', ' | phosphoribosylpyrophosphate synthetase-  | 'Sundstrom, M.', 'Thorsell, A.G.', 'Van  |
+| _citation.pdbx_database_id_Pub | associated protein 39 (pap39) to be      | Den Berg, S.', 'Weigelt, J.', 'Nordlund, |
+| Med', '_citation.pdbx_database | published                                | P.'], 'Crystal Structure of Human        |
+| _id_DOI']]                     |                                          | Phosphoribosylpyrophosphate Synthetase-  |
+|                                |                                          | Associated Protein 39 (Pap39)', 'To be   |
+|                                |                                          | Published', '?', '?', '?', '?', '?',     |
+|                                |                                          | '?']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | nucleotide biosynthesis, synthetase,     | NUCLEOTIDE BIOSYNTHESIS, SYNTHETASE,     |
+| [CIF: _struct_keywords.text]   | ligase, regulatory protein               | LIGASE, REGULATORY PROTEIN               |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of human              | CRYSTAL STRUCTURE OF HUMAN               |
+| [CIF: _struct.title]           | phosphoribosylpyrophosphate synthetase-  | PHOSPHORIBOSYLPYROPHOSPHATE SYNTHETASE-  |
+|                                | associated protein 39 (pap39)            | ASSOCIATED PROTEIN 39 (PAP39)            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | P.Kursula,P.Stenmark,C.Arrowsmith,H.Berg | ['Kursula, P.', 'Stenmark, P.',          |
+| [CIF: _audit_author.name]      | lund,A.Edwards,M.Ehn,S.Flodin,S.Graslund | 'Arrowsmith, C.', 'Berglund, H.',        |
+|                                | ,M.Hammarstrom,B.M.Hallberg,L.Holmberg   | 'Edwards, A.', 'Ehn, M.', 'Flodin, S.',  |
+|                                | Schiavone,T.Kotenyova,P.Nilsson-Ehle,D.O | 'Graslund, S.', 'Hammarstrom, M.',       |
+|                                | gg,C.Persson,J.Sagemark,H.Schuler,M.Sund | 'Hallberg, B.M.', 'Holmberg Schiavone,   |
+|                                | strom,A.G.Thorsell,S.Van Den             | L.', 'Kotenyova, T.', 'Nilsson-Ehle,     |
+|                                | Berg,J.Weigelt,P.Nordlund                | P.', 'Ogg, D.', 'Persson, C.',           |
+|                                |                                          | 'Sagemark, J.', 'Schuler, H.',           |
+|                                |                                          | 'Sundstrom, M.', 'Thorsell, A.G.', 'Van  |
+|                                |                                          | Den Berg, S.', 'Weigelt, J.', 'Nordlund, |
+|                                |                                          | P.']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2005-10-20                               | ['2005-10-20', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2005-10-24                               | ['2005-10-24', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | HOMO SAPIENS                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pg-tf2                                   | PG-TF2                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | HUMAN                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: residues 5-351
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: phosphoribosyl pyrophosphate synthetase-associated protein 1 
+PDB key: compound:1:synonym, PDB value: 39 kda phosphoribosypyrophosphate synthetase-associated protein, prpsap1 
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f

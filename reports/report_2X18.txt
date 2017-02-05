@@ -1,0 +1,107 @@
+PDB Parser time: 0.298000097275
+MMCIF Parser time: 4.98600006104
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | transferase                              | TRANSFERASE                              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Vollmar, M.', 'Wang, J.', 'Zhang,     |
+| [CIF:                          | M.VOLLMAR,J.WANG,Y.ZHANG,J.M.ELKINS,N    | Y.', 'Elkins, J.M.', 'Burgess-Brown,     |
+| ['_citation_author.name',      | .BURGESS-BROWN,AUTH 2                    | N.', 'Chaikuad, A.', 'Pike, A.C.W.',     |
+| '_citation.title',             | A.CHAIKUAD,A.C.W.PIKE,F.VON              | 'Von Delft, F.', 'Bountra, C.',          |
+| '_citation.journal_abbrev',    | DELFT,C.BOUNTRA,C.H.ARROWSMITH,AUTH 3    | 'Arrowsmith, C.H.', 'Weigelt, J.',       |
+| '_citation.journal_volume',    | J.WEIGELT,A.EDWARDS,S.KNAPPTITL   THE    | 'Edwards, A.', 'Knapp, S.'], 'The        |
+| '_citation.year',              | CRYSTAL STRUCTURE OF THE PH DOMAIN OF    | Crystal Structure of the Ph Domain of    |
+| '_citation.page_first',        | HUMAN AKT3TITL 2 PROTEIN KINASEREF    TO | Human Akt3 Protein Kinase', 'To be       |
+| '_citation.journal_id_ISSN', ' | BE PUBLISHEDREFN                         | Published', '?', '?', '?', '?', '?',     |
+| _citation.pdbx_database_id_Pub |                                          | '?']                                     |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | m.vollmar,j.wang,y.zhang,j.m.elkins,n    | [['Vollmar, M.', 'Wang, J.', 'Zhang,     |
+| [CIF:                          | .burgess-brown,                          | Y.', 'Elkins, J.M.', 'Burgess-Brown,     |
+| ['_citation_author.name',      | a.chaikuad,a.c.w.pike,f.von delft,c.boun | N.', 'Chaikuad, A.', 'Pike, A.C.W.',     |
+| '_citation.title',             | tra,c.h.arrowj.weigelt,a.edwards,s.knapp | 'Von Delft, F.', 'Bountra, C.',          |
+| '_citation.journal_abbrev',    | the crystal structure of the ph domain   | 'Arrowsmith, C.H.', 'Weigelt, J.',       |
+| '_citation.journal_volume',    | of human akt3 protein kinase to be       | 'Edwards, A.', 'Knapp, S.'], 'The        |
+| '_citation.year',              | published                                | Crystal Structure of the Ph Domain of    |
+| '_citation.page_first',        |                                          | Human Akt3 Protein Kinase', 'To be       |
+| '_citation.journal_id_ISSN', ' |                                          | Published', '?', '?', '?', '?', '?',     |
+| _citation.pdbx_database_id_Pub |                                          | '?']                                     |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | kinase, membrane, transferase, atp-      | KINASE, MEMBRANE, TRANSFERASE, ATP-      |
+| [CIF: _struct_keywords.text]   | binding                                  | BINDING                                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the crystal structure of the ph domain  | THE CRYSTAL STRUCTURE OF THE PH DOMAIN   |
+| [CIF: _struct.title]           | of human akt3 protein kinase             | OF HUMAN AKT3 PROTEIN KINASE             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | M.Vollmar,J.Wang,Y.Zhang,J.M.Elkins,N    | ['Vollmar, M.', 'Wang, J.', 'Zhang, Y.', |
+| [CIF: _audit_author.name]      | .Burgess-                                | 'Elkins, J.M.', 'Burgess-Brown, N.',     |
+|                                | Brown,A.Chaikuad,A.C.W.Pike,F.Von Delft, | 'Chaikuad, A.', 'Pike, A.C.W.', 'Von     |
+|                                | C.Bountra,C.H.Arrowsmith,J.Weigelt,A.Edw | Delft, F.', 'Bountra, C.', 'Arrowsmith,  |
+|                                | ards,S.Knapp                             | C.H.', 'Weigelt, J.', 'Edwards, A.',     |
+|                                |                                          | 'Knapp, S.']                             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2009-12-22                               | ['2009-12-22', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-03-16                               | ['2010-03-16', '2011-07-13']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | homo sapiens                             | HOMO SAPIENS                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pnic28-bsa4                              | PNIC28-BSA4                              |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 9606                                     | 9606                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | human                                    | HUMAN                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:ec, PDB value: 2.7.11.1
+PDB key: compound:1:fragment, PDB value: ph domain, residues 466-583
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 2.7.11.1
+PDB key: compound:1:molecule, PDB value: rac-gamma serine/threonine-protein kinase
+PDB key: compound:1:synonym, PDB value: rac-pk-gamma, protein kinase akt-3, protein kinase bgamma, pkb gamma, stk-2, akt3 
+PDB key: compound:1:chain, PDB value: a, b, c, d, e, f, g, h

@@ -1,0 +1,119 @@
+PDB Parser time: 0.151999950409
+MMCIF Parser time: 1.85300016403
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | chaperone                                | CHAPERONE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   W.W.L.LAM,E.J.WOO,M.KOTAKA,W.K.TA | [['Lam, W.W.L.', 'Woo, E.J.', 'Kotaka,   |
+| [CIF:                          | M,Y.C.LEUNG,T.K.W.LING,AUTH 2            | M.', 'Tam, W.K.', 'Leung, Y.C.', 'Ling,  |
+| ['_citation_author.name',      | S.W.N.AUTITL   MOLECULAR INTERACTION OF  | T.K.W.', 'Au, S.W.N.'], 'Molecular       |
+| '_citation.title',             | FLAGELLAR EXPORT CHAPERONE FLIS ANDTITL  | interaction of flagellar export          |
+| '_citation.journal_abbrev',    | 2 COCHAPERONE HP1076 IN HELICOBACTER     | chaperone FliS and cochaperone HP1076 in |
+| '_citation.journal_volume',    | PYLORIREF    FASEB J.                    | Helicobacter pylori', 'Faseb J.', '24',  |
+| '_citation.year',              | V.  24  4020 2010REFN                    | '2010', '4020', '0892-6638', '20581225', |
+| '_citation.page_first',        | ISSN 0892-6638PMID   20581225DOI         | '10.1096/fj.10-155242']                  |
+| '_citation.journal_id_ISSN', ' | 10.1096/FJ.10-155242                     |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | w.w.l.lam,e.j.woo,m.kotaka,w.k.tam,y.c.l | [['Lam, W.W.L.', 'Woo, E.J.', 'Kotaka,   |
+| [CIF:                          | eung,t.k.w.lis.w.n.au molecular          | M.', 'Tam, W.K.', 'Leung, Y.C.', 'Ling,  |
+| ['_citation_author.name',      | interaction of flagellar export          | T.K.W.', 'Au, S.W.N.'], 'Molecular       |
+| '_citation.title',             | chaperone fcochaperone hp1076 in         | interaction of flagellar export          |
+| '_citation.journal_abbrev',    | helicobacter pylori faseb j. v. 24 4020  | chaperone FliS and cochaperone HP1076 in |
+| '_citation.journal_volume',    | 2010 issn 0892-6638 20581225             | Helicobacter pylori', 'Faseb J.', '24',  |
+| '_citation.year',              | 10.1096/fj.10-155242                     | '2010', '4020', '0892-6638', '20581225', |
+| '_citation.page_first',        |                                          | '10.1096/fj.10-155242']                  |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | co-chaperone, chaperone, flagellar       | Co-chaperone, chaperone, flagellar       |
+| [CIF: _struct_keywords.text]   | system, helicobacter pylori, flagellum   | system, Helicobacter pylori, Flagellum   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal strcture of flis-hp1076 complex | Crystal strcture of FliS-HP1076 complex  |
+| [CIF: _struct.title]           | in h. pylori                             | in H. pylori                             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | W.W.L.Lam,M.Kotaka,T.K.W.Ling,S.W.N.Au   | ['Lam, W.W.L.', 'Kotaka, M.', 'Ling,     |
+| [CIF: _audit_author.name]      |                                          | T.K.W.', 'Au, S.W.N.']                   |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2009-09-28                               | ['2009-09-28', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-06-30                               | ['2010-06-30', '2014-02-19']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | ['plasmid', 'plasmid']                   |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ['Escherichia coli', 'Escherichia coli'] |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | ['562', '562']                           |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | helicobacter pylori                      | ['Helicobacter pylori', 'Helicobacter    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          | pylori']                                 |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pgex-6p-3                                | ['pGEX-6p-3', 'pAC28m']                  |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | rosetta 2                                | ['Rosetta 2', 'Rosetta 2']               |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | hp_0753                                  | ['HP_0753', 'HP_1076']                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 85962                                    | ['85962', '85962']                       |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_scientific   | helicobacter pylori                      | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:2:organism_taxid        | 85962                                    | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:2:chain, PDB value: c, d
+PDB key: compound:2:molecule, PDB value: putative uncharacterized protein
+PDB key: compound:2:synonym, PDB value: hp1076
+PDB key: compound:2:engineered, PDB value: yes
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:2:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: flagellar protein
+PDB key: compound:1:synonym, PDB value: flis

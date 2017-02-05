@@ -1,0 +1,105 @@
+PDB Parser time: 0.0650000572205
+MMCIF Parser time: 1.23699998856
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | signaling protein                        | SIGNALING PROTEIN                        |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.SANTAGATA,T.J.BOGGON,C.L.BAIRD, | [['Santagata, S.', 'Boggon, T.J.',       |
+| [CIF:                          | C.A.GOMEZ,J.ZHAO,AUTH 2                  | 'Baird, C.L.', 'Gomez, C.A.', 'Zhao,     |
+| ['_citation_author.name',      | W.S.SHAN,D.G.MYSZKA,L.SHAPIROTITL        | J.', 'Shan, W.S.', 'Myszka, D.G.',       |
+| '_citation.title',             | G-PROTEIN SIGNALING THROUGH TUBBY        | 'Shapiro, L.', 'Boggon, T.J.', 'Shan,    |
+| '_citation.journal_abbrev',    | PROTEINS.REF    SCIENCE                  | W.S.', 'Santagata, S.', 'Myers, S.C.',   |
+| '_citation.journal_volume',    | V. 292  2041 2001REFN                    | 'Shapiro, L.'], ['G-protein signaling    |
+| '_citation.year',              | ISSN 0036-8075PMID   11375483DOI         | through tubby proteins.', 'Implication   |
+| '_citation.page_first',        | 10.1126/SCIENCE.1061233                  | of Tubby Proteins as Transcription       |
+| '_citation.journal_id_ISSN', ' |                                          | Factors by Structure-Based Functional    |
+| _citation.pdbx_database_id_Pub |                                          | Analysis'], ['Science', 'Science'],      |
+| Med', '_citation.pdbx_database |                                          | ['292', '286'], ['2001', '1999'],        |
+| _id_DOI']]                     |                                          | ['2041', '2119'], ['0036-8075',          |
+|                                |                                          | '0036-8075'], ['11375483', '?'],         |
+|                                |                                          | ['10.1126/science.1061233',              |
+|                                |                                          | '10.1126/science.286.5447.2119']]        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.santagata,t.j.boggon,c.l.baird,c.a.gom | [['Santagata, S.', 'Boggon, T.J.',       |
+| [CIF:                          | ez,j.zhao, w.s.shan,d.g.myszka,l.shapiro | 'Baird, C.L.', 'Gomez, C.A.', 'Zhao,     |
+| ['_citation_author.name',      | g-protein signaling through tubby        | J.', 'Shan, W.S.', 'Myszka, D.G.',       |
+| '_citation.title',             | proteins. science v. 292 2041 2001 issn  | 'Shapiro, L.', 'Boggon, T.J.', 'Shan,    |
+| '_citation.journal_abbrev',    | 0036-8075 11375483                       | W.S.', 'Santagata, S.', 'Myers, S.C.',   |
+| '_citation.journal_volume',    | 10.1126/science.1061233                  | 'Shapiro, L.'], ['G-protein signaling    |
+| '_citation.year',              |                                          | through tubby proteins.', 'Implication   |
+| '_citation.page_first',        |                                          | of Tubby Proteins as Transcription       |
+| '_citation.journal_id_ISSN', ' |                                          | Factors by Structure-Based Functional    |
+| _citation.pdbx_database_id_Pub |                                          | Analysis'], ['Science', 'Science'],      |
+| Med', '_citation.pdbx_database |                                          | ['292', '286'], ['2001', '1999'],        |
+| _id_DOI']]                     |                                          | ['2041', '2119'], ['0036-8075',          |
+|                                |                                          | '0036-8075'], ['11375483', '?'],         |
+|                                |                                          | ['10.1126/science.1061233',              |
+|                                |                                          | '10.1126/science.286.5447.2119']]        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | tubby filled-barrel beta-barrel filled-  | tubby filled-barrel beta-barrel filled-  |
+| [CIF: _struct_keywords.text]   | beta-roll 12- stranded-beta-barrel       | beta-roll 12-stranded-beta-barrel helix- |
+|                                | helix-filled-barrel obesity blindness    | filled-barrel obesity blindness deafness |
+|                                | deafness phosphoinositide                | phosphoinositide phosphatidylinositol,   |
+|                                | phosphatidylinositol, signaling protein  | SIGNALING PROTEIN                        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  c-terminal domain of mouse brain tubby  | C-Terminal Domain Of Mouse Brain Tubby   |
+| [CIF: _struct.title]           | protein bound to phosphatidylinositol    | Protein bound to Phosphatidylinositol    |
+|                                | 4,5-bis-phosphate                        | 4,5-bis-phosphate                        |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | S.Santagata,T.J.Boggon,C.L.Baird,W.S.Sha | ['Santagata, S.', 'Boggon, T.J.',        |
+| [CIF: _audit_author.name]      | n,L.Shapiro                              | 'Baird, C.L.', 'Shan, W.S.', 'Shapiro,   |
+|                                |                                          | L.']                                     |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2001-03-08                               | ['2001-03-08', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2001-06-27                               | ['2001-06-27', '2003-04-01',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-02-24']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | mus musculus                             | Mus musculus                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 10090                                    | 10090                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | house mouse                              | house mouse                              |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['t.j.boggon,w.s.shan,s.santagata,s.c.my | NOT FOUND                                |
+| [CIF: NOT FOUND]               | ers,l.shapiro implication of tubby       |                                          |
+|                                | proteins as transcription factors by     |                                          |
+|                                | structure-based functional analysis      |                                          |
+|                                | science v. 286 2119 1999 issn 0036-8075  |                                          |
+|                                | 10.1126/science.286.5447.2119 ']         |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: tubby protein
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:fragment, PDB value: c-terminal domain
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

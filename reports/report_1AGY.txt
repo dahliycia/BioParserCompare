@@ -1,0 +1,96 @@
+PDB Parser time: 0.138000011444
+MMCIF Parser time: 2.02600002289
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | serine esterase                          | SERINE ESTERASE                          |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   S.LONGHI,M.CZJZEK,V.LAMZIN,A.NICO | [['Longhi, S.', 'Czjzek, M.', 'Lamzin,   |
+| [CIF:                          | LAS,C.CAMBILLAUTITL   ATOMIC RESOLUTION  | V.', 'Nicolas, A.', 'Cambillau, C.',     |
+| ['_citation_author.name',      | (1.0 A) CRYSTAL STRUCTURE OFTITL 2       | 'Martinez, C.', 'De Geus, P.',           |
+| '_citation.title',             | FUSARIUM SOLANI CUTINASE: STEREOCHEMICAL | 'Lauwereys, M.', 'Matthyssens, G.',      |
+| '_citation.journal_abbrev',    | ANALYSIS.REF    J.MOL.BIOL.              | 'Cambillau, C.'], ['Atomic resolution    |
+| '_citation.journal_volume',    | V. 268   779 1997REFN                    | (1.0 A) crystal structure of Fusarium    |
+| '_citation.year',              | ISSN 0022-2836PMID   9175860DOI          | solani cutinase: stereochemical          |
+| '_citation.page_first',        | 10.1006/JMBI.1997.1000                   | analysis.', 'Fusarium Solani Cutinase is |
+| '_citation.journal_id_ISSN', ' |                                          | a Lipolytic Enzyme with a Catalytic      |
+| _citation.pdbx_database_id_Pub |                                          | Serine Accessible to Solvent'],          |
+| Med', '_citation.pdbx_database |                                          | ['J.Mol.Biol.', 'Nature'], ['268',       |
+| _id_DOI']]                     |                                          | '356'], ['1997', '1992'], ['779',        |
+|                                |                                          | '615'], ['0022-2836', '0028-0836'],      |
+|                                |                                          | ['9175860', '?'],                        |
+|                                |                                          | ['10.1006/jmbi.1997.1000', '?']]         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | s.longhi,m.czjzek,v.lamzin,a.nicolas,c.c | [['Longhi, S.', 'Czjzek, M.', 'Lamzin,   |
+| [CIF:                          | ambillau atomic resolution (1.0 a)       | V.', 'Nicolas, A.', 'Cambillau, C.',     |
+| ['_citation_author.name',      | crystal structure of fusarium solani     | 'Martinez, C.', 'De Geus, P.',           |
+| '_citation.title',             | cutinase: stereochemical analysis.       | 'Lauwereys, M.', 'Matthyssens, G.',      |
+| '_citation.journal_abbrev',    | j.mol.biol. v. 268 779 1997 issn         | 'Cambillau, C.'], ['Atomic resolution    |
+| '_citation.journal_volume',    | 0022-2836 9175860 10.1006/jmbi.1997.1000 | (1.0 A) crystal structure of Fusarium    |
+| '_citation.year',              |                                          | solani cutinase: stereochemical          |
+| '_citation.page_first',        |                                          | analysis.', 'Fusarium Solani Cutinase is |
+| '_citation.journal_id_ISSN', ' |                                          | a Lipolytic Enzyme with a Catalytic      |
+| _citation.pdbx_database_id_Pub |                                          | Serine Accessible to Solvent'],          |
+| Med', '_citation.pdbx_database |                                          | ['J.Mol.Biol.', 'Nature'], ['268',       |
+| _id_DOI']]                     |                                          | '356'], ['1997', '1992'], ['779',        |
+|                                |                                          | '615'], ['0022-2836', '0028-0836'],      |
+|                                |                                          | ['9175860', '?'],                        |
+|                                |                                          | ['10.1006/jmbi.1997.1000', '?']]         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase, serine esterase, glycoprotein | HYDROLASE, SERINE ESTERASE, GLYCOPROTEIN |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the 1.15 angstrom refined structure of  | The 1.15 angstrom refined structure of   |
+| [CIF: _struct.title]           | fusarium solani pisi cutinase            | fusarium solani pisi cutinase            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | A.Nicolas,C.Martinez,C.Cambillau         | ['Nicolas, A.', 'Martinez, C.',          |
+| [CIF: _audit_author.name]      |                                          | 'Cambillau, C.']                         |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 1997-03-26                               | ['1997-03-26', '?', '?']                 |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 1998-04-01                               | ['1998-04-01', '2009-02-24',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2009-09-29']                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | nectria haematococca mpvi                | Nectria haematococca mpVI                |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 70791                                    | 70791                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['c.martinez,p.de                        | NOT FOUND                                |
+| [CIF: NOT FOUND]               | geus,m.lauwereys,g.matthyssens,          |                                          |
+|                                | c.cambillau fusarium solani cutinase is  |                                          |
+|                                | a lipolytic enzyme with a catalytic      |                                          |
+|                                | serine accessible to solvent nature v.   |                                          |
+|                                | 356 615 1992 issn 0028-0836 ']           |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: cutinase
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec, PDB value: 3.1.1.-
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes

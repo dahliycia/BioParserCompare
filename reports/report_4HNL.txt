@@ -1,0 +1,112 @@
+PDB Parser time: 0.177999973297
+MMCIF Parser time: 3.4279999733
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | isomerase                                | ISOMERASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Y.PATSKOVSKY,R.TORO,R.BHOSLE,B.HI | [['Patskovsky, Y.', 'Toro, R.', 'Bhosle, |
+| [CIF:                          | LLERICH,R.D.SEIDEL,AUTH 2                | R.', 'Hillerich, B.', 'Seidel, R.D.',    |
+| ['_citation_author.name',      | E.WASHINGTON,A.SCOTT GLENN,S.CHOWDHURY,B | 'Washington, E.', 'Scott Glenn, A.',     |
+| '_citation.title',             | .EVANS,J.HAMMONDS,AUTH 3                 | 'Chowdhury, S.', 'Evans, B.', 'Hammonds, |
+| '_citation.journal_abbrev',    | W.D.ZENCHECK,H.J.IMKER,N.F.AL            | J.', 'Zencheck, W.D.', 'Imker, H.J.',    |
+| '_citation.journal_volume',    | OBAIDI,M.STEAD,J.LOVE,AUTH 4             | 'Al Obaidi, N.F.', 'Stead, M.', 'Love,   |
+| '_citation.year',              | J.A.GERLT,S.C.ALMOTITL   CRYSTAL         | J.', 'Gerlt, J.A.', 'Almo, S.C.'],       |
+| '_citation.page_first',        | STRUCTURE OF ENOLASE EGBG_01401 FROM     | 'Crystal structure of ENOLASE EGBG_01401 |
+| '_citation.journal_id_ISSN', ' | ENTEROCOCCUSTITL 2 GALLINARUM EG2REF     | from Enterococcus gallinarum EG2', 'To   |
+| _citation.pdbx_database_id_Pub | TO BE PUBLISHEDREFN                      | be Published', '?', '?', '?', '?', '?',  |
+| Med', '_citation.pdbx_database |                                          | '?']                                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | y.patskovsky,r.toro,r.bhosle,b.hillerich | [['Patskovsky, Y.', 'Toro, R.', 'Bhosle, |
+| [CIF:                          | ,r.d.seidel, e.washington,a.scott glenn, | R.', 'Hillerich, B.', 'Seidel, R.D.',    |
+| ['_citation_author.name',      | s.chowdhury,b.evans,j.hammw.d.zencheck,h | 'Washington, E.', 'Scott Glenn, A.',     |
+| '_citation.title',             | .j.imker,n.f.al obaidi,m.stead,j.love,   | 'Chowdhury, S.', 'Evans, B.', 'Hammonds, |
+| '_citation.journal_abbrev',    | j.a.gerlt,s.c.almo crystal structure of  | J.', 'Zencheck, W.D.', 'Imker, H.J.',    |
+| '_citation.journal_volume',    | enolase egbg_01401 from                  | 'Al Obaidi, N.F.', 'Stead, M.', 'Love,   |
+| '_citation.year',              | enterocogallinarum eg2 to be published   | J.', 'Gerlt, J.A.', 'Almo, S.C.'],       |
+| '_citation.page_first',        |                                          | 'Crystal structure of ENOLASE EGBG_01401 |
+| '_citation.journal_id_ISSN', ' |                                          | from Enterococcus gallinarum EG2', 'To   |
+| _citation.pdbx_database_id_Pub |                                          | be Published', '?', '?', '?', '?', '?',  |
+| Med', '_citation.pdbx_database |                                          | '?']                                     |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | dehydratase, magnesium binding, enzyme   | DEHYDRATASE, MAGNESIUM BINDING, ENZYME   |
+| [CIF: _struct_keywords.text]   | function initiative, isomerase           | FUNCTION INITIATIVE, ISOMERASE           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of enolase egbg_01401 | Crystal structure of ENOLASE EGBG_01401  |
+| [CIF: _struct.title]           | (target efi-502226) from enterococcus    | (TARGET EFI-502226) from Enterococcus    |
+|                                | gallinarum eg2                           | gallinarum EG2                           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Y.Patskovsky,R.Toro,R.Bhosle,B.Hillerich | ['Patskovsky, Y.', 'Toro, R.', 'Bhosle,  |
+| [CIF: _audit_author.name]      | ,R.D.Seidel,E.Washington,A.Scott Glenn,S | R.', 'Hillerich, B.', 'Seidel, R.D.',    |
+|                                | .Chowdhury,B.Evans,J.Hammonds,W.D.Zenche | 'Washington, E.', 'Scott Glenn, A.',     |
+|                                | ck,H.J.Imker,N.F.Al Obaidi,M.Stead,J.Lov | 'Chowdhury, S.', 'Evans, B.', 'Hammonds, |
+|                                | e,J.A.Gerlt,S.C.Almo,Enzyme              | J.', 'Zencheck, W.D.', 'Imker, H.J.',    |
+|                                | FunctionInitiative (Efi)                 | 'Al Obaidi, N.F.', 'Stead, M.', 'Love,   |
+|                                |                                          | J.', 'Gerlt, J.A.', 'Almo, S.C.',        |
+|                                |                                          | 'Enzyme Function Initiative (Efi)']      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-10-19                               | 2012-10-19                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-11-07                               | 2012-11-07                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | ESCHERICHIA COLI                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | enterococcus gallinarum eg2              | Enterococcus gallinarum EG2              |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet                                      | PET                                      |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | egbg_01401                               | EGBG_01401                               |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 565653                                   | 565653                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: mandelate racemase/muconate lactonizing enzyme
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:synonym, PDB value: mannonate dehydratase
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes

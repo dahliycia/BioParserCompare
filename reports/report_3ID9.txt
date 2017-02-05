@@ -1,0 +1,110 @@
+PDB Parser time: 0.0529999732971
+MMCIF Parser time: 1.14400005341
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | HYDROLASE                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Palani, K.', 'Burley, S.K.',          |
+| [CIF:                          | K.PALANI,S.K.BURLEY,S.SWAMINATHANTITL    | 'Swaminathan, S.'], 'Crystal structure   |
+| ['_citation_author.name',      | CRYSTAL STRUCTURE OF A MUTT/NUDIX FAMILY | of a MutT/NUDIX family protein from      |
+| '_citation.title',             | PROTEINTITL 2 FROM BACILLUS              | Bacillus thuringiensis', 'To be          |
+| '_citation.journal_abbrev',    | THURINGIENSISREF    TO BE PUBLISHEDREFN  | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_volume',    |                                          | '?']                                     |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | k.palani,s.k.burley,s.swaminathan        | [['Palani, K.', 'Burley, S.K.',          |
+| [CIF:                          | crystal structure of a mutt/nudix family | 'Swaminathan, S.'], 'Crystal structure   |
+| ['_citation_author.name',      | protein from bacillus thuringiensis to   | of a MutT/NUDIX family protein from      |
+| '_citation.title',             | be published                             | Bacillus thuringiensis', 'To be          |
+| '_citation.journal_abbrev',    |                                          | Published', '?', '?', '?', '?', '?',     |
+| '_citation.journal_volume',    |                                          | '?']                                     |
+| '_citation.year',              |                                          |                                          |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase, mutt/nudix family, protein    | Hydrolase, MutT/NUDIX family, Protein    |
+| [CIF: _struct_keywords.text]   | structure initiative ii(psi ii),         | Structure Initiative II(PSI II),         |
+|                                | nysgxrc, 11181f, structural genomics,    | NYSGXRC, 11181f, Structural Genomics,    |
+|                                | new york sgx research center for         | New York SGX Research Center for         |
+|                                | structural genomics                      | Structural Genomics                      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of a mutt/nudix       | Crystal structure of a MutT/NUDIX family |
+| [CIF: _struct.title]           | family protein from bacillus             | protein from Bacillus thuringiensis      |
+|                                | thuringiensis                            |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | K.Palani,S.K.Burley,S.Swaminathan,New    | ['Palani, K.', 'Burley, S.K.',           |
+| [CIF: _audit_author.name]      | York Sgx ResearchCenter For Structural   | 'Swaminathan, S.', 'New York SGX         |
+|                                | Genomics (Nysgxrc)                       | Research Center for Structural Genomics  |
+|                                |                                          | (NYSGXRC)']                              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2009-07-20                               | 2009-07-20                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2009-09-08                               | 2009-09-08                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli bl21(de3)               | Escherichia coli BL21(DE3)               |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | bacillus thuringiensis str. al hakam     | Bacillus thuringiensis str. Al Hakam     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | bc-psgx3 (bc)                            | BC-pSGX3 (BC)                            |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | BL21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | balh_3260                                | BALH_3260                                |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 412694                                   | 412694                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: mutt/nudix family protein
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:misc, PDB value: 

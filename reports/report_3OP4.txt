@@ -1,0 +1,115 @@
+PDB Parser time: 0.169999837875
+MMCIF Parser time: 3.70499992371
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxidoreductase                           | OXIDOREDUCTASE                           |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   J.HOU,H.ZHENG,M.CHRUSZCZ,M.D.ZIMM | [['Hou, J.', 'Zheng, H.', 'Chruszcz,     |
+| [CIF:                          | ERMAN,I.A.SHUMILIN,AUTH 2                | M.', 'Zimmerman, M.D.', 'Shumilin,       |
+| ['_citation_author.name',      | T.OSINSKI,M.DEMAS,S.GRIMSHAW,W.MINORTITL | I.A.', 'Osinski, T.', 'Demas, M.',       |
+| '_citation.title',             | DISSECTING THE STRUCTURAL ELEMENTS FOR   | 'Grimshaw, S.', 'Minor, W.'],            |
+| '_citation.journal_abbrev',    | THE ACTIVATION OFTITL 2 BETA-            | 'Dissecting the Structural Elements for  |
+| '_citation.journal_volume',    | KETOACYL-(ACYL CARRIER PROTEIN)          | the Activation of beta-Ketoacyl-(Acyl    |
+| '_citation.year',              | REDUCTASE FROM VIBRIOTITL 3 CHOLERAE.REF | Carrier Protein) Reductase from Vibrio   |
+| '_citation.page_first',        | J.BACTERIOL.                  V. 198     | cholerae.', 'J.Bacteriol.', '198',       |
+| '_citation.journal_id_ISSN', ' | 463 2015REFN                   ISSN      | '2015', '463', '0021-9193', '26553852',  |
+| _citation.pdbx_database_id_Pub | 0021-9193PMID   26553852DOI              | '10.1128/JB.00360-15']                   |
+| Med', '_citation.pdbx_database | 10.1128/JB.00360-15                      |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | j.hou,h.zheng,m.chruszcz,m.d.zimmerman,i | [['Hou, J.', 'Zheng, H.', 'Chruszcz,     |
+| [CIF:                          | .a.shumilin,                             | M.', 'Zimmerman, M.D.', 'Shumilin,       |
+| ['_citation_author.name',      | t.osinski,m.demas,s.grimshaw,w.minor     | I.A.', 'Osinski, T.', 'Demas, M.',       |
+| '_citation.title',             | dissecting the structural elements for   | 'Grimshaw, S.', 'Minor, W.'],            |
+| '_citation.journal_abbrev',    | the activationbeta-ketoacyl-(acyl        | 'Dissecting the Structural Elements for  |
+| '_citation.journal_volume',    | carrier protein) reductase from          | the Activation of beta-Ketoacyl-(Acyl    |
+| '_citation.year',              | vcholerae. j.bacteriol. v. 198 463 2015  | Carrier Protein) Reductase from Vibrio   |
+| '_citation.page_first',        | issn 0021-9193 26553852                  | cholerae.', 'J.Bacteriol.', '198',       |
+| '_citation.journal_id_ISSN', ' | 10.1128/jb.00360-15                      | '2015', '463', '0021-9193', '26553852',  |
+| _citation.pdbx_database_id_Pub |                                          | '10.1128/JB.00360-15']                   |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | 3-ketoacyl-(acyl-carrier-protein)        | 3-ketoacyl-(acyl-carrier-protein)        |
+| [CIF: _struct_keywords.text]   | reductase, structural genomics, center   | reductase, Structural Genomics, Center   |
+|                                | for structural genomics of infectious    | for Structural Genomics of Infectious    |
+|                                | diseases, csgid, rossmann fold,          | Diseases, CSGID, Rossmann fold,          |
+|                                | bacterial cell, oxidoreductase           | bacterial cell, OXIDOREDUCTASE           |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of putative           | Crystal structure of putative 3-ketoacyl |
+| [CIF: _struct.title]           | 3-ketoacyl-(acyl-carrier-protein)        | -(acyl-carrier-protein) reductase from   |
+|                                | reductase from vibrio cholerae o1 biovar | Vibrio cholerae O1 biovar eltor str.     |
+|                                | eltor str. n16961 in complex with nadp+  | N16961 in complex with NADP+             |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | J.Hou,M.Chruszcz,O.Onopriyenko,S.Grimsha | ['Hou, J.', 'Chruszcz, M.',              |
+| [CIF: _audit_author.name]      | w,P.Porebski,H.Zheng,A.Savchenko,W.Ander | 'Onopriyenko, O.', 'Grimshaw, S.',       |
+|                                | son,W.Minor,Center For Structural        | 'Porebski, P.', 'Zheng, H.', 'Savchenko, |
+|                                | Genomics OfInfectious Diseases (Csgid)   | A.', 'Anderson, W.', 'Minor, W.',        |
+|                                |                                          | 'Center for Structural Genomics of       |
+|                                |                                          | Infectious Diseases (CSGID)']            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2010-08-31                               | ['2010-08-31', '?', '?', '?']            |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2010-09-22                               | ['2010-09-22', '2014-11-12',             |
+| [CIF: _database_PDB_rev.date]  |                                          | '2015-11-25', '2016-03-23']              |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | Plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | vibrio cholerae o1 biovar el tor         | Vibrio cholerae O1 biovar El Tor         |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pmcsg7                                   | pMCSG7                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21-codonplus(de3)-ripl                 | BL21-CodonPlus(DE3)-RIPL                 |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | vcd_002346                               | VCD_002346                               |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 243277                                   | 243277                                   |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 1.1.1.100
+PDB key: compound:1:molecule, PDB value: 3-oxoacyl-[acyl-carrier protein] reductase
+PDB key: compound:1:ec, PDB value: 1.1.1.100

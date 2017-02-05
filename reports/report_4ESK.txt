@@ -1,0 +1,117 @@
+PDB Parser time: 0.177000045776
+MMCIF Parser time: 1.99099993706
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | immune system                            | IMMUNE SYSTEM                            |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   P.SAMPATHKUMAR,J.BONANNO,A.FISER, | [['Sampathkumar, P.', 'Bonanno, J.',     |
+| [CIF:                          | Y.PATSKOVSKY,W.ZENCHECK,AUTH 2           | 'Fiser, A.', 'Patskovsky, Y.',           |
+| ['_citation_author.name',      | S.G.NATHENSON,S.C.ALMOTITL   CRYSTAL     | 'Zencheck, W.', 'Nathenson, S.G.',       |
+| '_citation.title',             | STRUCTURE OF A STRAND-SWAPPED DIMER OF   | 'Almo, S.C.'], 'Crystal structure of a   |
+| '_citation.journal_abbrev',    | MOUSETITL 2 LEUKOCYTE-ASSOCIATED         | strand-swapped dimer of Mouse Leukocyte- |
+| '_citation.journal_volume',    | IMMUNOGLOBULIN-LIKE RECEPTOR 1 IG-       | associated immunoglobulin-like receptor  |
+| '_citation.year',              | LIKETITL 3 DOMAINREF    TO BE            | 1 IG-like domain', 'to be published',    |
+| '_citation.page_first',        | PUBLISHEDREFN                            | '?', '?', '?', '?', '?', '?']            |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | p.sampathkumar,j.bonanno,a.fiser,y.patsk | [['Sampathkumar, P.', 'Bonanno, J.',     |
+| [CIF:                          | ovsky,w.zenchs.g.nathenson,s.c.almo      | 'Fiser, A.', 'Patskovsky, Y.',           |
+| ['_citation_author.name',      | crystal structure of a strand-swapped    | 'Zencheck, W.', 'Nathenson, S.G.',       |
+| '_citation.title',             | dimer of mouse leukocyte-associated      | 'Almo, S.C.'], 'Crystal structure of a   |
+| '_citation.journal_abbrev',    | immunoglobulin-like receptor 1 idomain   | strand-swapped dimer of Mouse Leukocyte- |
+| '_citation.journal_volume',    | to be published                          | associated immunoglobulin-like receptor  |
+| '_citation.year',              |                                          | 1 IG-like domain', 'to be published',    |
+| '_citation.page_first',        |                                          | '?', '?', '?', '?', '?', '?']            |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | lair-1, ig-like domain, domain swapping, | LAIR-1, IG-like domain, Domain swapping, |
+| [CIF: _struct_keywords.text]   | collagen receptor, nysgrc, structural    | Collagen Receptor, NYSGRC, Structural    |
+|                                | genomics, psi-biology, new york          | Genomics, PSI-Biology, New York          |
+|                                | structural genomics research consortium, | Structural Genomics Research Consortium, |
+|                                | immune system, collagen, cell surface    | Immune system, Collagen, cell surface    |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure of a strand-swapped   | Crystal structure of a strand-swapped    |
+| [CIF: _struct.title]           | dimer of mouse leukocyte- associated     | dimer of Mouse Leukocyte-associated      |
+|                                | immunoglobulin-like receptor 1           | immunoglobulin-like receptor 1           |
+|                                | (nysgrc-006047)ig-like domain            | (NYSGRC-006047)IG-like domain            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | P.Sampathkumar,S.C.Almo,New York         | ['Sampathkumar, P.', 'Almo, S.C.', 'New  |
+| [CIF: _audit_author.name]      | Structural Genomics ResearchConsortium   | York Structural Genomics Research        |
+|                                | (Nysgrc),Atoms-To-Animals: The Immune    | Consortium (NYSGRC)', 'Atoms-to-Animals: |
+|                                | Function Network(Ifn)                    | The Immune Function Network (IFN)']      |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2012-04-23                               | 2012-04-23                               |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2012-05-02                               | 2012-05-02                               |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | Plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 10090                                    | 10090                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | mus musculus                             | Mus musculus                             |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pnic28-bas4                              | pNIC28-Bas4                              |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)codonplus ril                   | BL21(DE3)CodonPlus RIL                   |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:gene                  | lair1                                    | Lair1                                    |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_gene]                    |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | mouse                                    | mouse                                    |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:fragment, PDB value: unp residues 22-121
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:molecule, PDB value: leukocyte-associated immunoglobulin-like receptor 1
+PDB key: compound:1:synonym, PDB value: lair-1, mlair1
+PDB key: compound:1:chain, PDB value: a, b, c, d

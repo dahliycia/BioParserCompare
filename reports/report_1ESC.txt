@@ -1,0 +1,83 @@
+PDB Parser time: 0.0529999732971
+MMCIF Parser time: 1.28400015831
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase (serine esterase)              | HYDROLASE (SERINE ESTERASE)              |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   Y.WEI,J.L.SCHOTTEL,U.DEREWENDA,L. | [['Wei, Y.', 'Schottel, J.L.',           |
+| [CIF:                          | SWENSON,S.PATKAR,AUTH 2                  | 'Derewenda, U.', 'Swenson, L.', 'Patkar, |
+| ['_citation_author.name',      | Z.S.DEREWENDATITL   A NOVEL VARIANT OF   | S.', 'Derewenda, Z.S.', 'Wei, Y.',       |
+| '_citation.title',             | THE CATALYTIC TRIAD IN THETITL 2         | 'Schottel, J.L.', 'Derewenda, U.',       |
+| '_citation.journal_abbrev',    | STREPTOMYCES SCABIES ESTERASE.REF        | 'Swenson, L.', 'Patkar, S.', 'Derewenda, |
+| '_citation.journal_volume',    | NAT.STRUCT.BIOL.              V.   2     | Z.S.'], ['A novel variant of the         |
+| '_citation.year',              | 218 1995REFN                   ISSN      | catalytic triad in the Streptomyces      |
+| '_citation.page_first',        | 1072-8368PMID   7773790DOI               | scabies esterase.', 'Crystal Structure   |
+| '_citation.journal_id_ISSN', ' | 10.1038/NSB0395-218                      | of the Streptomyces Scabies Esterase:    |
+| _citation.pdbx_database_id_Pub |                                          | Reassessment of the Chymotrypsin         |
+| Med', '_citation.pdbx_database |                                          | Paradigm'], ['Nat.Struct.Biol.', 'To be  |
+| _id_DOI']]                     |                                          | Published'], ['2', '?'], ['1995', '?'],  |
+|                                |                                          | ['218', '?'], ['1072-8368', '?'],        |
+|                                |                                          | ['7773790', '?'],                        |
+|                                |                                          | ['10.1038/nsb0395-218', '?']]            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | y.wei,j.l.schottel,u.derewenda,l.swenson | [['Wei, Y.', 'Schottel, J.L.',           |
+| [CIF:                          | ,s.patkar, z.s.derewenda a novel variant | 'Derewenda, U.', 'Swenson, L.', 'Patkar, |
+| ['_citation_author.name',      | of the catalytic triad in the            | S.', 'Derewenda, Z.S.', 'Wei, Y.',       |
+| '_citation.title',             | streptomyces scabies esterase.           | 'Schottel, J.L.', 'Derewenda, U.',       |
+| '_citation.journal_abbrev',    | nat.struct.biol. v. 2 218 1995 issn      | 'Swenson, L.', 'Patkar, S.', 'Derewenda, |
+| '_citation.journal_volume',    | 1072-8368 7773790 10.1038/nsb0395-218    | Z.S.'], ['A novel variant of the         |
+| '_citation.year',              |                                          | catalytic triad in the Streptomyces      |
+| '_citation.page_first',        |                                          | scabies esterase.', 'Crystal Structure   |
+| '_citation.journal_id_ISSN', ' |                                          | of the Streptomyces Scabies Esterase:    |
+| _citation.pdbx_database_id_Pub |                                          | Reassessment of the Chymotrypsin         |
+| Med', '_citation.pdbx_database |                                          | Paradigm'], ['Nat.Struct.Biol.', 'To be  |
+| _id_DOI']]                     |                                          | Published'], ['2', '?'], ['1995', '?'],  |
+|                                |                                          | ['218', '?'], ['1072-8368', '?'],        |
+|                                |                                          | ['7773790', '?'],                        |
+|                                |                                          | ['10.1038/nsb0395-218', '?']]            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | hydrolase (serine esterase)              | HYDROLASE (SERINE ESTERASE)              |
+| [CIF: _struct_keywords.text]   |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  the molecular mechanism of              | THE MOLECULAR MECHANISM OF               |
+| [CIF: _struct.title]           | enantiorecognition by esterases          | ENANTIORECOGNITION BY ESTERASES          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Y.Wei,J.L.Schottel,U.Derewenda,L.Swenson | ['Wei, Y.', 'Schottel, J.L.',            |
+| [CIF: _audit_author.name]      | ,S.Patkar,Z.S.Derewenda                  | 'Derewenda, U.', 'Swenson, L.', 'Patkar, |
+|                                |                                          | S.', 'Derewenda, Z.S.']                  |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 1994-10-07                               | ['1994-10-07', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 1995-10-15                               | ['1995-10-15', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 1930                                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | streptomyces scabiei                     | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | ['y.wei,j.l.schottel,u.derewenda,l.swens | NOT FOUND                                |
+| [CIF: NOT FOUND]               | on,s.patkar, z.s.derewenda crystal       |                                          |
+|                                | structure of the streptomyces scabies    |                                          |
+|                                | esterase: reassessment of the            |                                          |
+|                                | chymotrypsin paradigm to be published '] |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:molecule, PDB value: esterase
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:misc, PDB value: 

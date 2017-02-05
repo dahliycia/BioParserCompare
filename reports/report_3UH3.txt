@@ -1,0 +1,106 @@
+PDB Parser time: 0.0650000572205
+MMCIF Parser time: 1.35800004005
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | oxygen storage, oxygen transport         | OXYGEN STORAGE, OXYGEN TRANSPORT         |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH                                     | [['Ren, Z.', 'Srajer, V.', 'Knapp,       |
+| [CIF:                          | Z.REN,V.SRAJER,J.E.KNAPP,W.E.ROYERTITL   | J.E.', 'Royer, W.E.'], 'Cooperative      |
+| ['_citation_author.name',      | COOPERATIVE MACROMOLECULAR DEVICE        | macromolecular device revealed by meta-  |
+| '_citation.title',             | REVEALED BY META-ANALYSISTITL 2 OF       | analysis of static and time-resolved     |
+| '_citation.journal_abbrev',    | STATIC AND TIME-RESOLVED STRUCTURES.REF  | structures.', 'Proc.Natl.Acad.Sci.USA',  |
+| '_citation.journal_volume',    | PROC.NATL.ACAD.SCI.USA        V. 109     | '109', '2012', '107', '0027-8424',       |
+| '_citation.year',              | 107 2012REFN                   ISSN      | '22171006', '10.1073/pnas.1109213108']   |
+| '_citation.page_first',        | 0027-8424PMID   22171006DOI              |                                          |
+| '_citation.journal_id_ISSN', ' | 10.1073/PNAS.1109213108                  |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | z.ren,v.srajer,j.e.knapp,w.e.royer       | [['Ren, Z.', 'Srajer, V.', 'Knapp,       |
+| [CIF:                          | cooperative macromolecular device        | J.E.', 'Royer, W.E.'], 'Cooperative      |
+| ['_citation_author.name',      | revealed by meta-anof static and time-   | macromolecular device revealed by meta-  |
+| '_citation.title',             | resolved structures.                     | analysis of static and time-resolved     |
+| '_citation.journal_abbrev',    | proc.natl.acad.sci.usa v. 109 107 2012   | structures.', 'Proc.Natl.Acad.Sci.USA',  |
+| '_citation.journal_volume',    | issn 0027-8424 22171006                  | '109', '2012', '107', '0027-8424',       |
+| '_citation.year',              | 10.1073/pnas.1109213108                  | '22171006', '10.1073/pnas.1109213108']   |
+| '_citation.page_first',        |                                          |                                          |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | allostery, oxygen binding, oxygen        | allostery, oxygen binding, OXYGEN        |
+| [CIF: _struct_keywords.text]   | storage, oxygen transport                | STORAGE, OXYGEN TRANSPORT                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  hbi (l36v) co bound                     | HBI (L36V) CO bound                      |
+| [CIF: _struct.title]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | Z.Ren,V.Srajer,J.E.Knapp,W.E.Royer Jr.   | ['Ren, Z.', 'Srajer, V.', 'Knapp, J.E.', |
+| [CIF: _audit_author.name]      |                                          | 'Royer Jr., W.E.']                       |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2011-11-03                               | ['2011-11-03', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2011-12-28                               | ['2011-12-28', '2012-01-18']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | plasmid                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli                         | Escherichia coli                         |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 562                                      | 562                                      |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | scapharca inaequivalvis                  | Scapharca inaequivalvis                  |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pcs-26                                   | PCS-26                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | w3110laciq l8                            | W3110LACIQ L8                            |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 6561                                     | 6561                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_common       | ark clam                                 | Ark clam                                 |
+| [CIF: _entity_src_gen.gene_src |                                          |                                          |
+| _common_name]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a, b
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:mutation, PDB value: yes
+PDB key: compound:1:molecule, PDB value: globin-1
+PDB key: compound:1:synonym, PDB value: dimeric hemoglobin, globin i, hbi

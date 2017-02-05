@@ -1,0 +1,104 @@
+PDB Parser time: 0.0950000286102
+MMCIF Parser time: 1.96300005913
+
++--------------------------------+------------------------------------------+------------------------------------------+
+| PDB item name                  | PDB item value                           | CIF item value                           |
+| [CIF item name]                |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_method               | x-ray diffraction                        | X-RAY DIFFRACTION                        |
+| [CIF: _exptl.method]           |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| head                           | hydrolase                                | hydrolase                                |
+| [CIF: _struct_keywords.pdbx_ke |                                          |                                          |
+| ywords]                        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal                        | AUTH   A.LINDEN,O.MAYANS,W.MEYER-        | [['Linden, A.', 'Mayans, O.', 'Meyer-    |
+| [CIF:                          | KLAUCKE,G.ANTRANIKIAN,AUTH 2             | Klaucke, W.', 'Antranikian, G.',         |
+| ['_citation_author.name',      | M.WILMANNSTITL   DIFFERENTIAL REGULATION | 'Wilmanns, M.'], 'Differential           |
+| '_citation.title',             | OF A HYPERTHERMOPHILICTITL 2 ALPHA-      | Regulation of a Hyperthermophilic alpha- |
+| '_citation.journal_abbrev',    | AMYLASE WITH A NOVEL (CA,ZN) TWO-        | Amylase with a Novel (Ca,Zn) Two-metal   |
+| '_citation.journal_volume',    | METALTITL 3 CENTER BY ZINCREF            | Center by Zinc', 'J.Biol.Chem.', '278',  |
+| '_citation.year',              | J.BIOL.CHEM.                  V. 278     | '2003', '9875', '0021-9258', '12482867', |
+| '_citation.page_first',        | 9875 2003REFN                   ISSN     | '10.1074/jbc.M211339200']                |
+| '_citation.journal_id_ISSN', ' | 0021-9258PMID   12482867DOI              |                                          |
+| _citation.pdbx_database_id_Pub | 10.1074/JBC.M211339200                   |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| journal_reference              | a.linden,o.mayans,w.meyer-               | [['Linden, A.', 'Mayans, O.', 'Meyer-    |
+| [CIF:                          | klaucke,g.antranikian, m.wilmanns        | Klaucke, W.', 'Antranikian, G.',         |
+| ['_citation_author.name',      | differential regulation of a             | 'Wilmanns, M.'], 'Differential           |
+| '_citation.title',             | hyperthermophilic alpha-amylase with a   | Regulation of a Hyperthermophilic alpha- |
+| '_citation.journal_abbrev',    | novel (ca,zn) two-metal center by zinc   | Amylase with a Novel (Ca,Zn) Two-metal   |
+| '_citation.journal_volume',    | j.biol.chem. v. 278 9875 2003 issn       | Center by Zinc', 'J.Biol.Chem.', '278',  |
+| '_citation.year',              | 0021-9258 12482867                       | '2003', '9875', '0021-9258', '12482867', |
+| '_citation.page_first',        | 10.1074/jbc.m211339200                   | '10.1074/jbc.M211339200']                |
+| '_citation.journal_id_ISSN', ' |                                          |                                          |
+| _citation.pdbx_database_id_Pub |                                          |                                          |
+| Med', '_citation.pdbx_database |                                          |                                          |
+| _id_DOI']]                     |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| keywords                       | (beta/alpha)8-barrel, alpha-amylase,     | (beta/alpha)8-barrel, alpha-amylase,     |
+| [CIF: _struct_keywords.text]   | hydrolase                                | hydrolase                                |
++--------------------------------+------------------------------------------+------------------------------------------+
+| name                           |  crystal structure analysis of the       | Crystal Structure Analysis of the        |
+| [CIF: _struct.title]           | hyperthermostable pyrocoocus woesei      | Hyperthermostable Pyrocoocus woesei      |
+|                                | alpha-amylase                            | alpha-amylase                            |
++--------------------------------+------------------------------------------+------------------------------------------+
+| author                         | A.Linden,O.Mayans,W.Meyer-               | ['Linden, A.', 'Mayans, O.', 'Meyer-     |
+| [CIF: _audit_author.name]      | Klaucke,G.Antranikian,M.Wilmanns         | Klaucke, W.', 'Antranikian, G.',         |
+|                                |                                          | 'Wilmanns, M.']                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| deposition_date                | 2002-09-30                               | ['2002-09-30', '?']                      |
+| [CIF: _database_PDB_rev.date_o |                                          |                                          |
+| riginal]                       |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| release_date                   | 2003-06-10                               | ['2003-06-10', '2009-02-24']             |
+| [CIF: _database_PDB_rev.date]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_vec | plasmid                                  | PLASMID                                  |
+| tor_type                       |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_vector_type]             |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system     | escherichia coli bl21(de3)               | Escherichia coli BL21(DE3)               |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_tax | 469008                                   | 469008                                   |
+| id                             |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_scientific   | pyrococcus woesei                        | Pyrococcus woesei                        |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_scientific_name]         |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:misc                  |                                          | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_pla | pet15b                                   | pET15b                                   |
+| smid                           |                                          |                                          |
+| [CIF:                          |                                          |                                          |
+| _entity_src_gen.plasmid_name]  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:expression_system_str | bl21(de3)                                | Bl21(DE3)                                |
+| ain                            |                                          |                                          |
+| [CIF: _entity_src_gen.pdbx_hos |                                          |                                          |
+| t_org_strain]                  |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| source:1:organism_taxid        | 2262                                     | 2262                                     |
+| [CIF: _entity_src_gen.pdbx_gen |                                          |                                          |
+| e_src_ncbi_taxonomy_id]        |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+| structure_reference            | []                                       | NOT FOUND                                |
+| [CIF: NOT FOUND]               |                                          |                                          |
++--------------------------------+------------------------------------------+------------------------------------------+
+
+NOT MAPPED:
+PDB key: compound:1:chain, PDB value: a
+PDB key: compound:1:engineered, PDB value: yes
+PDB key: compound:1:misc, PDB value: 
+PDB key: compound:1:ec_number, PDB value: 3.2.1.1
+PDB key: compound:1:molecule, PDB value: alpha amylase
+PDB key: compound:1:ec, PDB value: 3.2.1.1
