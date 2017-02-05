@@ -20,7 +20,8 @@ PDB2CIF_HEADER = {
       'organism_common': '_entity_src_gen.gene_src_common_name'
       },
     '2':
-      {'organism_scientific': '_pdbx_entity_src_syn.organism_scientific',
+      {'synthetic': None,
+      'organism_scientific': '_pdbx_entity_src_syn.organism_scientific',
       'other_details': '_pdbx_entity_src_syn.details',
       'misc': None,
       'organism_taxid': '_pdbx_entity_src_syn.ncbi_taxonomy_id',
