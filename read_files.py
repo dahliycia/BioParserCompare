@@ -164,7 +164,7 @@ def main():
     pdb_times = []
     cif_times = []
     for line in str_list:
-        dt_pdb, dt_cif, missed = analize_structure(line[0:4])
+        dt_pdb, dt_cif, missed = analize_structure(line[0:4].lower())
         if missed:
             missed_values.update(missed)
         pdb_times.append(dt_pdb)
